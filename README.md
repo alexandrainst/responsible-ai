@@ -5,24 +5,33 @@
 
 |                         |
 | ----------------------- |
-| [eXplainable](#explainable-ai)             |
-| Fairness                |
-| Guidelines & principles |
-| People & Tech           |
-| Policy & Regulation     |
-| User Exp                |
+| [Explainable AI](#explainable-ai)             |
+| [Fairness](#fairness)                |
+| [Guidelines & principles](#guide-princip) |
+| [People & Tech](#people-tech)           |
+| [Policy & Regulation](#pol-reg)     |
+| [User Experience](#ux)         |
 
 
 
 <a name="explainable-ai"></a> 
-# eXplainable AI
+# Explainable AI
 
+<a name="fairness"></a> 
 # Fairness
 
-# User Experience
-
-# Policy & regulation
-
+<a name="guide-princip"></a>
 # Guidelines & principles
 
+<a name="people-tech"></a>
 # People & Tech
+1. [Google PAIR: People + AI guidebook for UX professionals and product managers to follow a human centered approach to AI](https://pair.withgoogle.com/guidebook/)
+
+<a name="pol-reg"></a>
+# Policy & regulation
+
+<a name="ux"></a>
+# User Experience
+
+
+
