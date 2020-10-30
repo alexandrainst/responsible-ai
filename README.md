@@ -1,17 +1,16 @@
 # responsible-ai-knowledge-base
 
 
+
+# About the repo
+...
+
 # Table of contents
 
-|                         |
-| ----------------------- |
-| [Explainable AI](#explainable-ai)             |
-| [Fairness](#fairness)                |
-| [Guidelines & principles](#guide-princip) |
-| [People & Tech](#people-tech)           |
-| [Policy & Regulation](#pol-reg)     |
-| [User Experience](#ux)         |
-
+|        | | |
+| ------------- |:-------------:| -----:|
+| [Explainable AI](#explainable-ai)      | [Fairness](#fairness) | [Guidelines & principles](#guide-princip)
+| [People & Tech](#people-tech)  | [Policy & Regulation](#pol-reg)      | [User Experience](#ux) |
 
 
 <a name="explainable-ai"></a> 
