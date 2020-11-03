@@ -15,6 +15,7 @@
 
 <a name="explainable-ai"></a> 
 # Explainable AI
+## Frameworks and Github repos
 1. [InterpretML](https://interpret.ml/) - Open source Python framework that combines local and global explanation methods, 
 as well as, transparent models, like decision trees, rule based models, and GAMs (Generalized Additive Models), into
 a common API and dashboard.
@@ -42,6 +43,37 @@ of data and ML models.
 many known XAI algorithms for deep neural networks.
 12. [What-If Tool](https://pair-code.github.io/what-if-tool/) - Open source frmaework from Google to probe the behaviour
 of a trained model.
+13. [AllenNLP Interpret](https://allennlp.org/interpret) - Python framework for explaining deep neural networks 
+for language processing developed by the Allen Institute for AI.
+
+## Reading material
+1. [Ansvarlig AI](https://medium.com/ansvarlig-ai) - Cross-disciplinary medium blog about XAI, 
+fairness and responsible AI (in Danish)
+2. [Introducing the Model Card Toolkit](https://ai.googleblog.com/2020/07/introducing-model-card-toolkit-for.html) - 
+Google blogpost about the Model Card Toolkit that is a framework for reporting about a ML model.
+3. [Interpreting Decision Trees and Random Forests](https://engineering.pivotal.io/post/interpreting-decision-trees-and-random-forests/) - 
+Blog post about how to interpret and visualize tree based models.
+4. [Introducing PDPbox](https://towardsdatascience.com/introducing-pdpbox-2aa820afd312) - Blog post about a python
+package for generating partial dependence plots.
+5. [Use SHAP loss values to debug/monitor your model](https://towardsdatascience.com/use-shap-loss-values-to-debug-monitor-your-model-83f7808af40f) -
+ Blog post about how to use SHAP explanations to debug and monitoring.
+6. [Be careful what you SHAP for…](https://medium.com/@pauldossantos/be-careful-what-you-shap-for-aeccabf3655c) - Blog
+ post about the assumption for how and when to use SHAP explanations.
+7. [Awesome Interpretable Machine Learning](https://github.com/lopusz/awesome-interpretable-machine-learning) - Collection
+ of resources (articles, conferences, frameworks, software, etc.) about interpretable ML.
+8. [http://heatmapping.org/](http://heatmapping.org/) - Homepage of the lab behind the LRP (layerwise propagation relevance)
+ method with links to tutorials and research articles.
+9. [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/) - E-book by Christoph Molnar 
+describing and explaining different XAI methods and ways to build intepretable models or methods to interpret them, including
+examples on open available datasets.
+10. [Can A.I. Be Taught to Explain Itself?](https://www.nytimes.com/2017/11/21/magazine/can-ai-be-taught-to-explain-itself.html) - 
+The New York Times Magazine article about the need of explainable models. 
+11. [Deconstructing BERT, Part 2: Visualizing the Inner Workings of Attention](https://towardsdatascience.com/deconstructing-bert-part-2-visualizing-the-inner-workings-of-attention-60a16d86b5c1) - 
+Blog post about how to interprete a BERT model.
+
+## Courses
+1. [Kaggle - Machine Learning Explainability](https://www.kaggle.com/learn/machine-learning-explainability) - 
+Kaggle course about the basics of XAI with example notebooks and exercises.
 
 <a name="fairness"></a> 
 # Fairness
