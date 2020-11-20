@@ -75,6 +75,15 @@ Blog post about how to interprete a BERT model.
 1. [Kaggle - Machine Learning Explainability](https://www.kaggle.com/learn/machine-learning-explainability) - 
 Kaggle course about the basics of XAI with example notebooks and exercises.
 
+## Research articles
+
+## Books
+1. [Explainable AI: Interpreting, Explaining and Visualizing Deep Learning](https://doi.org/10.1007/978-3-030-28954-6) - 
+Explainability with respect to deep learning with a focus on convolutional neural networks used for image data.
+The editor of the book are also behind the layerwise relvance propagation (LRP) method.
+2. [Explainable and Interpretable Models in Computer Vision and Machine Learning](https://www.springer.com/gp/book/9783319981307) -
+More general book about explainability in machine learning, but also with a focus on deep learning in computer vison.
+
 <a name="fairness"></a> 
 # Fairness
 
