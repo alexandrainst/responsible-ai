@@ -70,6 +70,8 @@ examples on open available datasets.
 The New York Times Magazine article about the need of explainable models. 
 11. [Deconstructing BERT, Part 2: Visualizing the Inner Workings of Attention](https://towardsdatascience.com/deconstructing-bert-part-2-visualizing-the-inner-workings-of-attention-60a16d86b5c1) - 
 Blog post about how to interprete a BERT model.
+12. [AI Explanations Whitepaper](https://storage.googleapis.com/cloud-ai-whitepapers/AI%20Explainability%20Whitepaper.pdf) - 
+Google's whitepaper about Explainable AI.
 
 ## Courses
 1. [Kaggle - Machine Learning Explainability](https://www.kaggle.com/learn/machine-learning-explainability) - 
