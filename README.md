@@ -78,6 +78,17 @@ Google's whitepaper about Explainable AI.
 Kaggle course about the basics of XAI with example notebooks and exercises.
 
 ## Research articles
+In this section we list research articles related to interpretable ML and explainable AI.
+
+### Definitions of interpretability
+1. Adrian Weller, "Transparency: Motivations and Challenges", [arXiv:1708.01870](https://arxiv.org/abs/1708.01870) 
+[cs.CY]
+2. J. Chang et al., "[Reading Tea Leaves: How Humans Interpret Topic Models](http://papers.neurips.cc/paper/3700-reading-tea-leaves-how-humans-interpret-topic-models.pdf)", 
+NIPS 2009
+3. Zachary C. Lipton, "The Mythos of Model Interpretability", [arXiv:1606.03490](https://arxiv.org/abs/1606.03490)
+[cs.LG]
+4. F. Doshi-Velez and B. Kim, "Towards A Rigorous Science of Interpretable Machine Learning", 
+[arXiv:1702.08608](https://arxiv.org/abs/1702.08608) [stat.ML] 
 
 ## Books
 1. [Explainable AI: Interpreting, Explaining and Visualizing Deep Learning](https://doi.org/10.1007/978-3-030-28954-6) - 
