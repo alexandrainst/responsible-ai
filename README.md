@@ -81,11 +81,11 @@ Kaggle course about the basics of XAI with example notebooks and exercises.
 In this section we list research articles related to interpretable ML and explainable AI.
 
 ### Definitions of interpretability
-1. Adrian Weller, "Transparency: Motivations and Challenges", [arXiv:1708.01870](https://arxiv.org/abs/1708.01870) 
+1. A. Weller, "Transparency: Motivations and Challenges", [arXiv:1708.01870](https://arxiv.org/abs/1708.01870) 
 [cs.CY]
 2. J. Chang et al., "[Reading Tea Leaves: How Humans Interpret Topic Models](http://papers.neurips.cc/paper/3700-reading-tea-leaves-how-humans-interpret-topic-models.pdf)", 
 NIPS 2009
-3. Zachary C. Lipton, "The Mythos of Model Interpretability", [arXiv:1606.03490](https://arxiv.org/abs/1606.03490)
+3. Z. C. Lipton, "The Mythos of Model Interpretability", [arXiv:1606.03490](https://arxiv.org/abs/1606.03490)
 [cs.LG]
 4. F. Doshi-Velez and B. Kim, "Towards A Rigorous Science of Interpretable Machine Learning", 
 [arXiv:1702.08608](https://arxiv.org/abs/1702.08608) [stat.ML] 
@@ -102,6 +102,20 @@ More general book about explainability in machine learning, but also with a focu
 
 <a name="guide-princip"></a>
 # Guidelines & principles
+
+## Research articles
+In this section we list research articles related to guidelines and principles regarding responsible AI.
+
+### Documentation of ML models
+1. F. Pinto et al., "Automatic Model Monitoring for Data Streams", [arXiv:1908.04240](https://arxiv.org/abs/1908.04240) 
+[cs.LG] - Describes a method to monitor models that predict on data streams for detecting model drift.
+2. T. Gebru et al., "Datasheets for Datasets", [arXiv:1803.09010](https://arxiv.org/abs/1803.09010) 
+[cs.DB] - Describes a framework for how to document datasets used for building machine learning models.
+3. E. M. Bender and B. Friedman, "[Data Statements for Natural Language Processing: Toward Mitigating System Bias and Enabling Better Science](https://www.mitpressjournals.org/doi/abs/10.1162/tacl_a_00041)", 
+Transactions of ACL (6), 2018 - Describes a framework for how to document datasets used for NLP tasks.
+4. M. Mitchell, "[Model Cards for Model Reporting](https://dl.acm.org/doi/10.1145/3287560.3287596)", 
+FAT*'19 220-229, 2019 - Describes a framework for how to document ML models. 
+The [model card toolkit](https://github.com/tensorflow/model-card-toolkit) can be found on github released under the tensorflow repository.
 
 <a name="people-tech"></a>
 # People & Tech
