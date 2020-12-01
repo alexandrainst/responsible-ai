@@ -103,6 +103,16 @@ Decision Support Systems (51:1) 141-154, 2011
  IUI'19 258-262, 2019
 5. L. Sixt et al., "When Explanations Lie: Why Many Modified BP Attributions Fail", 
 [arXiv:1912.09818](https://arxiv.org/abs/1912.09818) [cs.LG]
+6. Y. Zhang et al., 
+"[Effect of confidence and explanation on accuracy and trust calibration in AI-assisted decision making](https://dl.acm.org/doi/abs/10.1145/3351095.3372852)", 
+FAT*'20 295-305, 2020 - Analyses the effect of LIME explanation and confidence score as explanation on trust and human decision performance.
+7. K. Sokol and P. Flach, 
+"[Explainability fact sheets: a framework for systematic assessment of explainable approaches](https://dl.acm.org/doi/abs/10.1145/3351095.3372870)", 
+FAT*'20 56-67, 2020 - Framework (essentialy a list of questions or checklist) to evaluate and document XAI methods. 
+Also includes question that are relevant to the context in which the XAI methods should be employed, i.e. changing the outcome of the assessment based on the context.
+8. E. S. Jo and T. Gebru, 
+"[Lessons from archives: strategies for collecting sociocultural data in machine learning](https://dl.acm.org/doi/abs/10.1145/3351095.3372829)", 
+FAT*'20 306-316, 2020 - Use archives as inspiration of how to collect, curate and annotate data.
 
 ## Books
 1. [Explainable AI: Interpreting, Explaining and Visualizing Deep Learning](https://doi.org/10.1007/978-3-030-28954-6) - 
@@ -120,7 +130,7 @@ More general book about explainability in machine learning, but also with a focu
 ## Research articles
 In this section we list research articles related to guidelines and principles regarding responsible AI.
 
-### Documentation of ML models
+### Documentation frameworks
 1. F. Pinto et al., "Automatic Model Monitoring for Data Streams", [arXiv:1908.04240](https://arxiv.org/abs/1908.04240) 
 [cs.LG] - Describes a method to monitor models that predict on data streams for detecting model drift.
 2. T. Gebru et al., "Datasheets for Datasets", [arXiv:1803.09010](https://arxiv.org/abs/1803.09010) 
@@ -130,6 +140,10 @@ Transactions of ACL (6), 2018 - Describes a framework for how to document datase
 4. M. Mitchell, "[Model Cards for Model Reporting](https://dl.acm.org/doi/10.1145/3287560.3287596)", 
 FAT*'19 220-229, 2019 - Describes a framework for how to document ML models. 
 The [model card toolkit](https://github.com/tensorflow/model-card-toolkit) can be found on github released under the tensorflow repository.
+5. I. D. Raji et al., 
+"[Closing the AI Accountability Gap: Defining an End-to-End Framework for Internal Algorithmic Auditing](https://dl.acm.org/doi/abs/10.1145/3351095.3372873)", 
+FAT*'20 33-44, 2020 - Presents a framework for auditing AI/ML based systems. The idea is to use auditing concepts (risk assesment and documentation) 
+known from other industries, like aerospace or finance, and adjust them to AI/ML. One example is the "Failure Modes and Effect Analysis" (FMEA).
 
 <a name="people-tech"></a>
 # People & Tech
