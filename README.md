@@ -90,6 +90,20 @@ NIPS 2009
 4. F. Doshi-Velez and B. Kim, "Towards A Rigorous Science of Interpretable Machine Learning", 
 [arXiv:1702.08608](https://arxiv.org/abs/1702.08608) [stat.ML] 
 
+### Evaluation of XAI
+1. S. Mohseni et al., "A Human-Grounded Evaluation Benchmark for Local Explanations of Machine Learning", 
+[arXiv:1801.05075](https://arxiv.org/abs/1801.05075) [cs.HC]
+2. J. Huysmans et al., 
+"[An empirical evaluation of the comprehensibility of decision table, tree and rule based predictive models](https://www.sciencedirect.com/science/article/abs/pii/S0167923610002368)",
+Decision Support Systems (51:1) 141-154, 2011
+3. F. Poursabzi-Sangdeh et al., "Manipulating and Measuring Model Interpretability",
+[arXiv:1802.07810](https://arxiv.org/abs/1802.07810) [cs.AI]
+4. C. J. Cai et al., 
+"[The Effects of Example-Based Explanations in a Machine Learning Interface](https://dl.acm.org/doi/abs/10.1145/3301275.3302289)",
+ IUI'19 258-262, 2019
+5. L. Sixt et al., "When Explanations Lie: Why Many Modified BP Attributions Fail", 
+[arXiv:1912.09818](https://arxiv.org/abs/1912.09818) [cs.LG]
+
 ## Books
 1. [Explainable AI: Interpreting, Explaining and Visualizing Deep Learning](https://doi.org/10.1007/978-3-030-28954-6) - 
 Explainability with respect to deep learning with a focus on convolutional neural networks used for image data.
