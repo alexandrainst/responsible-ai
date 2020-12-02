@@ -108,12 +108,15 @@ ACM Computing Surveys, 2018 - Overview of different interpretability methods gro
 model they explain and type of explanation.
 6. M. Du et al., "[Techniques for interpretable machine learning](https://dl.acm.org/doi/10.1145/3359786)",
 Communications of the ACM, 2019
-7. A. Adadi and M. Berrada, "[Peeking Inside the Black-Box: A Survey on Explainable Artificial Intelligence (XAI)](https://doi.org/10.1109/ACCESS.2018.2870052)",
+7. I. C. Covert et al., Explaining by Removing:A Unified Framework for Model Explanation,
+[arXiv:2011.14878](https://arxiv.org/abs/2011.14878) [cs.LG] - 
+(Mathematical) framework that summarizes 25 feature influence methods.
+8. A. Adadi and M. Berrada, "[Peeking Inside the Black-Box: A Survey on Explainable Artificial Intelligence (XAI)](https://doi.org/10.1109/ACCESS.2018.2870052)",
 IEEE Access (6) 52138-52160, 2018
-8. A. Abdul et al., 
+9. A. Abdul et al., 
 "[Trends and Trajectories for Explainable, Accountable and Intelligible Systems: An HCI Research Agenda](https://dl.acm.org/doi/10.1145/3173574.3174156)",
 CHI'18 582 1-18, 2018
-9. A. Preece, "[Asking ‘Why’ in AI: Explainability of intelligent systems – perspectives and challenges](https://onlinelibrary.wiley.com/doi/abs/10.1002/isaf.1422)",
+10. A. Preece, "[Asking ‘Why’ in AI: Explainability of intelligent systems – perspectives and challenges](https://onlinelibrary.wiley.com/doi/abs/10.1002/isaf.1422)",
 Intell Sys Acc Fin Mgmt (25) 63-72, 2018
 
 ### Evaluation of XAI
