@@ -118,6 +118,9 @@ IEEE Access (6) 52138-52160, 2018
 CHI'18 582 1-18, 2018
 10. A. Preece, "[Asking ‘Why’ in AI: Explainability of intelligent systems – perspectives and challenges](https://onlinelibrary.wiley.com/doi/abs/10.1002/isaf.1422)",
 Intell Sys Acc Fin Mgmt (25) 63-72, 2018
+11. Q. Zhang and S.-C. Zhu, 
+    "[Visual Interpretability for Deep Learning: a Survey](https://link.springer.com/article/10.1631/FITEE.1700808)",
+    Technol. Electronic Eng. (19) 27–39, 2018
 
 ### Evaluation of XAI
 1. S. Mohseni et al., "A Human-Grounded Evaluation Benchmark for Local Explanations of Machine Learning", 
@@ -137,11 +140,73 @@ Decision Support Systems (51:1) 141-154, 2011
 FAT*'20 295-305, 2020 - Analyses the effect of LIME explanation and confidence score as explanation on trust and human decision performance.
 7. K. Sokol and P. Flach, 
 "[Explainability fact sheets: a framework for systematic assessment of explainable approaches](https://dl.acm.org/doi/abs/10.1145/3351095.3372870)", 
-FAT*'20 56-67, 2020 - Framework (essentialy a list of questions or checklist) to evaluate and document XAI methods. 
+FAT*'20 56-67, 2020 - Framework (essentially a list of questions or checklist) to evaluate and document XAI methods. 
 Also includes question that are relevant to the context in which the XAI methods should be employed, i.e. changing the outcome of the assessment based on the context.
 8. E. S. Jo and T. Gebru, 
 "[Lessons from archives: strategies for collecting sociocultural data in machine learning](https://dl.acm.org/doi/abs/10.1145/3351095.3372829)", 
 FAT*'20 306-316, 2020 - Use archives as inspiration of how to collect, curate and annotate data.
+
+### XAI for deep neural networks
+This section focuses on explainability with respect to deep neural networks (DNNs). This can be methods to explain
+DNNs or methods to build DNNs that can explain themselves.
+1. Y. Goyal et al., 
+   "[Counterfactual Visual Explanations](http://proceedings.mlr.press/v97/goyal19a.html)",
+   36th ICML, PMLR (97) 2376-2384, 2019 - Describing a method to construct a DNN for image classification that provides 
+   counterfactual explanations.
+2. K. Simonyan et al., "Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps",
+   [arXiv:1312.6034](https://arxiv.org/abs/1312.6034) [cs.CV]
+3. A. Tavanaei, "Embedded Encoder-Decoder in Convolutional Net works Towards Explainable AI",
+   [arXiv:2007.06712](https://arxiv.org/abs/2007.06712) [cs.CV] - DNN with a build in encoder-decoder that generates explanations.
+4. W. Samek et al., 
+   "[Evaluating the Visualization of What a Deep Neural Network Has Learned](https://ieeexplore.ieee.org/document/7552539)",
+   IEEE Trans. Neural Netw. Learn. Syst. (28:11) 2660-2673, 2017
+5. G. Montavon et al., 
+   "[Explaining nonlinear classification decisions with deep Taylor decomposition](https://www.sciencedirect.com/science/article/pii/S0031320316303582)",
+   Pattern Recognition (65) 211-222, 2017 
+6. G. Montavon et al.,
+   "[Methods for Interpreting and Understanding Deep Neural Networks](https://www.sciencedirect.com/science/article/pii/S1051200417302385)",
+   Digital Signal Processing (73) 1-15, 2018
+7. S. Lapuschkin et al.,
+   "[Unmasking Clever Hans predictors and assessing what machines really learn](https://www.nature.com/articles/s41467-019-08987-4)",
+   Nat. Commun. 10 1096, 2019 - Using LRP the authors find "cheating" strategies of DNNs in varying tasks. 
+   I recommend to also check the supplementary which contains more experiments and insights.
+6. M. Sundararajan et al., 
+   "[Exploring Principled Visualizations for Deep NetworkAttributions](http://ceur-ws.org/Vol-2327/IUI19WS-ExSS2019-16.pdf)",
+   IUI Workshops, 2019
+7. R. R. Selvaraju, 
+   "[Grad-CAM: Visual Explanations From Deep Networks via Gradient-Based Localization](https://ieeexplore.ieee.org/abstract/document/8237336)",
+   IEEE ICCV 618-626, 2017
+8. Q. Zhang, "[Interpretable CNNs](https://ieeexplore.ieee.org/document/8579018)",
+   IEEE/CVF CVPR 8827-8836, 2018
+9. R. C. Fong and A. Vedaldi,
+   "[Interpretable Explanations of Black Boxes by Meaningful Perturbation](https://ieeexplore.ieee.org/document/8237633)",
+   IEEE ICCV 3449-3457, 2017
+10. R. Fong and A. Vedaldi, 
+    "[Net2Vec: Quantifying and Explaining how Concepts are Encoded by Filters in Deep Neural Networks](https://ieeexplore.ieee.org/abstract/document/8579008)",
+    018 IEEE/CVF CVPR 8730-8738, 2018
+11. R. Hu et al., 
+    "[Learning to Reason: End-to-End Module Networks for Visual Question Answering](https://ieeexplore.ieee.org/document/8237355)",
+    IEEE ICCV 804-813, 2017
+12. A. Nguyen, "Multifaceted Feature Visualization: Uncovering the Different Types of Features Learned By Each Neuron in Deep Neural Networks",
+    [arXiv:1602.03616](https://arxiv.org/abs/1602.03616) [cs.CV]
+13. S. O. Arik and T. Pfister, "ProtoAttend: Attention-Based Prototypical Learning",
+    [arXiv:1902.06292](https://arxiv.org/abs/1902.06292) [cs.CV]
+14. A. Ghorbani et al., 
+    "[Towards Automatic Concept-based Explanations](https://papers.nips.cc/paper/2019/hash/77d2afcb31f6493e350fca61764efb9a-Abstract.html)",
+    NeurIPS, 2019
+15. M. Ancona et al., "Towards better understanding of gradient-based attribution methods for deep neural networks",
+    [arXiv:1711.06104](https://arxiv.org/abs/1711.06104) [cs.LG]
+16. A. Mahendran and A. Vedaldi, 
+    "[Understanding deep image representations by inverting them](https://ieeexplore.ieee.org/document/7299155)",
+    IEEE CVPR 5188-5196, 2015
+17. A. Kapishnikov et al., 
+    "[XRAI: Better Attributions Through Regions](https://ieeexplore.ieee.org/document/9008576)",
+    IEEE ICCV 4947-4956, 2019
+18. B. Alsallakh et al., "Do Convolutional Neural Networks Learn Class Hierarchy?",
+   [arXiv:1710.06501](https://arxiv.org/abs/1710.06501) [cs.CV]
+19. S. Wang et al.,
+   "[Bias Also Matters: Bias Attribution for Deep Neural Network Explanation](http://proceedings.mlr.press/v97/wang19p.html)",
+   36th ICML, PMLR (97) 6659-6667, 2019 - Describing the effect of the bias parameter on XAI methods using the gradient.
 
 ## Books
 1. [Explainable AI: Interpreting, Explaining and Visualizing Deep Learning](https://doi.org/10.1007/978-3-030-28954-6) - 
