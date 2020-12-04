@@ -208,6 +208,24 @@ DNNs or methods to build DNNs that can explain themselves.
    "[Bias Also Matters: Bias Attribution for Deep Neural Network Explanation](http://proceedings.mlr.press/v97/wang19p.html)",
    36th ICML, PMLR (97) 6659-6667, 2019 - Describing the effect of the bias parameter on XAI methods using the gradient.
 
+### XAI in the medical domain
+This section contains paper in which XAI models or methods were used on medical data.
+1. S. Meyer Lauritsen et al., 
+   "[Explainable artificial intelligence model to predict acute critical illness from electronic health records](https://www.nature.com/articles/s41467-020-17431-x)",
+   Nat. Commun. 11 3852, 2020
+2. S. M. Lundberg et al., 
+   "[Explainable machine-learning predictions for the prevention of hypoxaemia during surgery](https://www.nature.com/articles/s41551-018-0304-0)"
+    Nat. Biomed. Eng. (2:10) 749-760, 2018
+3. Z. Che et al., 
+   "[Interpretable Deep Models for ICU Outcome Prediction](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5333206/)",
+   AMIA Annu. Symp. Proc. (2016) 371-380, 2017
+4. R. Sayres et al., 
+   "[Using a Deep Learning Algorithm and Integrated Gradients Explanation to Assist Grading for Diabetic Retinopathy](https://www.sciencedirect.com/science/article/pii/S0161642018315756)",
+   Ophthalmology  (126:4), 2019s
+5. J. Ma et al.,
+   "[Using deep learning to model the hierarchical structure and function of a cell](https://www.nature.com/articles/nmeth.4627)",
+   Nat. Methods (15) 290–298, 2018
+
 ## Books
 1. [Explainable AI: Interpreting, Explaining and Visualizing Deep Learning](https://doi.org/10.1007/978-3-030-28954-6) - 
 Explainability with respect to deep learning with a focus on convolutional neural networks used for image data.
