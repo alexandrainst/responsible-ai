@@ -123,6 +123,7 @@ Intell Sys Acc Fin Mgmt (25) 63-72, 2018
     Technol. Electronic Eng. (19) 27–39, 2018
 
 ### Evaluation of XAI
+This section contains articles that describe ways to evaluate explanations and explainable models.
 1. S. Mohseni et al., "A Human-Grounded Evaluation Benchmark for Local Explanations of Machine Learning", 
 [arXiv:1801.05075](https://arxiv.org/abs/1801.05075) [cs.HC]
 2. J. Huysmans et al., 
@@ -145,6 +146,42 @@ Also includes question that are relevant to the context in which the XAI methods
 8. E. S. Jo and T. Gebru, 
 "[Lessons from archives: strategies for collecting sociocultural data in machine learning](https://dl.acm.org/doi/abs/10.1145/3351095.3372829)", 
 FAT*'20 306-316, 2020 - Use archives as inspiration of how to collect, curate and annotate data.
+
+### Explainable models
+This section contains articles that describe models that are explainable or transparent by design.
+1. X. Zhang et al., 
+   "[Axiomatic Interpretability for Multiclass Additive Models](https://dl.acm.org/doi/abs/10.1145/3292500.3330898)",
+   KDD'19 226–234, 2019
+2. T. Kulesza et al., 
+   "[Principles of Explanatory Debugging to Personalize Interactive Machine Learning](https://dl.acm.org/doi/10.1145/2678025.2701399)",
+   IUI'15 126–137, 2015 - Framework showing how a Naive Bayes method can be trained with user interaction and 
+   how to generate explanations for these kinds of models.
+3. M. Hind et al., 
+   "[TED: Teaching AI to Explain its Decisions](https://dl.acm.org/doi/abs/10.1145/3306618.3314273)",
+   AIES'19 123–129, 2019
+4. Y. Lou et al., 
+   "[Accurate Intelligible Models with Pairwise Interactions](https://dl.acm.org/doi/10.1145/2487575.2487579)",
+   KDD'13 623–631, 2013
+5. C. Chen et al., "An Interpretable Model with Globally Consistent Explanations for Credit Risk",
+   [arXiv:1811.12615](https://arxiv.org/abs/1811.12615) [cs.LG]
+6. C. Chen and C. Rudin, 
+   "[An Optimization Approach to Learning Falling Rule Lists](http://proceedings.mlr.press/v84/chen18a.html)",
+   PMLR (84) 604-612, 2018
+7. F. Wang and C. Rudin,  "Falling Rule Lists",
+   [arXiv:1411.5899](https://arxiv.org/abs/1411.5899) [cs.AI]
+8. B. Ustun and C. Rudin, "Supersparse Linear Integer Models for Optimized Medical Scoring Systems",
+   [arXiv:1502.04269](https://arxiv.org/abs/1502.04269) [stat.ML]
+8. E. Angelino et al., 
+   "[Learning Certifiably Optimal Rule Lists for Categorical Data](https://dl.acm.org/doi/abs/10.5555/3122009.3290419)",
+   JMLR (18:234) 1-78, 2018
+9. H. Lakkaraju et al., 
+   "[Interpretable Decision Sets: A Joint Framework for Description and Prediction](https://dl.acm.org/doi/10.1145/2939672.2939874)",
+   KDD'16 1675–1684, 2016
+10. K. Shu et al., 
+   "[dEFEND: Explainable Fake News Detection](https://dl.acm.org/doi/10.1145/3292500.3330935)",
+   KDD'19 395–405, 2019
+11. J. Jung et al., "Simple Rules for Complex Decisions",
+    [arXiv:1702.04690](https://arxiv.org/abs/1702.04690) [stat.AP]
 
 ### XAI for deep neural networks
 This section focuses on explainability with respect to deep neural networks (DNNs). This can be methods to explain
@@ -207,6 +244,22 @@ DNNs or methods to build DNNs that can explain themselves.
 19. S. Wang et al.,
    "[Bias Also Matters: Bias Attribution for Deep Neural Network Explanation](http://proceedings.mlr.press/v97/wang19p.html)",
    36th ICML, PMLR (97) 6659-6667, 2019 - Describing the effect of the bias parameter on XAI methods using the gradient.
+20. N. Papernot and P. McDaniel, "Deep k-Nearest Neighbors: Towards Confident, Interpretable and Robust Deep Learning",
+   [arXiv:1803.04765](https://arxiv.org/abs/1803.04765) [cs.LG] - A DNN using KNN in the representation space to ensure
+   consistency in the predictions.
+21. O. Li et al., 
+   "Deep Learning for Case-Based Reasoning through Prototypes: A Neural Network that Explains Its Predictions",
+   [arXiv:1710.04806](https://arxiv.org/abs/1710.04806) [cs.AI]
+22. A. Wan et al., "NBDT: Neural-Backed Decision Trees",
+    [arXiv:2004.00221](https://arxiv.org/abs/2004.00221) [cs.CV] - An approach that combines DNN with decision trees 
+    in cases where there is a "natural" hierarchy of classes. 
+    See also their [homepage](https://research.alvinwan.com/neural-backed-decision-trees/#ship).
+23. K. Xu et al., 
+    "[Show, Attend and Tell: Neural Image Caption Generation with Visual Attention](http://proceedings.mlr.press/v37/xuc15.html)",
+    PMLR (37) 2048-2057, 2015 - DNN that generates text explanation together with highlights within the image. 
+24. C. Chen et al., 
+    "[This Looks Like That: Deep Learning for Interpretable Image Recognition](https://papers.nips.cc/paper/2019/hash/adf7ee2dcf142b0e11888e72b43fcb75-Abstract.html)",
+    NeurIPS, 2019
 
 ### XAI in the medical domain
 This section contains paper in which XAI models or methods were used on medical data.
@@ -225,6 +278,15 @@ This section contains paper in which XAI models or methods were used on medical 
 5. J. Ma et al.,
    "[Using deep learning to model the hierarchical structure and function of a cell](https://www.nature.com/articles/nmeth.4627)",
    Nat. Methods (15) 290–298, 2018
+6. R. Caruana et al.,
+   "[Intelligible Models for HealthCare: Predicting Pneumonia Risk and Hospital 30-day Readmission](https://dl.acm.org/doi/10.1145/2783258.2788613)",
+   KDD'15 1721–1730, 2015
+7. B. Letham et al., 
+   "Interpretable classifiers using rules and Bayesian analysis: Building a better stroke prediction model",
+   [arXiv:1511.01644](https://arxiv.org/abs/1511.01644) [stat.AP]
+8. E. Choi et al., 
+   "[RETAIN: An Interpretable Predictive Model for Healthcare using Reverse Time Attention Mechanism](https://papers.nips.cc/paper/2016/hash/231141b34c82aa95e48810a9d1b33a79-Abstract.html)",
+   NIPS, 2016 
 
 ## Books
 1. [Explainable AI: Interpreting, Explaining and Visualizing Deep Learning](https://doi.org/10.1007/978-3-030-28954-6) - 
