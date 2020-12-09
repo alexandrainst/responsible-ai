@@ -183,6 +183,28 @@ This section contains articles that describe models that are explainable or tran
 11. J. Jung et al., "Simple Rules for Complex Decisions",
     [arXiv:1702.04690](https://arxiv.org/abs/1702.04690) [stat.AP]
 
+### XAI methods to visualize / explain a model
+This section contains articles that are describing methods to globally explain a model.
+Typically, this is done by generating visualizations in one form or the other.
+
+### XAI methods that explain a model through construction of mimicking models
+This section contains articles that are describing methods to explain a model by constructing an inherent
+transparent model that mimics the behaviour of the black-box model.
+1. S. Tan et al.,  
+   "[Distill-and-Compare: Auditing Black-Box Models Using Transparent Model Distillation](https://dl.acm.org/doi/abs/10.1145/3278721.3278725)",
+   AIES'18 303–310, 2018
+2. L. Chu et al., "Exact and Consistent Interpretation for Piecewise Linear Neural Networks: A Closed Form Solution",
+   [arXiv:1802.06259](https://arxiv.org/abs/1802.06259) [cs.CV]
+3. C. Yang et al., "Global Model Interpretation via Recursive Partitioning",
+   [arXiv:1802.04253](https://arxiv.org/abs/1802.04253) [cs.LG]
+4. H. Lakkaraju et al., "Interpretable & Explorable Approximations of Black Box Models",
+   [arXiv:1707.01154](https://arxiv.org/abs/1707.01154) [cs.AI]
+5. Y. Hayashi, 
+   "[Synergy effects between grafting and subdivision in Re-RX with J48graft for the diagnosis of thyroid disease](https://www.sciencedirect.com/science/article/abs/pii/S095070511730285X)",
+   Knowledge-Based Systems (131) 170-182, 2017
+6. H. F. Tan et al., "Tree Space Prototypes: Another Look at Making Tree Ensembles Interpretable",
+   [arXiv:1611.07115](https://arxiv.org/abs/1611.07115) [stat.ML]
+
 ### XAI for deep neural networks
 This section focuses on explainability with respect to deep neural networks (DNNs). This can be methods to explain
 DNNs or methods to build DNNs that can explain themselves.
