@@ -186,6 +186,31 @@ This section contains articles that describe models that are explainable or tran
 ### XAI methods to visualize / explain a model
 This section contains articles that are describing methods to globally explain a model.
 Typically, this is done by generating visualizations in one form or the other.
+1. B. Ustun et al., 
+   "[Actionable Recourse in Linear Classification](https://dl.acm.org/doi/10.1145/3287560.3287566)",
+   FAT*'19 Pages 10–19, 2019 - Article describing a method to evaluate actionable variables, 
+   i.e. variables a person can impact to change the outcome af a model, of a linear 
+   classification model.
+2. A Datta et al., 
+   "[Algorithmic Transparency via Quantitative Input Influence: Theory and Experiments with Learning Systems](https://ieeexplore.ieee.org/document/7546525)",
+    IEEE SP 598-617, 2016
+3. P.Adler et al., 
+   "[Auditing black-box models for indirect influence](https://link.springer.com/article/10.1007/s10115-017-1116-3)",
+   Knowl. Inf. Syst. (54) 95–122, 2018
+4. A. Lucic et al., 
+   "[Why Does My Model Fail? Contrastive Local Explanations for Retail Forecasting](https://dl.acm.org/doi/abs/10.1145/3351095.3372824)",
+   FAT*'20 90–98, 2020 - Presents an explanation to explain failure cases of an ML/AI model. 
+   The explanation is presented in form of a feasible range of feature values in which the model works and a trend 
+   for each feature. Code for the method is available on [github](https://github.com/a-lucic/mc-brp).
+5. J. Krause et al., 
+   "[Interacting with Predictions: Visual Inspection of Black-box Machine Learning Models](https://dl.acm.org/doi/10.1145/2858036.2858529)",
+   CHI'16 5686–5697, 2016
+6. B. Kim et al., 
+   "[Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV)](http://proceedings.mlr.press/v80/kim18d.html)",
+   ICML, PMLR (80) 2668-2677, 2018
+7. A. Goldstein et al., 
+   "[Peeking Inside the Black Box: Visualizing Statistical Learning with Plots of Individual Conditional Expectation](https://doi.org/10.1080/10618600.2014.907095)",
+   Journal of Computational and Graphical Statistics (24:1) 44-65, 2015
 
 ### XAI methods that explain a model through construction of mimicking models
 This section contains articles that are describing methods to explain a model by constructing an inherent
