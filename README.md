@@ -230,6 +230,36 @@ transparent model that mimics the behaviour of the black-box model.
 6. H. F. Tan et al., "Tree Space Prototypes: Another Look at Making Tree Ensembles Interpretable",
    [arXiv:1611.07115](https://arxiv.org/abs/1611.07115) [stat.ML]
 
+### Local XAI methods
+This section contains articles that describe local explanation methods, i.e. methods that generate an explanation 
+for a specific outcome of a model.
+1. M. T. Ribeiro et al., 
+   "[Anchors: High-Precision Model-Agnostic Explanations](https://homes.cs.washington.edu/~marcotcr/aaai18.pdf)",
+   AAAI Conference on Artificial Intelligence, 2018
+2. A. Shrikumar et al., 
+   "[Learning Important Features Through Propagating Activation Differences](https://dl.acm.org/doi/10.5555/3305890.3306006)",
+   ICML'17 3145–3153, 2017 - DeepLIFT method for local explanations of deep neural networks.
+3. S. M. Lundberg et al., "Explainable AI for Trees: From Local Explanations to Global Understanding",
+   [arXiv:1905.04610](https://arxiv.org/abs/1905.04610) [stat.ML]
+4. S. M. Lundberg et al., 
+   "[From local explanations to global understanding with explainable AI for trees](https://www.nature.com/articles/s42256-019-0138-9)",
+   Nat. Mach. Intell. (2) 56–67, 2020
+5. M. T. Ribeiro et al., 
+   [“Why Should I Trust You?” Explaining the Predictions of Any Classifier](https://dl.acm.org/doi/10.1145/2939672.2939778),
+   KDD'16 1135–1144, 2016
+6. D. Slack et al., "How Much Should I Trust You? Modeling Uncertainty of Black Box Explanations",
+   [arXiv:2008.05030](https://arxiv.org/abs/2008.05030) [cs.LG]
+7. S. M. Lundberg and S.-I. Lee, 
+   "[A Unified Approach to Interpreting Model Predictions](https://proceedings.neurips.cc/paper/2017/hash/8a20a8621978632d76c43dfd28b67767-Abstract.html)",
+   NIPS, 2017
+8. M. Sundararajan and A. Najmi, 
+   "[The Many Shapley Values for Model Explanation](http://proceedings.mlr.press/v119/sundararajan20b.html)",
+   ICML (119) 9269-9278, 2020
+9. I. E. Kumar et al., "Problems with Shapley-value-based explanations as feature importance measures",
+   [arXiv:2002.11097](https://arxiv.org/abs/2002.11097) [cs.AI]
+10. P. W. Koh and P. Liang, "Understanding Black-box Predictions via Influence Functions",
+   [arXiv:1703.04730](https://arxiv.org/abs/1703.04730) [stat.ML]
+
 ### XAI for deep neural networks
 This section focuses on explainability with respect to deep neural networks (DNNs). This can be methods to explain
 DNNs or methods to build DNNs that can explain themselves.
@@ -241,6 +271,9 @@ DNNs or methods to build DNNs that can explain themselves.
    [arXiv:1312.6034](https://arxiv.org/abs/1312.6034) [cs.CV]
 3. A. Tavanaei, "Embedded Encoder-Decoder in Convolutional Net works Towards Explainable AI",
    [arXiv:2007.06712](https://arxiv.org/abs/2007.06712) [cs.CV] - DNN with a build in encoder-decoder that generates explanations.
+7. S. Bach et al., 
+   "[On Pixel-Wise Explanations for Non-Linear Classifier Decisions by Layer-Wise Relevance Propagation](https://doi.org/10.1371/journal.pone.0130140)",
+   PLOS ONE (10:7) e0130140, 2015 - Description of the LRP method for DNNs.
 4. W. Samek et al., 
    "[Evaluating the Visualization of What a Deep Neural Network Has Learned](https://ieeexplore.ieee.org/document/7552539)",
    IEEE Trans. Neural Netw. Learn. Syst. (28:11) 2660-2673, 2017
@@ -295,8 +328,8 @@ DNNs or methods to build DNNs that can explain themselves.
    [arXiv:1803.04765](https://arxiv.org/abs/1803.04765) [cs.LG] - A DNN using KNN in the representation space to ensure
    consistency in the predictions.
 21. O. Li et al., 
-   "Deep Learning for Case-Based Reasoning through Prototypes: A Neural Network that Explains Its Predictions",
-   [arXiv:1710.04806](https://arxiv.org/abs/1710.04806) [cs.AI]
+    "Deep Learning for Case-Based Reasoning through Prototypes: A Neural Network that Explains Its Predictions",
+    [arXiv:1710.04806](https://arxiv.org/abs/1710.04806) [cs.AI]
 22. A. Wan et al., "NBDT: Neural-Backed Decision Trees",
     [arXiv:2004.00221](https://arxiv.org/abs/2004.00221) [cs.CV] - An approach that combines DNN with decision trees 
     in cases where there is a "natural" hierarchy of classes. 
@@ -307,6 +340,12 @@ DNNs or methods to build DNNs that can explain themselves.
 24. C. Chen et al., 
     "[This Looks Like That: Deep Learning for Interpretable Image Recognition](https://papers.nips.cc/paper/2019/hash/adf7ee2dcf142b0e11888e72b43fcb75-Abstract.html)",
     NeurIPS, 2019
+25. V. Petsiuk et al., "RISE: Randomized Input Sampling for Explanation of Black-box Models",
+    [arXiv:1806.07421](https://arxiv.org/abs/1806.07421) [cs.CV]
+
+### XAI for natural language processing
+This section contains papers in which XAI methods are used or developed for NLP tasks and models.
+
 
 ### XAI in the medical domain
 This section contains paper in which XAI models or methods were used on medical data.
