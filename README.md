@@ -260,6 +260,44 @@ for a specific outcome of a model.
 10. P. W. Koh and P. Liang, "Understanding Black-box Predictions via Influence Functions",
    [arXiv:1703.04730](https://arxiv.org/abs/1703.04730) [stat.ML]
 
+### XAI and user interaction
+This section contains research articles that are looking at the interaction of users with explanations or 
+interpretable models.
+1. B. Y. Lim and A. K. Dey, 
+   "[Assessing Demand for Intelligibility in Context-Aware Applications](https://dl.acm.org/doi/10.1145/1620545.1620576)",
+   UbiComp'09 195–204, 2009
+2. D. Wang et al., 
+   "[Designing Theory-Driven User-Centric Explainable AI](https://dl.acm.org/doi/10.1145/3290605.3300831)",
+   CHI'19 (601)  1–15, 2019
+3. M. Narayanan et al., 
+   "How do Humans Understand Explanations from Machine Learning Systems? An Evaluation of the Human-Interpretability of Explanation",
+   [arXiv:1802.00682](https://arxiv.org/abs/1802.00682) [cs.AI]
+4. U. Bhatt et al., "Machine Learning Explainability for External Stakeholders",
+   [arXiv:2007.05408](https://arxiv.org/abs/2007.05408) [cs.CY]
+5. V. Lai and C. Tan, 
+   "[On Human Predictions with Explanations and Predictions of Machine Learning Models: A Case Study on Deception Detection](https://dl.acm.org/doi/abs/10.1145/3287560.3287590)",
+   FAT*'19 29–38, 2019
+6. C. Molnar et al., "Pitfalls to Avoid when Interpreting Machine Learning Models",
+   [arXiv:2007.04131](https://arxiv.org/abs/2007.04131) [stat.ML]
+7. A. Preece et al., "Stakeholders in Explainable AI",
+   [arXiv:1810.00184](https://arxiv.org/abs/1810.00184) [cs.AI]
+8. M. Katell et al., 
+   "[Toward Situated Interventions for Algorithmic Equity: Lessons from the Field](https://dl.acm.org/doi/abs/10.1145/3351095.3372874)",
+   FAT*'20 45–55, 2020 - Presenting a framework for designing ML/AI solutions based on participatory design and co-design methods,
+   which especially focuses on solutions that effect communities, i.e. models employed by municipalities. The framework is applied 
+   to an example case in which a surveillance tool with an automatic decision system is designed.
+
+### XAI used in practice
+This section contains research articles where XAI was used as part of an application or used for validation on a system
+deployed in practice.
+1. S. Coppers et al., 
+   "[Intellingo: An Intelligible Translation Environment](https://dl.acm.org/doi/10.1145/3173574.3174098)",
+   CHI'18 (524) 1–13, 2018
+2. H. Tang and P. Eratuuli, 
+   "[Package and Classify Wireless Product Features to Their Sales Items and Categories Automatically](https://link.springer.com/chapter/10.1007/978-3-030-29726-8_20)",
+   Machine Learning and Knowledge Extraction. CD-MAKE 2019. LNCS (11713), 2019
+
+
 ### XAI for deep neural networks
 This section focuses on explainability with respect to deep neural networks (DNNs). This can be methods to explain
 DNNs or methods to build DNNs that can explain themselves.
