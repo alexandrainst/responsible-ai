@@ -14,7 +14,7 @@
 
 
 <a name="explainable-ai"></a> 
-# Explainable AI
+# Explainable AI (XAI)
 ## Frameworks and Github repos
 1. [InterpretML](https://interpret.ml/) - Open source Python framework that combines local and global explanation methods, 
 as well as, transparent models, like decision trees, rule based models, and GAMs (Generalized Additive Models), into
@@ -345,7 +345,41 @@ DNNs or methods to build DNNs that can explain themselves.
 
 ### XAI for natural language processing
 This section contains papers in which XAI methods are used or developed for NLP tasks and models.
-
+1. S. Jain and B. C. Wallace, "Attention is not Explanation",
+   [arXiv:1902.10186](https://arxiv.org/abs/1902.10186) [cs.CL]
+2. W. J. Murdoch and A. Szlam, "Automatic Rule Extraction from Long Short Term Memory Networks",
+   [arXiv:1702.02540](https://arxiv.org/abs/1702.02540) [cs.CL]
+3. W. J. Murdoch et al., "Beyond Word Importance: Contextual Decomposition to Extract Interactions from LSTMs",
+   [arXiv:1801.05453](https://arxiv.org/abs/1801.05453) [cs.CL]
+4. L. Arras et al., "Explaining Recurrent Neural Network Predictions in Sentiment Analysis",
+   [arXiv:1706.07206](https://arxiv.org/abs/1706.07206) [cs.CL]
+5. T. Guo et al., 
+   "[Exploring Interpretable LSTM Neural Networks over Multi-Variable Data](http://proceedings.mlr.press/v97/guo19b.html)",
+   36th ICML (97) 2494-2504, 2019
+6. F. Liu and B. Avci, 
+   "[Incorporating Priors with Feature Attribution on Text Classification](https://www.aclweb.org/anthology/P19-1631/)",
+   57th ACL (P19-1631) 6274–6283, 2019
+7. A. Radford et al., "Learning to Generate Reviews and Discovering Sentiment",
+   [arXiv:1704.01444](https://arxiv.org/abs/1704.01444) [cs.LG]
+8. H. Strobelt et al., 
+   "[LSTMVis: A Tool for Visual Analysis of Hidden State Dynamics in Recurrent Neural Networks](https://ieeexplore.ieee.org/document/8017583)",
+   IEEE Trans. Vis. Comput. Graph (24:1) 667-676, 2018
+9. T. Lei et al., 
+   "[Rationalizing Neural Predictions](https://www.aclweb.org/anthology/D16-1011/)",
+   EMNLP (D16-1011) 107–117, 2016
+10. M. T. Ribeiro et al., 
+    "[Semantically Equivalent Adversarial Rules for Debugging NLP Models](https://www.aclweb.org/anthology/P18-1079/)",
+    56th ACL (P18-1079) 856–865, 2018
+11. C. Guan et al., 
+    "[Towards a Deep and Unified Understanding of Deep Neural Models in NLP](http://proceedings.mlr.press/v97/guan19a.html)",
+    36th ICML (97) 2454-2463, 2019
+12. J. Li et al., 
+    "[Visualizing and Understanding Neural Models in NLP](https://www.aclweb.org/anthology/N16-1082/)",
+    NAACL (N16-1082) 681–691, 2106
+13. A. Karpathy et al., "Visualizing and Understanding Recurrent Networks",
+   [arXiv:1506.02078](https://arxiv.org/abs/1506.02078) [cs.LG]
+14. L. Arras et al., "What is Relevant in a Text Document?": An Interpretable Machine Learning Approach,
+    [arXiv:1612.07843](https://arxiv.org/abs/1612.07843) [cs.CL]
 
 ### XAI in the medical domain
 This section contains paper in which XAI models or methods were used on medical data.
