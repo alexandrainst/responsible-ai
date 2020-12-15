@@ -408,12 +408,12 @@ known from other industries, like aerospace or finance, and adjust them to AI/ML
 <a name="people-tech"></a>
 # People & Tech
 1. [Google PAIR: People + AI guidebook for UX professionals and product managers to follow a human centered approach to AI](https://pair.withgoogle.com/guidebook/)
+2. [Google’s medical AI was super accurate in a lab. Real life was a different story](https://www.technologyreview.com/2020/04/27/1000658/google-medical-ai-accurate-lab-real-life-clinic-covid-diabetes-retina-disease/)
 
 <a name="pol-reg"></a>
 # Policy & regulation
 
 <a name="ux"></a>
 # User Experience
-
 
 
