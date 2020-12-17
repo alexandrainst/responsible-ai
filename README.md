@@ -535,6 +535,15 @@ More general book about explainability in machine learning, but also with a focu
 
 ## Research articles
 In this section we list research articles related to guidelines and principles regarding responsible AI.
+1. A. Jobin et al., 
+   "[Artificial Intelligence: the global landscape of ethics guidelines](https://www.nature.com/articles/s42256-019-0088-2)",
+   Nat. Mach. Intell. (1) 389–399, 2019
+2. T. Miller, 
+   "[Explanation in Artificial Intelligence: Insights from the Social Sciences](https://www.sciencedirect.com/science/article/abs/pii/S0004370218305988)",
+   Artificial Intelligence (267) 1-38, 2019
+3. C. Rudin, 
+   "[Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead](https://www.nature.com/articles/s42256-019-0048-x)",
+   Nat. Mach. Intell. (1) 206–215, 2019
 
 ### Documentation frameworks
 1. F. Pinto et al., "Automatic Model Monitoring for Data Streams", [arXiv:1908.04240](https://arxiv.org/abs/1908.04240) 
