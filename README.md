@@ -466,8 +466,20 @@ This section contains papers in which XAI methods are used or developed for NLP 
 14. L. Arras et al., "What is Relevant in a Text Document?": An Interpretable Machine Learning Approach,
     [arXiv:1612.07843](https://arxiv.org/abs/1612.07843) [cs.CL]
 
+### XAI for recommender systems
+This section contains papers describing explainability with respect to recommender systems.
+1. I. Nunes and D. Jannach,
+   "[A systematic review and taxonomy of explanations in decision support and recommender systems](https://link.springer.com/article/10.1007/s11257-017-9195-0)",
+   User Model User-Adap. Inter. (27) 393–444, 2017
+2. J. L. Herlocker et al., 
+   "[Explaining Collaborative Filtering Recommendations](https://dl.acm.org/doi/10.1145/358916.358995)",
+   CSCW'00 241–250, 2000
+3. D. Mcsherry, 
+   "[Explanation in Recommender Systems](https://link.springer.com/article/10.1007/s10462-005-4612-x)",
+    Artif. Intell. Rev. 24 179–197, 2005
+
 ### XAI in the medical domain
-This section contains paper in which XAI models or methods were used on medical data.
+This section contains papers in which XAI models or methods were used on medical data.
 1. S. Meyer Lauritsen et al., 
    "[Explainable artificial intelligence model to predict acute critical illness from electronic health records](https://www.nature.com/articles/s41467-020-17431-x)",
    Nat. Commun. 11 3852, 2020
