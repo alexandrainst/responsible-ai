@@ -158,6 +158,12 @@ Also includes question that are relevant to the context in which the XAI methods
 "[Lessons from archives: strategies for collecting sociocultural data in machine learning](https://dl.acm.org/doi/abs/10.1145/3351095.3372829)", 
 FAT*'20 306-316, 2020 - Use archives as inspiration of how to collect, curate and annotate data.
 
+### Method to explain data
+This section contains articles that explain datasets, for example by finding representative examples.
+1. B. Kim et al., 
+   "[Examples are not Enough, Learn to Criticize! Criticism for Interpretability](https://papers.nips.cc/paper/2016/hash/5680522b8e2bb01943234bce7bf84534-Abstract.html)",
+   NIPS, 2016 - Code can we found on [github](https://github.com/BeenKim/MMD-critic).
+
 ### Explainable models
 This section contains articles that describe models that are explainable or transparent by design.
 1. X. Zhang et al., 
