@@ -41,10 +41,15 @@ based models.
 of data and ML models. 
 11. [Captum](https://captum.ai/) - Open source framework to explain deep learning models created with PyTorch. Includes
 many known XAI algorithms for deep neural networks.
-12. [What-If Tool](https://pair-code.github.io/what-if-tool/) - Open source frmaework from Google to probe the behaviour
+12. [What-If Tool](https://pair-code.github.io/what-if-tool/) - Open source framework from Google to probe the behaviour
 of a trained model.
 13. [AllenNLP Interpret](https://allennlp.org/interpret) - Python framework for explaining deep neural networks 
 for language processing developed by the Allen Institute for AI.
+14. [Dalex](http://dalex.drwhy.ai/) - Part of the DrWhy.AI universe of packages for interpretable and responsible ML.
+15. [RuleFit](https://github.com/christophM/rulefit) - Open source python implementation of an interpretable rule ensemble model.
+16. [SkopeRules](https://github.com/scikit-learn-contrib/skope-rules) - Open source python package for fitting a rule based model.
+17. [ELI5](https://eli5.readthedocs.io/en/latest/index.html) - Open source python package that implements LIME local explanations 
+    and permutation explanations.
 
 ## Reading material
 1. [Ansvarlig AI](https://medium.com/ansvarlig-ai) - Cross-disciplinary medium blog about XAI, 
@@ -72,6 +77,12 @@ The New York Times Magazine article about the need of explainable models.
 Blog post about how to interprete a BERT model.
 12. [AI Explanations Whitepaper](https://storage.googleapis.com/cloud-ai-whitepapers/AI%20Explainability%20Whitepaper.pdf) - 
 Google's whitepaper about Explainable AI.
+13. [Robust-and-Explainable-machine-learning](https://github.com/dongyp13/Robust-and-Explainable-Machine-Learning) -
+    Collection of links and articles with respect to robust and explainable machine learning, 
+    containing mostly deep learning related resources.
+
+## Videos and presentations
+1. [ICML 2019 session - Robust statistics and interpretability](https://slideslive.com/38917641/robust-statistics-and-interpretability)
 
 ## Courses
 1. [Kaggle - Machine Learning Explainability](https://www.kaggle.com/learn/machine-learning-explainability) - 
@@ -147,6 +158,12 @@ Also includes question that are relevant to the context in which the XAI methods
 "[Lessons from archives: strategies for collecting sociocultural data in machine learning](https://dl.acm.org/doi/abs/10.1145/3351095.3372829)", 
 FAT*'20 306-316, 2020 - Use archives as inspiration of how to collect, curate and annotate data.
 
+### Method to explain data
+This section contains articles that explain datasets, for example by finding representative examples.
+1. B. Kim et al., 
+   "[Examples are not Enough, Learn to Criticize! Criticism for Interpretability](https://papers.nips.cc/paper/2016/hash/5680522b8e2bb01943234bce7bf84534-Abstract.html)",
+   NIPS, 2016 - Code can we found on [github](https://github.com/BeenKim/MMD-critic).
+
 ### Explainable models
 This section contains articles that describe models that are explainable or transparent by design.
 1. X. Zhang et al., 
@@ -207,10 +224,12 @@ Typically, this is done by generating visualizations in one form or the other.
    CHI'16 5686–5697, 2016
 6. B. Kim et al., 
    "[Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV)](http://proceedings.mlr.press/v80/kim18d.html)",
-   ICML, PMLR (80) 2668-2677, 2018
+   ICML, PMLR (80) 2668-2677, 2018 - Code for the method can be found on [github](https://github.com/tensorflow/tcav).
 7. A. Goldstein et al., 
    "[Peeking Inside the Black Box: Visualizing Statistical Learning with Plots of Individual Conditional Expectation](https://doi.org/10.1080/10618600.2014.907095)",
    Journal of Computational and Graphical Statistics (24:1) 44-65, 2015
+8. J. Wang et al., "Shapley Flow: A Graph-based Approach to Interpreting Model Predictions",
+   [arXiv:2010.14592](https://arxiv.org/abs/2010.14592) [cs.LG]
 
 ### XAI methods that explain a model through construction of mimicking models
 This section contains articles that are describing methods to explain a model by constructing an inherent
@@ -235,7 +254,8 @@ This section contains articles that describe local explanation methods, i.e. met
 for a specific outcome of a model.
 1. M. T. Ribeiro et al., 
    "[Anchors: High-Precision Model-Agnostic Explanations](https://homes.cs.washington.edu/~marcotcr/aaai18.pdf)",
-   AAAI Conference on Artificial Intelligence, 2018
+   AAAI Conference on Artificial Intelligence, 2018 - 
+   The implementation of the method can be found on [github](https://github.com/marcotcr/anchor). 
 2. A. Shrikumar et al., 
    "[Learning Important Features Through Propagating Activation Differences](https://dl.acm.org/doi/10.5555/3305890.3306006)",
    ICML'17 3145–3153, 2017 - DeepLIFT method for local explanations of deep neural networks.
@@ -259,6 +279,24 @@ for a specific outcome of a model.
    [arXiv:2002.11097](https://arxiv.org/abs/2002.11097) [cs.AI]
 10. P. W. Koh and P. Liang, "Understanding Black-box Predictions via Influence Functions",
    [arXiv:1703.04730](https://arxiv.org/abs/1703.04730) [stat.ML]
+
+### Counterfactual explanations
+This section contains articles that describe methods for counterfactual explanations.
+1. S. Sharma et al., 
+   "[CERTIFAI: A Common Framework to Provide Explanations and Analyse the Fairness and Robustness of Black-box Models](https://dl.acm.org/doi/10.1145/3375627.3375812)",
+   AIES'20 166–172, 2020
+2. C. Russell, "[Efficient Search for Diverse Coherent Explanations](https://dl.acm.org/doi/10.1145/3287560.3287569)",
+   FAT*'19  20–28, 2019
+3. R. K. Mothilal et al., 
+   "[Explaining Machine Learning Classifiers through Diverse Counterfactual Explanations](https://dl.acm.org/doi/abs/10.1145/3351095.3372850)",
+   FAT*'20 607–617, 2020 - Code for the method is available on [github](https://github.com/interpretml/DiCE).
+4. S. Barocas et al., 
+   "[The Hidden Assumptions Behind Counterfactual Explanations and Principal Reasons](https://dl.acm.org/doi/abs/10.1145/3351095.3372830)",
+   FAT*'20  80–89, 2020 - Raises some questions with respect to the use of counterfactual examples as a form of explanation: 
+   * Are the changes proposed by the counterfactual example feasible (actionable) for a person to change their outcome? 
+   * If the changes are performed, what do they affect otherwise, i.e. they might not be favorable in other contexts? 
+   * Changing one factor might inherently change another factor that actually negatively affects the outcome 
+     (counterfactual examples can not describe complex relationships between variables)?
 
 ### XAI and user interaction
 This section contains research articles that are looking at the interaction of users with explanations or 
@@ -296,8 +334,7 @@ deployed in practice.
 2. H. Tang and P. Eratuuli, 
    "[Package and Classify Wireless Product Features to Their Sales Items and Categories Automatically](https://link.springer.com/chapter/10.1007/978-3-030-29726-8_20)",
    Machine Learning and Knowledge Extraction. CD-MAKE 2019. LNCS (11713), 2019
-
-
+   
 ### XAI for deep neural networks
 This section focuses on explainability with respect to deep neural networks (DNNs). This can be methods to explain
 DNNs or methods to build DNNs that can explain themselves.
@@ -311,7 +348,8 @@ DNNs or methods to build DNNs that can explain themselves.
    [arXiv:2007.06712](https://arxiv.org/abs/2007.06712) [cs.CV] - DNN with a build in encoder-decoder that generates explanations.
 7. S. Bach et al., 
    "[On Pixel-Wise Explanations for Non-Linear Classifier Decisions by Layer-Wise Relevance Propagation](https://doi.org/10.1371/journal.pone.0130140)",
-   PLOS ONE (10:7) e0130140, 2015 - Description of the LRP method for DNNs.
+   PLOS ONE (10:7) e0130140, 2015 - Description of the LRP method for DNNs. Code for playing around with the LRP method
+   can be found on [github](https://github.com/sebastian-lapuschkin/lrp_toolbox).
 4. W. Samek et al., 
    "[Evaluating the Visualization of What a Deep Neural Network Has Learned](https://ieeexplore.ieee.org/document/7552539)",
    IEEE Trans. Neural Netw. Learn. Syst. (28:11) 2660-2673, 2017
@@ -335,7 +373,8 @@ DNNs or methods to build DNNs that can explain themselves.
    IEEE/CVF CVPR 8827-8836, 2018
 9. R. C. Fong and A. Vedaldi,
    "[Interpretable Explanations of Black Boxes by Meaningful Perturbation](https://ieeexplore.ieee.org/document/8237633)",
-   IEEE ICCV 3449-3457, 2017
+   IEEE ICCV 3449-3457, 2017 - 
+   A PyTorch implementation can be found on [github](https://github.com/ruthcfong/pytorch-explain-black-box). 
 10. R. Fong and A. Vedaldi, 
     "[Net2Vec: Quantifying and Explaining how Concepts are Encoded by Filters in Deep Neural Networks](https://ieeexplore.ieee.org/abstract/document/8579008)",
     018 IEEE/CVF CVPR 8730-8738, 2018
@@ -375,11 +414,19 @@ DNNs or methods to build DNNs that can explain themselves.
 23. K. Xu et al., 
     "[Show, Attend and Tell: Neural Image Caption Generation with Visual Attention](http://proceedings.mlr.press/v37/xuc15.html)",
     PMLR (37) 2048-2057, 2015 - DNN that generates text explanation together with highlights within the image. 
+    Code can be found on [github](https://github.com/kelvinxu/arctic-captions).
 24. C. Chen et al., 
     "[This Looks Like That: Deep Learning for Interpretable Image Recognition](https://papers.nips.cc/paper/2019/hash/adf7ee2dcf142b0e11888e72b43fcb75-Abstract.html)",
     NeurIPS, 2019
 25. V. Petsiuk et al., "RISE: Randomized Input Sampling for Explanation of Black-box Models",
     [arXiv:1806.07421](https://arxiv.org/abs/1806.07421) [cs.CV]
+26. P. Sturmfels et al.,
+    "[Visualizing the Impact of Feature Attribution Baselines](https://distill.pub/2020/attribution-baselines/)",
+    Distill, 2020.    
+27. D. Bau et al., 
+    "[Understanding the role of individual units in a deep neural network](https://www.pnas.org/content/117/48/30071)",
+    PNAS (117:48) 30071-30078, 2020 - All links and material regarding the article is summarized by the authors on their
+    [website](https://dissect.csail.mit.edu).  
 
 ### XAI for natural language processing
 This section contains papers in which XAI methods are used or developed for NLP tasks and models.
@@ -419,8 +466,29 @@ This section contains papers in which XAI methods are used or developed for NLP 
 14. L. Arras et al., "What is Relevant in a Text Document?": An Interpretable Machine Learning Approach,
     [arXiv:1612.07843](https://arxiv.org/abs/1612.07843) [cs.CL]
 
+### XAI for recommender systems
+This section contains papers describing explainability with respect to recommender systems.
+1. I. Nunes and D. Jannach,
+   "[A systematic review and taxonomy of explanations in decision support and recommender systems](https://link.springer.com/article/10.1007/s11257-017-9195-0)",
+   User Model User-Adap. Inter. (27) 393–444, 2017
+2. J. L. Herlocker et al., 
+   "[Explaining Collaborative Filtering Recommendations](https://dl.acm.org/doi/10.1145/358916.358995)",
+   CSCW'00 241–250, 2000
+3. D. Mcsherry, 
+   "[Explanation in Recommender Systems](https://link.springer.com/article/10.1007/s10462-005-4612-x)",
+    Artif. Intell. Rev. 24 179–197, 2005
+
+### XAI with and for reinforcement learning
+This section contains papers describing explainability with respect to reinforcement learning.
+1. L. She and J. Y. Chai, 
+   "[Interactive Learning of Grounded Verb Semantics towards Human-Robot Communication](https://www.aclweb.org/anthology/P17-1150/)",
+   55th ACL (P17-1150) 1634–1644, 2017
+2. Samantha Krening et al., 
+   "[Learning From Explanations Using Sentiment and Advice in RL](https://ieeexplore.ieee.org/document/7742965)",
+   TCDS (9:1) 44-55, 2017
+
 ### XAI in the medical domain
-This section contains paper in which XAI models or methods were used on medical data.
+This section contains papers in which XAI models or methods were used on medical data.
 1. S. Meyer Lauritsen et al., 
    "[Explainable artificial intelligence model to predict acute critical illness from electronic health records](https://www.nature.com/articles/s41467-020-17431-x)",
    Nat. Commun. 11 3852, 2020
@@ -481,6 +549,7 @@ known from other industries, like aerospace or finance, and adjust them to AI/ML
 # People & Tech
 1. [Google PAIR: People + AI guidebook for UX professionals and product managers to follow a human centered approach to AI](https://pair.withgoogle.com/guidebook/)
 2. [Google’s medical AI was super accurate in a lab. Real life was a different story](https://www.technologyreview.com/2020/04/27/1000658/google-medical-ai-accurate-lab-real-life-clinic-covid-diabetes-retina-disease/)
+3. [AI Now Institute reports](https://ainowinstitute.org/reports.html) - Publications of the AI Now Institute
 
 <a name="pol-reg"></a>
 # Policy & regulation
