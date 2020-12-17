@@ -554,6 +554,26 @@ known from other industries, like aerospace or finance, and adjust them to AI/ML
 <a name="pol-reg"></a>
 # Policy & regulation
 
+## Research articles
+1. F. Doshi-Velez and M. Kortz,"Accountability of AI Under the Law: The Role of Explanation",
+   [arXiv:1711.01134](https://arxiv.org/abs/1711.01134) [cs.AI]
+2. B. Goodman and S. Flaxman,
+   "[European Union regulations on algorithmic decision-making and a “right to explanation”](https://ojs.aaai.org/index.php/aimagazine/article/view/2741)",
+   AI Magazine (38:3) 50-57, 2017    
+3. A. D. Selbst and J. Powles, 
+   "[Meaningful information and the right to explanation](http://proceedings.mlr.press/v81/selbst18a.html)",
+   Proceedings of the 1st FAT (81) 48-48, 2018
+4. M. E. Kaminski and G. Malgieri, 
+   "[Multi-layered Explanations from Algorithmic Impact Assessments in the GDPR](https://dl.acm.org/doi/abs/10.1145/3351095.3372875)",
+   FAT*'20 68–79, 2020
+5. L. Edwards and M. Veale, 
+   "[Slave to the Algorithm? Why a 'Right to an Explanation' Is Probably Not the Remedy You Are Looking For](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2972855)",
+   16 Duke Law & Technology Review (18), 2017
+6. S. Wachter et al., 
+   "[Why a Right to Explanation of Automated Decision-Making Does Not Exist in the General Data Protection Regulation](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2903469)",
+   International Data Privacy Law, 2017
+7. 
+
 <a name="ux"></a>
 # User Experience
 
