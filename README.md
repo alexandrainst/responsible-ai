@@ -198,8 +198,8 @@ This section contains articles that describe models that are explainable or tran
    "[Interpretable Decision Sets: A Joint Framework for Description and Prediction](https://dl.acm.org/doi/10.1145/2939672.2939874)",
    KDD'16 1675–1684, 2016
 10. K. Shu et al., 
-   "[dEFEND: Explainable Fake News Detection](https://dl.acm.org/doi/10.1145/3292500.3330935)",
-   KDD'19 395–405, 2019
+      "[dEFEND: Explainable Fake News Detection](https://dl.acm.org/doi/10.1145/3292500.3330935)",
+      KDD'19 395–405, 2019
 11. J. Jung et al., "Simple Rules for Complex Decisions",
     [arXiv:1702.04690](https://arxiv.org/abs/1702.04690) [stat.AP]
 
@@ -281,7 +281,7 @@ for a specific outcome of a model.
 9. I. E. Kumar et al., "Problems with Shapley-value-based explanations as feature importance measures",
    [arXiv:2002.11097](https://arxiv.org/abs/2002.11097) [cs.AI]
 10. P. W. Koh and P. Liang, "Understanding Black-box Predictions via Influence Functions",
-   [arXiv:1703.04730](https://arxiv.org/abs/1703.04730) [stat.ML]
+      [arXiv:1703.04730](https://arxiv.org/abs/1703.04730) [stat.ML]
 
 ### Counterfactual explanations
 This section contains articles that describe methods for counterfactual explanations.
@@ -403,13 +403,13 @@ DNNs or methods to build DNNs that can explain themselves.
     "[XRAI: Better Attributions Through Regions](https://ieeexplore.ieee.org/document/9008576)",
     IEEE ICCV 4947-4956, 2019
 18. B. Alsallakh et al., "Do Convolutional Neural Networks Learn Class Hierarchy?",
-   [arXiv:1710.06501](https://arxiv.org/abs/1710.06501) [cs.CV]
+      [arXiv:1710.06501](https://arxiv.org/abs/1710.06501) [cs.CV]
 19. S. Wang et al.,
-   "[Bias Also Matters: Bias Attribution for Deep Neural Network Explanation](http://proceedings.mlr.press/v97/wang19p.html)",
-   36th ICML, PMLR (97) 6659-6667, 2019 - Describing the effect of the bias parameter on XAI methods using the gradient.
+      "[Bias Also Matters: Bias Attribution for Deep Neural Network Explanation](http://proceedings.mlr.press/v97/wang19p.html)",
+      36th ICML, PMLR (97) 6659-6667, 2019 - Describing the effect of the bias parameter on XAI methods using the gradient.
 20. N. Papernot and P. McDaniel, "Deep k-Nearest Neighbors: Towards Confident, Interpretable and Robust Deep Learning",
-   [arXiv:1803.04765](https://arxiv.org/abs/1803.04765) [cs.LG] - A DNN using KNN in the representation space to ensure
-   consistency in the predictions.
+      [arXiv:1803.04765](https://arxiv.org/abs/1803.04765) [cs.LG] - A DNN using KNN in the representation space to ensure
+      consistency in the predictions.
 21. O. Li et al., 
     "Deep Learning for Case-Based Reasoning through Prototypes: A Neural Network that Explains Its Predictions",
     [arXiv:1710.04806](https://arxiv.org/abs/1710.04806) [cs.AI]
@@ -468,7 +468,7 @@ This section contains papers in which XAI methods are used or developed for NLP 
     "[Visualizing and Understanding Neural Models in NLP](https://www.aclweb.org/anthology/N16-1082/)",
     NAACL (N16-1082) 681–691, 2106
 13. A. Karpathy et al., "Visualizing and Understanding Recurrent Networks",
-   [arXiv:1506.02078](https://arxiv.org/abs/1506.02078) [cs.LG]
+      [arXiv:1506.02078](https://arxiv.org/abs/1506.02078) [cs.LG]
 14. L. Arras et al., "What is Relevant in a Text Document?": An Interpretable Machine Learning Approach,
     [arXiv:1612.07843](https://arxiv.org/abs/1612.07843) [cs.CL]
 
@@ -530,7 +530,64 @@ More general book about explainability in machine learning, but also with a focu
 <a name="fairness"></a> 
 # Fairness
 
+## Frameworks and Github repos
+
+1.  [AI Fairness 360](https://aif360.mybluemix.net/) Toolkit from IBM both in Python and R to examine, report and mitigate bias and discriminations in data and machine learning models.
+2. [What-if-tool](https://pair-code.github.io/what-if-tool/ai-fairness.html) from Google's PAIR (People and AI Research)  allowed to play around with differnet fairness metrics.
+3. [FAT Forensics](https://github.com/fat-forensics/fat-forensics) is a python toolbox for evaluating fairness, accountability and transparency of predictive systems.
+4. [Fairlearn](https://github.com/fairlearn/fairlearn) is a python package for accessing and mitigating bias in machine leaning system. The repo both contain implemented algorithm and Jupyter Notebook with examples of use.
+
+## Research articles
+
+#### Review, survey and overview papers
+
+1. Mitchell, Shira, et al. "[Prediction-based decisions and fairness: A catalogue of choices, assumptions, and definitions](https://arxiv.org/pdf/1811.07867.pdf)" *arXiv preprint arXiv:1811.07867* (2018).
+2. Gajane, Pratik, and Mykola Pechenizkiy. "[On formalizing fairness in prediction with machine learning](https://arxiv.org/pdf/1710.03184.pdf)." *arXiv preprint arXiv:1710.03184* (2017).
+3. Mehrabi, Ninareh, et al. "[A survey on bias and fairness in machine learning](https://arxiv.org/pdf/1908.09635.pdf)." *arXiv preprint arXiv:1908.09635* (2019).
+4. Chouldechova, Alexandra, and Aaron Roth. "[A snapshot of the frontiers of fairness in machine learning](https://arxiv.org/pdf/1908.09635.pdf)." *Communications of the ACM* 63.5 (2020): 82-89.
+5. Holstein, Kenneth, et al. "[Improving fairness in machine learning systems: What do industry practitioners need?](https://dl.acm.org/doi/pdf/10.1145/3290605.3300830?casa_token=IRwVVzPP6gsAAAAA:W3WXxYO_9MxGulXAM842EYss-eStMH7L_x9UWrWRQNFA79fDb7EiudKjp-ujCa-6Rfz7Ogm7zOrGsnk)." *Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems*. 2019.
+6. Corbett-Davies, Sam, and Sharad Goel. "[The measure and mismeasure of fairness: A critical review of fair machine learning](https://arxiv.org/pdf/1808.00023.pdf)." *arXiv preprint arXiv:1808.00023* (2018).
+
+#### Ways to define fairness and critics and challenges with definitions
+
+**Static fairness metrics**
+
+1. Hardt, Moritz, Eric Price, and Nathan Srebro. "[Equality of opportunity in supervised learning](https://arxiv.org/pdf/1808.00023.pdf)." *arXiv preprint arXiv:1610.02413* (2016). -- The paper defines the fariness metric Equalized Odds and makes critics of the fariness metric Demographic Parity
+2. Verma, Sahil, and Julia Rubin. "[Fairness definitions explained](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8452913&casa_token=uBqt4_J3m6wAAAAA:eB9a9ySO28rjfQeogitspJ5JaL1JpNo57i6RORflKa3lz0ulRlWEw7P_jgq56TNW3y4XEiKdRe0l&tag=1)." *2018 IEEE/ACM International Workshop on Software Fairness (FairWare)*. IEEE, 2018. -- This paper explains and demonstrates different statistical fairness metrics which requires to achieve parity for a metric between groups. 
+3. Berk, Richard, et al. "[Fairness in criminal justice risk assessments: The state of the art](https://journals.sagepub.com/doi/pdf/10.1177/0049124118782533?casa_token=MoCx596UMOMAAAAA%3AXFo-EGEe9eUWPJDLF3UR-0XDtiRgcgLfjIlnoKPE3nYat50rhpsWYNNTJ7bw0zNuTro2xa4ZLfjGWqg&)." *Sociological Methods & Research* (2018): 0049124118782533. -- The paper discuss trades-offs between different fairness metrics and accuracy for criminal assessment, and shows that some metrics and accuracy is incompatible. 
+4. Kleinberg, Jon, Sendhil Mullainathan, and Manish Raghavan. "[Inherent trade-offs in the fair determination of risk scores](https://arxiv.org/pdf/1609.05807.pdf)." *arXiv preprint arXiv:1609.05807* (2016). -- They examine three definitions of fairness metrics and shows that except in special cases the metrics and incompatible and can be achieved simultaneous. 
+5. Kearns, Michael, et al. "[Preventing fairness gerrymandering: Auditing and learning for subgroup fairness](http://proceedings.mlr.press/v80/kearns18a/kearns18a.pdf)." *International Conference on Machine Learning*. PMLR, 2018. -- The paper highlight that using statistical fairness metrics for ensuring parity between groups does not give any guaranty for subgroups. They formulated function to test in smaller subgroups. 
+6. Liu, Lydia T., et al. "[Delayed impact of fair machine learning](https://arxiv.org/pdf/1803.04383.pdf)." *arXiv preprint arXiv:1803.04383* (2018). -- Demonstrates trough one step simulation that achieving fairness metric such as Demographic Parity and Equalized Odds can leave the protected group worse off one step in the "future"
+7.  D'Amour, Alexander, et al. "[Fairness is not static: deeper understanding of long term fairness via simulation studies](https://dl.acm.org/doi/pdf/10.1145/3351095.3372878?casa_token=hyV5SnA1kzsAAAAA:w-k6fkR2lmBkNfBX5BFz0AClUb-49KUe4EpHWQi8T5rqON29n_1auMLxoSoXrAriToVm3tbpw2prJwM)." *Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency*. 2020. 
+
+**Individual fairness**
+
+1. Dwork, Cynthia, et al. "[Fairness through awareness](https://dl.acm.org/doi/pdf/10.1145/2090236.2090255?casa_token=yvxsQJAHa5gAAAAA:KMnAWHsunCNSu03BdKhuzHwih11VMkRmIDcqVivJrXjJBINS2CB2n_qMPbXnx7OGo8hfIlxP9tpp3Xs)." *Proceedings of the 3rd innovations in theoretical computer science conference*. 2012. -- The paper formulates the ideas behind individual fairness (similar individuals should be treated similar) 
+
+**Reason based fairness**
+
+**Fairness trough explanations**
+
+#### Perceived algorithmic fairness
+
+#### Fairness issue in real cases or areas
+
+## Videos and presentations
+
+
+
+## Blog posts
+
+
+
+## Books
+
+
+
+
+
 <a name="guide-princip"></a>
+
 # Guidelines & principles
 
 ## Research articles
