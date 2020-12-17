@@ -478,6 +478,15 @@ This section contains papers describing explainability with respect to recommend
    "[Explanation in Recommender Systems](https://link.springer.com/article/10.1007/s10462-005-4612-x)",
     Artif. Intell. Rev. 24 179–197, 2005
 
+### XAI with and for reinforcement learning
+This section contains papers describing explainability with respect to reinforcement learning.
+1. L. She and J. Y. Chai, 
+   "[Interactive Learning of Grounded Verb Semantics towards Human-Robot Communication](https://www.aclweb.org/anthology/P17-1150/)",
+   55th ACL (P17-1150) 1634–1644, 2017
+2. Samantha Krening et al., 
+   "[Learning From Explanations Using Sentiment and Advice in RL](https://ieeexplore.ieee.org/document/7742965)",
+   TCDS (9:1) 44-55, 2017
+
 ### XAI in the medical domain
 This section contains papers in which XAI models or methods were used on medical data.
 1. S. Meyer Lauritsen et al., 
