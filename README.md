@@ -132,6 +132,9 @@ Intell Sys Acc Fin Mgmt (25) 63-72, 2018
 11. Q. Zhang and S.-C. Zhu, 
     "[Visual Interpretability for Deep Learning: a Survey](https://link.springer.com/article/10.1631/FITEE.1700808)",
     Technol. Electronic Eng. (19) 27–39, 2018
+12. B. Mittelstadt et al., 
+    "[Explaining Explanations in AI](https://dl.acm.org/doi/10.1145/3287560.3287574)",
+    FAT*'19 279–288, 2019
 
 ### Evaluation of XAI
 This section contains articles that describe ways to evaluate explanations and explainable models.
@@ -324,6 +327,9 @@ interpretable models.
    FAT*'20 45–55, 2020 - Presenting a framework for designing ML/AI solutions based on participatory design and co-design methods,
    which especially focuses on solutions that effect communities, i.e. models employed by municipalities. The framework is applied 
    to an example case in which a surveillance tool with an automatic decision system is designed.
+9. M. Eiband et al., 
+   "[Bringing Transparency Design into Practice](https://dl.acm.org/doi/10.1145/3172944.3172961)",
+   IUI'18 211–223, 2018
 
 ### XAI used in practice
 This section contains research articles where XAI was used as part of an application or used for validation on a system
