@@ -280,6 +280,24 @@ for a specific outcome of a model.
 10. P. W. Koh and P. Liang, "Understanding Black-box Predictions via Influence Functions",
    [arXiv:1703.04730](https://arxiv.org/abs/1703.04730) [stat.ML]
 
+### Counterfactual explanations
+This section contains articles that describe methods for counterfactual explanations.
+1. S. Sharma et al., 
+   "[CERTIFAI: A Common Framework to Provide Explanations and Analyse the Fairness and Robustness of Black-box Models](https://dl.acm.org/doi/10.1145/3375627.3375812)",
+   AIES'20 166–172, 2020
+2. C. Russell, "[Efficient Search for Diverse Coherent Explanations](https://dl.acm.org/doi/10.1145/3287560.3287569)",
+   FAT*'19  20–28, 2019
+3. R. K. Mothilal et al., 
+   "[Explaining Machine Learning Classifiers through Diverse Counterfactual Explanations](https://dl.acm.org/doi/abs/10.1145/3351095.3372850)",
+   FAT*'20 607–617, 2020 - Code for the method is available on [github](https://github.com/interpretml/DiCE).
+4. S. Barocas et al., 
+   "[The Hidden Assumptions Behind Counterfactual Explanations and Principal Reasons](https://dl.acm.org/doi/abs/10.1145/3351095.3372830)",
+   FAT*'20  80–89, 2020 - Raises some questions with respect to the use of counterfactual examples as a form of explanation: 
+   * Are the changes proposed by the counterfactual example feasible (actionable) for a person to change their outcome? 
+   * If the changes are performed, what do they affect otherwise, i.e. they might not be favorable in other contexts? 
+   * Changing one factor might inherently change another factor that actually negatively affects the outcome 
+     (counterfactual examples can not describe complex relationships between variables)?
+
 ### XAI and user interaction
 This section contains research articles that are looking at the interaction of users with explanations or 
 interpretable models.
