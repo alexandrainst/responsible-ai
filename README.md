@@ -1,19 +1,32 @@
-# responsible-ai-knowledge-base
+# Responsible AI Knowledge-base
 
+This repository is a knowledge-base of different areas of using and developing AI in a responsible way:heart:. Responsible AI includes both the field of explainable and interpretable machine learning, fairness and bias in machine learning, law regulations as well as the aspect of user experience and human centralized AI.  Hence, it is a cross-disciplinary field which includes both the field of computer science and social science. The aim is to achieve systems that are trustworthy, accountable and fair. Therefore, responsible AI should hopefully both interest researchers and practitioners, which includes both developers, system owners/buyers and users :family:. 
 
+This repo is a collection of links to research papers, blog post, tutorials, videos and books. The references are divide into different areas as listed in the table of contents.
 
-# About the repo
-...
-
-# Table of contents
+#### Table of contents :open_file_folder:
 
 |        | | |
 | ------------- |:-------------:| -----:|
 | [Explainable AI](#explainable-ai)      | [Fairness](#fairness) | [Guidelines & principles](#guide-princip)
 | [People & Tech](#people-tech)  | [Policy & Regulation](#pol-reg)      | [User Experience](#ux) |
 
-
 <a name="explainable-ai"></a> 
+
+  ####  Contributions  :raising_hand:
+
+We really welcome and appreciates :pray:contributions to make sure this knowledge-base stays relevant. So if you have a link or reference you think should be included then pleas create a pull request. You can also open an issue if you find it easier. 
+
+
+
+#### Who is behind :construction_worker:
+
+The Responsible AI repository is maintained by the [Alexandra Institute](https://alexandra.dk/uk) which is a Danish non-profit company with a mission to create value, growth and welfare in society. The Alexandra Institute is a member of [GTS](https://gts-net.dk/), a network of independent Danish research and technology organisations.
+
+The initial work on this repository is conducted under a performance contract allocated to the Alexandra Insitute by the [Danish Ministry of Higher Education and Science](https://ufm.dk/en?set_language=en&cl=en). The project ran in the two years in 2019 and 2020.``
+
+
+
 # Explainable AI (XAI)
 ## Frameworks and Github repos
 1. [InterpretML](https://interpret.ml/) - Open source Python framework that combines local and global explanation methods, 
