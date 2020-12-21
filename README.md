@@ -2,7 +2,7 @@
 
 This repository is a knowledge-base of different areas of using and developing AI in a responsible way:heart:. Responsible AI includes both the field of explainable and interpretable machine learning, fairness and bias in machine learning, law regulations as well as the aspect of user experience and human centralized AI.  Hence, it is a cross-disciplinary field which includes both the field of computer science and social science. The aim is to achieve systems that are trustworthy, accountable and fair. Therefore, responsible AI should hopefully both interest researchers and practitioners, which includes both developers, system owners/buyers and users :family:. 
 
-This repo is a collection of links to research papers, blog post, tutorials, videos and books. The references are divide into different areas as listed in the table of contents.
+This repo is a collection of links to **research papers, blog post, tools, tutorials, videos and books**. The references are divide into different areas as listed in the table of contents.
 
 #### Table of contents :open_file_folder:
 
