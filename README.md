@@ -602,7 +602,7 @@ More general book about explainability in machine learning, but also with a focu
 4. Saha, Debjani, et al. "[Measuring non-expert comprehension of machine learning fairness metrics](http://proceedings.mlr.press/v119/saha20c/saha20c.pdf)." *International Conference on Machine Learning*. PMLR, 2020. -- Examine lay-peoples comprehension of statistical fairness metrics and show comprehension can be measured trough a multiple-choice survey, and find that comprehension is correlated with education, and the fact that higher comprehension is correlated with a more negative perception of the metrics.  
 5. Dodge, Jonathan, et al. "[Explaining models: an empirical study of how explanations impact fairness judgment](https://dl.acm.org/doi/pdf/10.1145/3301275.3302310?casa_token=JRLzBvoey5sAAAAA:Bcnlr6-vuphUDOMOT4lkW8fXep5qrio1z49UxQhFwUppFMnbCjiGORDC8ALUr_uuttGSQvb88lrBW6s)." *Proceedings of the 24th International Conference on Intelligent User Interfaces*. 2019.
 
-#### Fairness issue in real cases or areas
+### Fairness issue in real cases or areas
 
 **Fairness in NLP**
 
@@ -613,7 +613,7 @@ More general book about explainability in machine learning, but also with a focu
 5. Zhao, Jieyu, et al. "[Learning gender-neutral word embeddings](https://arxiv.org/pdf/1809.01496.pdf)." *arXiv preprint arXiv:1809.01496* (2018).
 6. Kiritchenko, Svetlana, and Saif M. Mohammad. "[Examining gender and race bias in two hundred sentiment analysis systems](https://arxiv.org/pdf/1805.04508.pdf)." *arXiv preprint arXiv:1805.04508* (2018).
 
-**Different cases **
+**Different cases**
 
 1. Dressel, Julia, and Hany Farid. "[The accuracy, fairness, and limits of predicting recidivism](https://advances.sciencemag.org/content/advances/4/1/eaao5580.full.pdf)." *Science advances* 4.1 (2018): eaao5580.
 
