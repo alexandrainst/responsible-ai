@@ -539,7 +539,7 @@ More general book about explainability in machine learning, but also with a focu
 
 ## Research articles
 
-#### Review, survey and overview papers
+### Review, survey and overview papers
 
 1. Mitchell, Shira, et al. "[Prediction-based decisions and fairness: A catalogue of choices, assumptions, and definitions](https://arxiv.org/pdf/1811.07867.pdf)" *arXiv preprint arXiv:1811.07867* (2018).
 2. Gajane, Pratik, and Mykola Pechenizkiy. "[On formalizing fairness in prediction with machine learning](https://arxiv.org/pdf/1710.03184.pdf)." *arXiv preprint arXiv:1710.03184* (2017).
@@ -547,8 +547,9 @@ More general book about explainability in machine learning, but also with a focu
 4. Chouldechova, Alexandra, and Aaron Roth. "[A snapshot of the frontiers of fairness in machine learning](https://arxiv.org/pdf/1908.09635.pdf)." *Communications of the ACM* 63.5 (2020): 82-89.
 5. Holstein, Kenneth, et al. "[Improving fairness in machine learning systems: What do industry practitioners need?](https://dl.acm.org/doi/pdf/10.1145/3290605.3300830?casa_token=IRwVVzPP6gsAAAAA:W3WXxYO_9MxGulXAM842EYss-eStMH7L_x9UWrWRQNFA79fDb7EiudKjp-ujCa-6Rfz7Ogm7zOrGsnk)." *Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems*. 2019.
 6. Corbett-Davies, Sam, and Sharad Goel. "[The measure and mismeasure of fairness: A critical review of fair machine learning](https://arxiv.org/pdf/1808.00023.pdf)." *arXiv preprint arXiv:1808.00023* (2018).
+7. Selbst, Andrew D., et al. "[Fairness and abstraction in sociotechnical systems](https://dl.acm.org/doi/pdf/10.1145/3287560.3287598?casa_token=STFTSq_Y_vMAAAAA:67Tz0ZexSMGft-FsRbifOK0P-YnJn-lRiv_-p3tW4I3FYju2H8pdfPewgnCJivHu9ztxXszBUGf3-7M)." *Proceedings of the Conference on Fairness, Accountability, and Transparency*. 2019.
 
-#### Ways to define fairness and critics and challenges with definitions
+### Ways to define fairness, critics and challenges with definitions
 
 **Static fairness metrics**
 
@@ -560,29 +561,81 @@ More general book about explainability in machine learning, but also with a focu
 6. Liu, Lydia T., et al. "[Delayed impact of fair machine learning](https://arxiv.org/pdf/1803.04383.pdf)." *arXiv preprint arXiv:1803.04383* (2018). -- Demonstrates trough one step simulation that achieving fairness metric such as Demographic Parity and Equalized Odds can leave the protected group worse off one step in the "future"
 7.  D'Amour, Alexander, et al. "[Fairness is not static: deeper understanding of long term fairness via simulation studies](https://dl.acm.org/doi/pdf/10.1145/3351095.3372878?casa_token=hyV5SnA1kzsAAAAA:w-k6fkR2lmBkNfBX5BFz0AClUb-49KUe4EpHWQi8T5rqON29n_1auMLxoSoXrAriToVm3tbpw2prJwM)." *Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency*. 2020. 
 
-**Individual fairness**
+**Individual and preference fairness** 
 
 1. Dwork, Cynthia, et al. "[Fairness through awareness](https://dl.acm.org/doi/pdf/10.1145/2090236.2090255?casa_token=yvxsQJAHa5gAAAAA:KMnAWHsunCNSu03BdKhuzHwih11VMkRmIDcqVivJrXjJBINS2CB2n_qMPbXnx7OGo8hfIlxP9tpp3Xs)." *Proceedings of the 3rd innovations in theoretical computer science conference*. 2012. -- The paper formulates the ideas behind individual fairness (similar individuals should be treated similar) 
 
-**Reason based fairness**
+2. Kim, Michael, Omer Reingold, and Guy Rothblum. "[Fairness through computationally-bounded awareness]()." *Advances in Neural Information Processing Systems* 31 (2018): 4842-4852.
+
+3. Zafar, Muhammad Bilal, et al. "[From parity to preference-based notions of fairness in classification](https://papers.nips.cc/paper/2017/file/82161242827b703e6acf9c726942a1e4-Paper.pdf)." *Advances in Neural Information Processing Systems*. 2017. -- Defines *preference* based fairness which carries the idea that each individual should have preference for receiving the outcome from ones own group deepened classifier. This should leave room for optimizing the classifiers within each group.  
+
+4. Kim, Michael P., et al. "[Preference-informed fairness](https://arxiv.org/pdf/1904.01793.pdf)." *arXiv preprint arXiv:1904.01793* (2019). -- Combine the ideas between individual and preference fairness.  
+
+   
+
+**Causal Reasoning  based fairness**
+
+1. Kusner, Matt J., et al. "[Counterfactual fairness](https://papers.nips.cc/paper/2017/file/a486cd07e4ac3d270571622f4f316ec5-Paper.pdf)." *Advances in neural information processing systems*. 2017. -- Definition on counterfactatual fairness. The idea is that fairness is achieved if a individual will receive the same outcome both in the actual world and in the counterfactual. 
+2. Chiappa, Silvia. "[Path-specific counterfactual fairness](https://ojs.aaai.org//index.php/AAAI/article/view/4777)." *Proceedings of the AAAI Conference on Artificial Intelligence*. Vol. 33. 2019. -- Formulates a counterfactual fairness  that follows different path of sensitive attributes. Applicable to complex non-linear models. 
+3. Garg, Sahaj, et al. "[Counterfactual fairness in text classification through robustness](https://dl.acm.org/doi/abs/10.1145/3306618.3317950?casa_token=yJx29t7-lC4AAAAA:4bs5iTr2Z4piEcHIpW5m1AANTGoajFCV1SlT83BaDbpjs5RMJ1iUxIs5_EuNIj3Bv91LwF58650ZJ7A)." *Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society*. 2019.  -- Counterfactual method to look at text classification e.g. for finding toxic comments where the aim is that the reference to the sensitive attribution should not affect the classification.
 
 **Fairness trough explanations**
 
-#### Perceived algorithmic fairness
+1. Cesaro, Juliana, and Fabio Gagliardi Cozman. "[Measuring Unfairness Through Game-Theoretic Interpretability](https://arxiv.org/pdf/1910.05591.pdf)." *Joint European Conference on Machine Learning and Knowledge Discovery in Databases*. Springer, Cham, 2019. -- Present the idea that fairness can be assessed by looking a the "global" feature attribution on a test set for different protected group using e.g the SHAP framework  
+2. Hickey, James M., Pietro G. Di Stefano, and Vlasios Vasileiou. "[Fairness by Explicability and Adversarial SHAP Learning](https://arxiv.org/pdf/2003.05330.pdf)." *arXiv preprint arXiv:2003.05330* (2020).  -- Asses fairness trough explanations (SHAP) and compare to other statistic measures and propose in-process algorithm for mitigating bias. 
+
+#### Mitigating algorithm 
+
+1. Kamiran, Faisal, and Toon Calders. "[Data preprocessing techniques for classification without discrimination](https://link.springer.com/article/10.1007/s10115-011-0463-8)." *Knowledge and Information Systems* 33.1 (2012): 1-33.
+2. Zemel, Rich, et al. "[Learning fair representations](http://proceedings.mlr.press/v28/zemel13.pdf)." *International Conference on Machine Learning*. 2013.
+3. Calmon, Flavio, et al. "[Optimized pre-processing for discrimination prevention](https://papers.nips.cc/paper/2017/file/9a49a25d845a483fae4be7e341368e36-Paper.pdf)." *Advances in Neural Information Processing Systems* 30 (2017): 3992-4001.
+4. Feldman, Michael, et al. "[Certifying and removing disparate impact](https://dl.acm.org/doi/pdf/10.1145/2783258.2783311?casa_token=mSeGWlsvE1wAAAAA:U_v45paImwWGerBh_JQO_6eEM30-DDRUblBW83iuTX14dCoAZ7GC8URbcYewA1D5YEzVjUn9D2EHJl8)." *proceedings of the 21th ACM SIGKDD international conference on knowledge discovery and data mining*. 2015.
+5. Zhang, Brian Hu, Blake Lemoine, and Margaret Mitchell. "[Mitigating unwanted biases with adversarial learning](https://dl.acm.org/doi/pdf/10.1145/3278721.3278779?casa_token=6P7Ba2BKRQsAAAAA:4VXAig2OO5-GtQU4fiYs06HnYyLftC_QLga9-cd5dknu703521R7JZjzylSLHWdsSv799wN-qgSBrG0)." *Proceedings of the 2018 AAAI/ACM Conference on AI, Ethics, and Society*. 2018.
+6. Kamishima, Toshihiro, et al. "[Fairness-aware classifier with prejudice remover regularizer](https://link.springer.com/chapter/10.1007/978-3-642-33486-3_3)." *Joint European Conference on Machine Learning and Knowledge Discovery in Databases*. Springer, Berlin, Heidelberg, 2012.
+7. Pleiss, Geoff, et al. "[On fairness and calibration](https://papers.nips.cc/paper/2017/file/b8b9c74ac526fffbeb2d39ab038d1cd7-Paper.pdf)." *Advances in Neural Information Processing Systems*. 2017.
+
+### Perceived algorithmic fairness
+
+1. Grgic-Hlaca, Nina, et al. "[Beyond Distributive Fairness in Algorithmic Decision Making: Feature Selection for Procedurally Fair Learning](https://people.mpi-sws.org/~nghlaca/papers/fair_feature_selection.pdf)." *AAAI*. Vol. 18. 2018. -- Propose to shift the focus for outcome fairness to procedurally fairness where there instead should be a focus of how the outcome is concluded instead of what it actually is. The paper makes a survey to examine peoples perception of using different input features in different settings. 
+2. Srivastava, Megha, Hoda Heidari, and Andreas Krause. "[Mathematical notions vs. human perception of fairness: A descriptive approach to fairness for machine learning](https://dl.acm.org/doi/pdf/10.1145/3292500.3330664?casa_token=ZimWr0aISCYAAAAA:VREKO6HnQz9ikz3thWkby1ZuS26qCCzzCPF-rWCrncUGNahAWimeUyiguF_XZX4zkWLUpya_23p0hTs)." *Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining*. 2019. -- Attempt to measure peoples perception of different statistical fairness metrics trough an Amazon Turk survey. 
+3.  Harrison, Galen, et al. "[An empirical study on the perceived fairness of realistic, imperfect machine learning models](https://dl.acm.org/doi/pdf/10.1145/3351095.3372831?casa_token=o-9Ab5o5C4cAAAAA:0aK2JEpnySjLfkYp7uv0ErQmdSD6saQknXDxK381H0vsVRKPBDFGqQuunDWNI6fkSQa1iUOkK-vT_II)." *Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency*. 2020. -- Examine peoples perception of trade-offs between models which satisfies different statistical fairness measure or accuracy trough an Amazon Turk Survey
+4. Saha, Debjani, et al. "[Measuring non-expert comprehension of machine learning fairness metrics](http://proceedings.mlr.press/v119/saha20c/saha20c.pdf)." *International Conference on Machine Learning*. PMLR, 2020. -- Examine lay-peoples comprehension of statistical fairness metrics and show comprehension can be measured trough a multiple-choice survey, and find that comprehension is correlated with education, and the fact that higher comprehension is correlated with a more negative perception of the metrics.  
+5. Dodge, Jonathan, et al. "[Explaining models: an empirical study of how explanations impact fairness judgment](https://dl.acm.org/doi/pdf/10.1145/3301275.3302310?casa_token=JRLzBvoey5sAAAAA:Bcnlr6-vuphUDOMOT4lkW8fXep5qrio1z49UxQhFwUppFMnbCjiGORDC8ALUr_uuttGSQvb88lrBW6s)." *Proceedings of the 24th International Conference on Intelligent User Interfaces*. 2019.
 
 #### Fairness issue in real cases or areas
 
-## Videos and presentations
+**Fairness in NLP**
 
+1. Bolukbasi, Tolga, et al. "[Man is to computer programmer as woman is to homemaker? debiasing word embeddings](https://papers.nips.cc/paper/2016/file/a486cd07e4ac3d270571622f4f316ec5-Paper.pdf)." *Advances in neural information processing systems* 29 (2016): 4349-4357. -- The paper examine gender stereotypes in occupations in word embeddings which they identify  though a survey conducted on peoples perception on gender stereotype. The paper propose a technic to mitigate such identified bias in word embeddings. 
+2. Gonen, Hila, and Yoav Goldberg. "[Lipstick on a pig: Debiasing methods cover up systematic gender biases in word embeddings but do not remove them](https://papers.nips.cc/paper/2016/file/a486cd07e4ac3d270571622f4f316ec5-Paper.pdf)." *arXiv preprint arXiv:1903.03862* (2019). -- This paper makes a critic on the paper mentioned above's method on mitigating bias in wordembedding.
+3. Nissim, Malvina, Rik van Noord, and Rob van der Goot. "[Fair is better than sensational: Man is to doctor as woman is to doctor](https://www.mitpressjournals.org/doi/full/10.1162/coli_a_00379)." (2020): 1-11. -- This paper  makes a critic of using word analogies for concluding bias in word embeddings. 
+4.  Basta, Christine, Marta R. Costa-Jussà, and Noe Casas. "[Evaluating the underlying gender bias in contextualized word embeddings](https://arxiv.org/pdf/1904.08783.pdf)." *arXiv preprint arXiv:1904.08783* (2019).
+5. Zhao, Jieyu, et al. "[Learning gender-neutral word embeddings](https://arxiv.org/pdf/1809.01496.pdf)." *arXiv preprint arXiv:1809.01496* (2018).
+6. Kiritchenko, Svetlana, and Saif M. Mohammad. "[Examining gender and race bias in two hundred sentiment analysis systems](https://arxiv.org/pdf/1805.04508.pdf)." *arXiv preprint arXiv:1805.04508* (2018).
 
+**Different cases **
+
+1. Dressel, Julia, and Hany Farid. "[The accuracy, fairness, and limits of predicting recidivism](https://advances.sciencemag.org/content/advances/4/1/eaao5580.full.pdf)." *Science advances* 4.1 (2018): eaao5580.
+
+2. Mukerjee, Amitabha, et al. "[Multi–objective evolutionary algorithms for the risk–return trade–off in bank loan management](https://onlinelibrary.wiley.com/doi/pdf/10.1111/1475-3995.00375?casa_token=LFzwEBUQeVIAAAAA:YKLJSUqrUyshyDCU-VsvT9vvruhyMrbH3EzJtoeP7M92Bdn62jyX1aMLmB7zcfQFlPh4pC1Krz73P7-lFQ)." *International Transactions in operational research* 9.5 (2002): 583-597.
+3. Raji, Inioluwa Deborah, and Joy Buolamwini. "[Actionable auditing: Investigating the impact of publicly naming biased performance results of commercial ai products](https://dl.acm.org/doi/pdf/10.1145/3306618.3314244?casa_token=lkiw-D-BXjYAAAAA:sZ6e1I-z9zW-1Qy7KJC5uWDjPk_ZMEtWV65vmA_eOm9skQ39a450_4CECBDpEGTietWbmtuEDGZLDNE)." *Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society*. 2019.
 
 ## Blog posts
 
-
+1. [A Tutorial on Fairness in Machine Learning](https://towardsdatascience.com/a-tutorial-on-fairness-in-machine-learning-3ff8ba1040cb), Ziyuan Zhong, 2018, Medium, Towards Data Science
+2. [Explaining Measures of Fairness](https://towardsdatascience.com/explaining-measures-of-fairness-f0e419d4e0d7), Scott Lundberg, 2020, Medium, Towards Data Science
+3. [Fairness Metrics Won’t Save You from Stereotyping](https://towardsdatascience.com/fairness-metrics-wont-save-you-from-stereotyping-27127e220cac)Valerie Carey, 2020, Medium, Towards Data Science
+4. [Racial Bias in BERT](https://towardsdatascience.com/racial-bias-in-bert-c1c77da6b25a), Gergely D. Németh, 2020, Medium, Towards Data Science
 
 ## Books
 
-
+1. Weapons of math destruction: How big data increases inequality and threatens democracy
+   O'Neil, C., 2016. Broadway Books.
+2. Invisible Women - Exposing Data Bias in a World Designed for Men,
+   Caroline Criado Perez, 2020, Vintage Publishing
+3. Data Feminism, Lauren F. Klein & Catherine D'Ignazio, 2020, Mit Press Ltd
+4. Fairness and machine learning - Limitations and Opportunities, Solon Barocas, Moritz Hardt, Arvind Narayanan, in process, https://fairmlbook.org/
+5. Practical Fairness, Aileen Nielsen, 2020, O'Reilly Media
 
 
 
