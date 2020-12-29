@@ -561,6 +561,8 @@ More general book about explainability in machine learning, but also with a focu
 5. [A Tutorial on Fairness in Machine Learning](https://towardsdatascience.com/a-tutorial-on-fairness-in-machine-learning-3ff8ba1040cb), Ziyuan Zhong, 2018, Medium, Towards Data Science
 6. [Racial Bias in BERT](https://towardsdatascience.com/racial-bias-in-bert-c1c77da6b25a), Gergely D. Németh, 2020, Medium, Towards Data Science
 
+## Videos and presentations
+1. [The Trouble with Bias](https://www.youtube.com/watch?v=fMym_BKWQzk), Kate Crawford, NIPS 2017 Keynote 
 
 ## Courses
 1. [Google's Fairness course](https://developers.google.com/machine-learning/crash-course/fairness/video-lecture)
