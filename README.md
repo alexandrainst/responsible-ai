@@ -562,7 +562,7 @@ More general book about explainability in machine learning, but also with a focu
 6. [Racial Bias in BERT](https://towardsdatascience.com/racial-bias-in-bert-c1c77da6b25a), Gergely D. Németh, 2020, Medium, Towards Data Science
 
 ## Videos and presentations
-1. [The Trouble with Bias](https://www.youtube.com/watch?v=fMym_BKWQzk), Kate Crawford, NIPS 2017 Keynote 
+1. [The Trouble with Bias](https://www.youtube.com/watch?v=fMym_BKWQzk), Kate Crawford, NIPS 2017 Keynote
 
 ## Courses
 1. [Google's Fairness course](https://developers.google.com/machine-learning/crash-course/fairness/video-lecture)
@@ -584,7 +584,7 @@ More general book about explainability in machine learning, but also with a focu
 
 **Static fairness metrics**
 
-1. Hardt, Moritz, Eric Price, and Nathan Srebro. "[Equality of opportunity in supervised learning](https://arxiv.org/pdf/1808.00023.pdf)." *arXiv preprint arXiv:1610.02413* (2016). -- The paper defines the fariness metric Equalized Odds and makes critics of the fariness metric Demographic Parity
+1. Hardt, Moritz, Eric Price, and Nathan Srebro. "[Equality of opportunity in supervised learning](https://arxiv.org/pdf/1808.00023.pdf)." *arXiv preprint arXiv:1610.02413* (2016). - The paper defines the fairness metric Equalized Odds and criticizes Demographic Parity. The authors provided also an interactive [loan application example](http://research.google.com/bigpicture/attacking-discrimination-in-ml/).
 2. Verma, Sahil, and Julia Rubin. "[Fairness definitions explained](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8452913&casa_token=uBqt4_J3m6wAAAAA:eB9a9ySO28rjfQeogitspJ5JaL1JpNo57i6RORflKa3lz0ulRlWEw7P_jgq56TNW3y4XEiKdRe0l&tag=1)." *2018 IEEE/ACM International Workshop on Software Fairness (FairWare)*. IEEE, 2018. -- This paper explains and demonstrates different statistical fairness metrics which requires to achieve parity for a metric between groups.
 3. Berk, Richard, et al. "[Fairness in criminal justice risk assessments: The state of the art](https://journals.sagepub.com/doi/pdf/10.1177/0049124118782533?casa_token=MoCx596UMOMAAAAA%3AXFo-EGEe9eUWPJDLF3UR-0XDtiRgcgLfjIlnoKPE3nYat50rhpsWYNNTJ7bw0zNuTro2xa4ZLfjGWqg&)." *Sociological Methods & Research* (2018): 0049124118782533. -- The paper discuss trades-offs between different fairness metrics and accuracy for criminal assessment, and shows that some metrics and accuracy is incompatible.
 4. Kleinberg, Jon, Sendhil Mullainathan, and Manish Raghavan. "[Inherent trade-offs in the fair determination of risk scores](https://arxiv.org/pdf/1609.05807.pdf)." *arXiv preprint arXiv:1609.05807* (2016). -- They examine three definitions of fairness metrics and shows that except in special cases the metrics and incompatible and can be achieved simultaneous.
@@ -606,7 +606,7 @@ More general book about explainability in machine learning, but also with a focu
 
 **Causal Reasoning  based fairness**
 
-1. Kusner, Matt J., et al. "[Counterfactual fairness](https://papers.nips.cc/paper/2017/file/a486cd07e4ac3d270571622f4f316ec5-Paper.pdf)." *Advances in neural information processing systems*. 2017. -- Definition on counterfactatual fairness. The idea is that fairness is achieved if a individual will receive the same outcome both in the actual world and in the counterfactual.
+1. Kusner, Matt J., et al. "[Counterfactual fairness](https://papers.nips.cc/paper/2017/file/a486cd07e4ac3d270571622f4f316ec5-Paper.pdf)." *Advances in neural information processing systems*. 2017. - Definition of counterfactual fairness. The idea is that fairness is achieved if an individual will receive the same outcome both in the actual world and in the counterfactual. The code to the paper can be found on [github](https://github.com/fiorenza2/CFFair_Emulate).
 2. Chiappa, Silvia. "[Path-specific counterfactual fairness](https://ojs.aaai.org//index.php/AAAI/article/view/4777)." *Proceedings of the AAAI Conference on Artificial Intelligence*. Vol. 33. 2019. -- Formulates a counterfactual fairness  that follows different path of sensitive attributes. Applicable to complex non-linear models.
 3. Garg, Sahaj, et al. "[Counterfactual fairness in text classification through robustness](https://dl.acm.org/doi/abs/10.1145/3306618.3317950?casa_token=yJx29t7-lC4AAAAA:4bs5iTr2Z4piEcHIpW5m1AANTGoajFCV1SlT83BaDbpjs5RMJ1iUxIs5_EuNIj3Bv91LwF58650ZJ7A)." *Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society*. 2019.  -- Counterfactual method to look at text classification e.g. for finding toxic comments where the aim is that the reference to the sensitive attribution should not affect the classification.
 
