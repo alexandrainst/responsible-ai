@@ -555,10 +555,12 @@ More general book about explainability in machine learning, but also with a focu
 ## Reading material
 1. [What is bias?](https://towardsdatascience.com/what-is-ai-bias-6606a3bcb814) - Towards data science
    blogpost about bias.
-2. [Explaining Measures of Fairness](https://towardsdatascience.com/explaining-measures-of-fairness-f0e419d4e0d7) - Towards data science blogpost describing how to use XAI methods to explain features'
-   contributions to fairness metrics.
+2. [Explaining Measures of Fairness](https://towardsdatascience.com/explaining-measures-of-fairness-f0e419d4e0d7), Scott Lundberg, 2020, Medium, Towards Data Science - Blogpost describing how to use XAI methods to explain features' contributions to fairness metrics.
 3. [Algorithmic Solutions to Algorithmic Bias: A Technical Guide](https://towardsdatascience.com/algorithmic-solutions-to-algorithmic-bias-aef59eaf6565) - Towards data science blogpost describing different methods and techniques to avoid or correct for bias.
-4. [Fairness Metrics Won’t Save You from Stereotyping](https://towardsdatascience.com/fairness-metrics-wont-save-you-from-stereotyping-27127e220cac) - Towards data science blogpost pointing out that different models with different "bias" can have the same performance on fairness metrics.
+4. [Fairness Metrics Won’t Save You from Stereotyping](https://towardsdatascience.com/fairness-metrics-wont-save-you-from-stereotyping-27127e220cac), Valerie Carey, 2020, Medium, Towards Data Science - Blogpost pointing out that different models with different "bias" can have the same performance on fairness metrics.
+5. [A Tutorial on Fairness in Machine Learning](https://towardsdatascience.com/a-tutorial-on-fairness-in-machine-learning-3ff8ba1040cb), Ziyuan Zhong, 2018, Medium, Towards Data Science
+6. [Racial Bias in BERT](https://towardsdatascience.com/racial-bias-in-bert-c1c77da6b25a), Gergely D. Németh, 2020, Medium, Towards Data Science
+
 
 ## Courses
 1. [Google's Fairness course](https://developers.google.com/machine-learning/crash-course/fairness/video-lecture)
@@ -646,13 +648,6 @@ More general book about explainability in machine learning, but also with a focu
 
 2. Mukerjee, Amitabha, et al. "[Multi–objective evolutionary algorithms for the risk–return trade–off in bank loan management](https://onlinelibrary.wiley.com/doi/pdf/10.1111/1475-3995.00375?casa_token=LFzwEBUQeVIAAAAA:YKLJSUqrUyshyDCU-VsvT9vvruhyMrbH3EzJtoeP7M92Bdn62jyX1aMLmB7zcfQFlPh4pC1Krz73P7-lFQ)." *International Transactions in operational research* 9.5 (2002): 583-597.
 3. Raji, Inioluwa Deborah, and Joy Buolamwini. "[Actionable auditing: Investigating the impact of publicly naming biased performance results of commercial ai products](https://dl.acm.org/doi/pdf/10.1145/3306618.3314244?casa_token=lkiw-D-BXjYAAAAA:sZ6e1I-z9zW-1Qy7KJC5uWDjPk_ZMEtWV65vmA_eOm9skQ39a450_4CECBDpEGTietWbmtuEDGZLDNE)." *Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society*. 2019.
-
-## Blog posts
-
-1. [A Tutorial on Fairness in Machine Learning](https://towardsdatascience.com/a-tutorial-on-fairness-in-machine-learning-3ff8ba1040cb), Ziyuan Zhong, 2018, Medium, Towards Data Science
-2. [Explaining Measures of Fairness](https://towardsdatascience.com/explaining-measures-of-fairness-f0e419d4e0d7), Scott Lundberg, 2020, Medium, Towards Data Science
-3. [Fairness Metrics Won’t Save You from Stereotyping](https://towardsdatascience.com/fairness-metrics-wont-save-you-from-stereotyping-27127e220cac)Valerie Carey, 2020, Medium, Towards Data Science
-4. [Racial Bias in BERT](https://towardsdatascience.com/racial-bias-in-bert-c1c77da6b25a), Gergely D. Németh, 2020, Medium, Towards Data Science
 
 ## Books
 
