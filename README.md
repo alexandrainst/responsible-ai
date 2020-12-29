@@ -560,6 +560,10 @@ More general book about explainability in machine learning, but also with a focu
 3. [Algorithmic Solutions to Algorithmic Bias: A Technical Guide](https://towardsdatascience.com/algorithmic-solutions-to-algorithmic-bias-aef59eaf6565) - Towards data science blogpost describing different methods and techniques to avoid or correct for bias.
 4. [Fairness Metrics Won’t Save You from Stereotyping](https://towardsdatascience.com/fairness-metrics-wont-save-you-from-stereotyping-27127e220cac) - Towards data science blogpost pointing out that different models with different "bias" can have the same performance on fairness metrics.
 
+## Courses
+1. [Google's Fairness course](https://developers.google.com/machine-learning/crash-course/fairness/video-lecture)
+2. [A Course on Fairness, Accountability and Transparency in Machine Learning](https://geomblog.github.io/fairness/)
+
 ## Research articles
 
 ### Review, survey and overview papers
