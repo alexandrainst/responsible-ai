@@ -546,9 +546,11 @@ More general book about explainability in machine learning, but also with a focu
 ## Frameworks and Github repos
 
 1.  [AI Fairness 360](https://aif360.mybluemix.net/) Toolkit from IBM both in Python and R to examine, report and mitigate bias and discriminations in data and machine learning models.
-2. [What-if-tool](https://pair-code.github.io/what-if-tool/ai-fairness.html) from Google's PAIR (People and AI Research)  allowed to play around with differnet fairness metrics.
+2. [What-if-tool](https://pair-code.github.io/what-if-tool/ai-fairness.html) from Google's PAIR (People and AI Research)  allowed to play around with different fairness metrics.
 3. [FAT Forensics](https://github.com/fat-forensics/fat-forensics) is a python toolbox for evaluating fairness, accountability and transparency of predictive systems.
 4. [Fairlearn](https://github.com/fairlearn/fairlearn) is a python package for accessing and mitigating bias in machine leaning system. The repo both contain implemented algorithm and Jupyter Notebook with examples of use.
+5. [LiFT](https://github.com/linkedin/LiFT) - The LinkedIn Fairness Toolkit (LiFT)
+6. [Aequitas](http://aequitas.dssg.io/) - Bias and Fairness Audit Toolkit
 
 ## Reading material
 1. [What is bias?](https://towardsdatascience.com/what-is-ai-bias-6606a3bcb814) - Towards data science
