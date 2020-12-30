@@ -583,17 +583,22 @@ More general book about explainability in machine learning, but also with a focu
 "[Fair, transparent and accountable algorithmic decision-making processes](https://link.springer.com/article/10.1007/s13347-017-0279-x)", Philos. Technol. (31) 611–627, 2018
 9. A. L. Hoffmann, "[Where fairness fails: data, algorithms, and the limits of antidiscrimination discourse](https://doi.org/10.1080/1369118X.2019.1573912)", Communication & Society (22:7) 900-915, 2019
 
-### Ways to define fairness, critics and challenges with definitions
+### Definitions of fairness
+This section includes critics and challenges with existing definitions.
 
 **Static fairness metrics**
 
-1. Hardt, Moritz, Eric Price, and Nathan Srebro. "[Equality of opportunity in supervised learning](https://arxiv.org/pdf/1808.00023.pdf)." *arXiv preprint arXiv:1610.02413* (2016). - The paper defines the fairness metric Equalized Odds and criticizes Demographic Parity. The authors provided also an interactive [loan application example](http://research.google.com/bigpicture/attacking-discrimination-in-ml/).
-2. Verma, Sahil, and Julia Rubin. "[Fairness definitions explained](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8452913&casa_token=uBqt4_J3m6wAAAAA:eB9a9ySO28rjfQeogitspJ5JaL1JpNo57i6RORflKa3lz0ulRlWEw7P_jgq56TNW3y4XEiKdRe0l&tag=1)." *2018 IEEE/ACM International Workshop on Software Fairness (FairWare)*. IEEE, 2018. -- This paper explains and demonstrates different statistical fairness metrics which requires to achieve parity for a metric between groups.
-3. Berk, Richard, et al. "[Fairness in criminal justice risk assessments: The state of the art](https://journals.sagepub.com/doi/pdf/10.1177/0049124118782533?casa_token=MoCx596UMOMAAAAA%3AXFo-EGEe9eUWPJDLF3UR-0XDtiRgcgLfjIlnoKPE3nYat50rhpsWYNNTJ7bw0zNuTro2xa4ZLfjGWqg&)." *Sociological Methods & Research* (2018): 0049124118782533. -- The paper discuss trades-offs between different fairness metrics and accuracy for criminal assessment, and shows that some metrics and accuracy is incompatible.
-4. Kleinberg, Jon, Sendhil Mullainathan, and Manish Raghavan. "[Inherent trade-offs in the fair determination of risk scores](https://arxiv.org/pdf/1609.05807.pdf)." *arXiv preprint arXiv:1609.05807* (2016). -- They examine three definitions of fairness metrics and shows that except in special cases the metrics and incompatible and can be achieved simultaneous.
-5. Kearns, Michael, et al. "[Preventing fairness gerrymandering: Auditing and learning for subgroup fairness](http://proceedings.mlr.press/v80/kearns18a/kearns18a.pdf)." *International Conference on Machine Learning*. PMLR, 2018. -- The paper highlight that using statistical fairness metrics for ensuring parity between groups does not give any guaranty for subgroups. They formulated function to test in smaller subgroups.
-6. Liu, Lydia T., et al. "[Delayed impact of fair machine learning](https://arxiv.org/pdf/1803.04383.pdf)." *arXiv preprint arXiv:1803.04383* (2018). -- Demonstrates trough one step simulation that achieving fairness metric such as Demographic Parity and Equalized Odds can leave the protected group worse off one step in the "future"
-7.  D'Amour, Alexander, et al. "[Fairness is not static: deeper understanding of long term fairness via simulation studies](https://dl.acm.org/doi/pdf/10.1145/3351095.3372878?casa_token=hyV5SnA1kzsAAAAA:w-k6fkR2lmBkNfBX5BFz0AClUb-49KUe4EpHWQi8T5rqON29n_1auMLxoSoXrAriToVm3tbpw2prJwM)." *Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency*. 2020.
+1. Hardt, Moritz, Eric Price, and Nathan Srebro. "Equality of opportunity in supervised learning", [arXiv:1610.02413](https://arxiv.org/abs/1610.02413) [cs.LG] - The paper defines the fairness metric Equalized Odds and criticizes Demographic Parity. The authors provided also an interactive [loan application example](http://research.google.com/bigpicture/attacking-discrimination-in-ml/).
+2. S. Verma and J. Rubin, "[Fairness definitions explained](https://ieeexplore.ieee.org/document/8452913)" IEEE/ACM FairWare 1-7, 2018 - This paper explains and demonstrates different statistical fairness metrics which requires to achieve parity for a metric between groups.
+3. R. Berk et al., "[Fairness in criminal justice risk assessments: The state of the art](https://journals.sagepub.com/doi/pdf/10.1177/0049124118782533)", Sociological Methods & Research, 2018 - The paper discuss trades-offs between different fairness metrics and accuracy for criminal assessment, and shows that some metrics and accuracy is incompatible.
+4. J. Kleinberg et al., "Inherent trade-offs in the fair determination of risk scores", [arXiv:1609.05807](https://arxiv.org/abs/1609.05807) [cs.LG] - The authors examine three definitions of fairness metrics and show that, except in special cases, the metrics are incompatible and can not be achieved simultaneous.
+5. M. Kearns et al., "[Preventing fairness gerrymandering: Auditing and learning for subgroup fairness](http://proceedings.mlr.press/v80/kearns18a.html)." ICML (80) 2564-2572, 2018 - The paper highlights that using statistical fairness metrics for ensuring parity between groups does not give any guarantee for subgroups.
+6. A. Chouldechova, "Fair prediction with disparate impact: A study of bias in recidivism prediction instruments", [arXiv:1703.00056](https://arxiv.org/abs/1703.00056) [stat.AP]
+
+**Dynamic fairness definitions**
+
+1. L. T. Liu et al., "Delayed impact of fair machine learning", [arXiv:1803.04383](https://arxiv.org/abs/1803.04383) [cs.LG] - Demonstrates trough one step simulation that achieving a fairness metric such as Demographic Parity and Equalized Odds can leave the protected group worse off one step in the "future".
+2.  A. D'Amour et al., "[Fairness is not static: deeper understanding of long term fairness via simulation studies](https://dl.acm.org/doi/10.1145/3351095.3372878)." FAT*'20' 525–534, 2020.
 
 **Individual and preference fairness**
 
