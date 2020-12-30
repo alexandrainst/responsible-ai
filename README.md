@@ -602,15 +602,14 @@ This section includes critics and challenges with existing definitions.
 
 **Individual and preference fairness**
 
-1. Dwork, Cynthia, et al. "[Fairness through awareness](https://dl.acm.org/doi/pdf/10.1145/2090236.2090255?casa_token=yvxsQJAHa5gAAAAA:KMnAWHsunCNSu03BdKhuzHwih11VMkRmIDcqVivJrXjJBINS2CB2n_qMPbXnx7OGo8hfIlxP9tpp3Xs)." *Proceedings of the 3rd innovations in theoretical computer science conference*. 2012. -- The paper formulates the ideas behind individual fairness (similar individuals should be treated similar)
-
-2. Kim, Michael, Omer Reingold, and Guy Rothblum. "[Fairness through computationally-bounded awareness]()." *Advances in Neural Information Processing Systems* 31 (2018): 4842-4852.
-
-3. Zafar, Muhammad Bilal, et al. "[From parity to preference-based notions of fairness in classification](https://papers.nips.cc/paper/2017/file/82161242827b703e6acf9c726942a1e4-Paper.pdf)." *Advances in Neural Information Processing Systems*. 2017. -- Defines *preference* based fairness which carries the idea that each individual should have preference for receiving the outcome from ones own group deepened classifier. This should leave room for optimizing the classifiers within each group.  
-
-4. Kim, Michael P., et al. "[Preference-informed fairness](https://arxiv.org/pdf/1904.01793.pdf)." *arXiv preprint arXiv:1904.01793* (2019). -- Combine the ideas between individual and preference fairness.  
-
-
+1. C. Dwork et al., "[Fairness through awareness](https://dl.acm.org/doi/10.1145/2090236.2090255)", ITCS'12 214–226,  2012. - The paper formulates the ideas behind individual fairness (similar individuals should be treated similar).
+2. M. Kim et al., "[Fairness through computationally-bounded awareness](https://papers.nips.cc/paper/2018/hash/c8dfece5cc68249206e4690fc4737a8d-Abstract.html)." 31st NIPS 4842-4852, 2018
+3. M. B. Zafar et al., "[From parity to preference-based notions of fairness in classification](https://papers.nips.cc/paper/2017/hash/82161242827b703e6acf9c726942a1e4-Abstract.html)" 30th NIPS, 2017 - Defines *preference* based fairness which carries the idea that each individual should have a preference for receiving the outcome from its own group deepened classifier. This should leave room for optimizing the classifiers within each group.  
+4. M. P. Kim et al., "Preference-informed fairness", [arXiv:1904.01793](https://arxiv.org/abs/1904.01793) [cs.LG]  - Combines the ideas between individual and preference fairness.
+5. T. Speicher et al., "[A Unified Approach to Quantifying Algorithmic Unfairness: Measuring Individual & Group Unfairness via Inequality Indices](https://dl.acm.org/doi/10.1145/3219819.3220046)", KDD'18 2239–2248, 2018
+6. A. Agarwal et al., "Automated Test Generation to Detect Individual Discrimination in AI Models", [arXiv:1809.03260](https://arxiv.org/abs/1809.03260) [cs.AI]
+7. E. Black et al., "[FlipTest: Fairness Testing via Optimal Transport](https://dl.acm.org/doi/abs/10.1145/3351095.3372845)", FAT*'20 111–121, 2020
+8. R. Binns, "[On the Apparent Conflict Between Individual and Group Fairness](https://dl.acm.org/doi/abs/10.1145/3351095.3372864)", FAT*'20 514–524, 2020 - Discussing the difference between individual and group fairness and why there does not have to be a trade-off.
 
 **Causal Reasoning  based fairness**
 
