@@ -572,13 +572,16 @@ More general book about explainability in machine learning, but also with a focu
 
 ### Review, survey and overview papers
 
-1. Mitchell, Shira, et al. "[Prediction-based decisions and fairness: A catalogue of choices, assumptions, and definitions](https://arxiv.org/pdf/1811.07867.pdf)" *arXiv preprint arXiv:1811.07867* (2018).
-2. Gajane, Pratik, and Mykola Pechenizkiy. "[On formalizing fairness in prediction with machine learning](https://arxiv.org/pdf/1710.03184.pdf)." *arXiv preprint arXiv:1710.03184* (2017).
-3. Mehrabi, Ninareh, et al. "[A survey on bias and fairness in machine learning](https://arxiv.org/pdf/1908.09635.pdf)." *arXiv preprint arXiv:1908.09635* (2019).
-4. Chouldechova, Alexandra, and Aaron Roth. "[A snapshot of the frontiers of fairness in machine learning](https://arxiv.org/pdf/1908.09635.pdf)." *Communications of the ACM* 63.5 (2020): 82-89.
-5. Holstein, Kenneth, et al. "[Improving fairness in machine learning systems: What do industry practitioners need?](https://dl.acm.org/doi/pdf/10.1145/3290605.3300830?casa_token=IRwVVzPP6gsAAAAA:W3WXxYO_9MxGulXAM842EYss-eStMH7L_x9UWrWRQNFA79fDb7EiudKjp-ujCa-6Rfz7Ogm7zOrGsnk)." *Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems*. 2019.
-6. Corbett-Davies, Sam, and Sharad Goel. "[The measure and mismeasure of fairness: A critical review of fair machine learning](https://arxiv.org/pdf/1808.00023.pdf)." *arXiv preprint arXiv:1808.00023* (2018).
-7. Selbst, Andrew D., et al. "[Fairness and abstraction in sociotechnical systems](https://dl.acm.org/doi/pdf/10.1145/3287560.3287598?casa_token=STFTSq_Y_vMAAAAA:67Tz0ZexSMGft-FsRbifOK0P-YnJn-lRiv_-p3tW4I3FYju2H8pdfPewgnCJivHu9ztxXszBUGf3-7M)." *Proceedings of the Conference on Fairness, Accountability, and Transparency*. 2019.
+1. S. Mitchell et al., "Prediction-based decisions and fairness: A catalogue of choices, assumptions, and definitions", [arXiv:1811.07867](https://arxiv.org/abs/1811.07867) [stat.AP]
+2. P. Gajane and Mykola Pechenizkiy, "On formalizing fairness in prediction with machine learning", [arXiv:1710.03184](https://arxiv.org/abs/1710.03184) [cs.LG]
+3. N. Mehrabi et al., "A survey on bias and fairness in machine learning", [arXiv:1908.09635](https://arxiv.org/abs/1908.09635) [cs.LG]
+4. A. Chouldechova and A. Roth, "[A snapshot of the frontiers of fairness in machine learning](https://dl.acm.org/doi/10.1145/3376898)." Communications of the ACM, 2020
+5. K. Holstein et al, "[Improving fairness in machine learning systems: What do industry practitioners need?](https://dl.acm.org/doi/pdf/10.1145/3290605.3300830)." CHI'19 (600) 1–16, 2019
+6. S. Corbett-Davies and S. Goel, "The measure and mismeasure of fairness: A critical review of fair machine learning", [arXiv:1808.00023](https://arxiv.org/abs/1808.00023) [cs.CY]
+7. A. D. Selbst et al., "[Fairness and abstraction in sociotechnical systems](https://dl.acm.org/doi/10.1145/3287560.3287598)", FAT*'19 59-68, 2019.
+8. B. Lepri et al.,
+"[Fair, transparent and accountable algorithmic decision-making processes](https://link.springer.com/article/10.1007/s13347-017-0279-x)", Philos. Technol. (31) 611–627, 2018
+9. A. L. Hoffmann, "[Where fairness fails: data, algorithms, and the limits of antidiscrimination discourse](https://doi.org/10.1080/1369118X.2019.1573912)", Communication & Society (22:7) 900-915, 2019
 
 ### Ways to define fairness, critics and challenges with definitions
 
