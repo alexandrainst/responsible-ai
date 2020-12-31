@@ -613,9 +613,12 @@ This section includes critics and challenges with existing definitions.
 
 **Causal Reasoning  based fairness**
 
-1. Kusner, Matt J., et al. "[Counterfactual fairness](https://papers.nips.cc/paper/2017/file/a486cd07e4ac3d270571622f4f316ec5-Paper.pdf)." *Advances in neural information processing systems*. 2017. - Definition of counterfactual fairness. The idea is that fairness is achieved if an individual will receive the same outcome both in the actual world and in the counterfactual. The code to the paper can be found on [github](https://github.com/fiorenza2/CFFair_Emulate).
-2. Chiappa, Silvia. "[Path-specific counterfactual fairness](https://ojs.aaai.org//index.php/AAAI/article/view/4777)." *Proceedings of the AAAI Conference on Artificial Intelligence*. Vol. 33. 2019. -- Formulates a counterfactual fairness  that follows different path of sensitive attributes. Applicable to complex non-linear models.
-3. Garg, Sahaj, et al. "[Counterfactual fairness in text classification through robustness](https://dl.acm.org/doi/abs/10.1145/3306618.3317950?casa_token=yJx29t7-lC4AAAAA:4bs5iTr2Z4piEcHIpW5m1AANTGoajFCV1SlT83BaDbpjs5RMJ1iUxIs5_EuNIj3Bv91LwF58650ZJ7A)." *Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society*. 2019.  -- Counterfactual method to look at text classification e.g. for finding toxic comments where the aim is that the reference to the sensitive attribution should not affect the classification.
+1. M. J. Kusner et al., "[Counterfactual fairness](https://papers.nips.cc/paper/2017/hash/a486cd07e4ac3d270571622f4f316ec5-Abstract.html)", 30th NIPS, 2017 - Definition of counterfactual fairness. The idea is that fairness is achieved if an individual will receive the same outcome both in the actual world and in the counterfactual. The code to the paper can be found on [github](https://github.com/fiorenza2/CFFair_Emulate).
+2. S. Chiappa, "[Path-specific counterfactual fairness](https://ojs.aaai.org//index.php/AAAI/article/view/4777)", Proceedings of the AAAI Conference on Artificial Intelligence (33:01) 7801-7808, 2019 - Formulates a counterfactual fairness that follows different paths of sensitive attributes within a causal model.
+3. S. Garg et al., "[Counterfactual fairness in text classification through robustness](https://dl.acm.org/doi/abs/10.1145/3306618.3317950)", AIES'19 219–226, 2019 - Counterfactual method to look at text classification, e.g. for finding toxic comments where the aim is that the reference to the sensitive attribution should not affect the classification.
+4. S. Chiappa and W. S. Isaac, "A Causal Bayesian Networks Viewpoint on Fairness", [arXiv:1907.06430](https://arxiv.org/abs/1907.06430) [stat.ML]
+5. N. Kilbertus et al., "[Avoiding Discrimination through Causal Reasoning](https://papers.nips.cc/paper/2017/hash/f5f8590cd58a54e94377e6ae2eded4d9-Abstract.html)", 30th NIPS, 2017
+6. J. R. Loftus et al., "Causal Reasoning for Algorithmic Fairness", [arXiv:1805.05859](https://arxiv.org/abs/1805.05859) [cs.AI]
 
 **Fairness trough explanations**
 
