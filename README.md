@@ -611,7 +611,7 @@ This section includes critics and challenges with existing definitions.
 7. E. Black et al., "[FlipTest: Fairness Testing via Optimal Transport](https://dl.acm.org/doi/abs/10.1145/3351095.3372845)", FAT*'20 111–121, 2020
 8. R. Binns, "[On the Apparent Conflict Between Individual and Group Fairness](https://dl.acm.org/doi/abs/10.1145/3351095.3372864)", FAT*'20 514–524, 2020 - Discussing the difference between individual and group fairness and why there does not have to be a trade-off.
 
-**Causal Reasoning  based fairness**
+**Causal Reasoning based fairness**
 
 1. M. J. Kusner et al., "[Counterfactual fairness](https://papers.nips.cc/paper/2017/hash/a486cd07e4ac3d270571622f4f316ec5-Abstract.html)", 30th NIPS, 2017 - Definition of counterfactual fairness. The idea is that fairness is achieved if an individual will receive the same outcome both in the actual world and in the counterfactual. The code to the paper can be found on [github](https://github.com/fiorenza2/CFFair_Emulate).
 2. S. Chiappa, "[Path-specific counterfactual fairness](https://ojs.aaai.org//index.php/AAAI/article/view/4777)", Proceedings of the AAAI Conference on Artificial Intelligence (33:01) 7801-7808, 2019 - Formulates a counterfactual fairness that follows different paths of sensitive attributes within a causal model.
