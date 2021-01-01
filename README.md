@@ -716,6 +716,7 @@ In this section we list research articles related to guidelines and principles r
 3. C. Rudin,
    "[Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead](https://www.nature.com/articles/s42256-019-0048-x)",
    Nat. Mach. Intell. (1) 206–215, 2019
+4. E. Toreini et al., "[The relationship between trust in AI and trustworthy machine learning technologies](https://dl.acm.org/doi/abs/10.1145/3351095.3372834)", FAT*'20 272–283, 2020
 
 ### Documentation frameworks
 1. F. Pinto et al., "Automatic Model Monitoring for Data Streams", [arXiv:1908.04240](https://arxiv.org/abs/1908.04240)
