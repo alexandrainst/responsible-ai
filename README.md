@@ -652,23 +652,22 @@ This section includes critics and challenges with existing definitions.
 6. N. Grgić-Hlača et al., "[Human Perceptions of Fairness in Algorithmic Decision Making: A Case Study of Criminal Risk Prediction](https://dl.acm.org/doi/10.1145/3178876.3186138)", WWW'18 903–912, 2018
 7. R. Binns et al., "[‘It’s Reducing a Human Being to a Percentage’; Perceptions of Justice in Algorithmic Decisions](https://dl.acm.org/doi/10.1145/3173574.3173951)", CHI'18 (377) 1–14, 2018
 
-### Fairness issue in real cases or areas
+### Fairness issues in real cases or areas
 
-**Fairness in NLP**
+**Natural Language Processing**
 
-1. Bolukbasi, Tolga, et al. "[Man is to computer programmer as woman is to homemaker? debiasing word embeddings](https://papers.nips.cc/paper/2016/file/a486cd07e4ac3d270571622f4f316ec5-Paper.pdf)." *Advances in neural information processing systems* 29 (2016): 4349-4357. -- The paper examine gender stereotypes in occupations in word embeddings which they identify  though a survey conducted on peoples perception on gender stereotype. The paper propose a technic to mitigate such identified bias in word embeddings.
-2. Gonen, Hila, and Yoav Goldberg. "[Lipstick on a pig: Debiasing methods cover up systematic gender biases in word embeddings but do not remove them](https://papers.nips.cc/paper/2016/file/a486cd07e4ac3d270571622f4f316ec5-Paper.pdf)." *arXiv preprint arXiv:1903.03862* (2019). -- This paper makes a critic on the paper mentioned above's method on mitigating bias in wordembedding.
-3. Nissim, Malvina, Rik van Noord, and Rob van der Goot. "[Fair is better than sensational: Man is to doctor as woman is to doctor](https://www.mitpressjournals.org/doi/full/10.1162/coli_a_00379)." (2020): 1-11. -- This paper  makes a critic of using word analogies for concluding bias in word embeddings.
-4.  Basta, Christine, Marta R. Costa-Jussà, and Noe Casas. "[Evaluating the underlying gender bias in contextualized word embeddings](https://arxiv.org/pdf/1904.08783.pdf)." *arXiv preprint arXiv:1904.08783* (2019).
-5. Zhao, Jieyu, et al. "[Learning gender-neutral word embeddings](https://arxiv.org/pdf/1809.01496.pdf)." *arXiv preprint arXiv:1809.01496* (2018).
-6. Kiritchenko, Svetlana, and Saif M. Mohammad. "[Examining gender and race bias in two hundred sentiment analysis systems](https://arxiv.org/pdf/1805.04508.pdf)." *arXiv preprint arXiv:1805.04508* (2018).
+1. T. Bolukbasi et al., "[Man is to computer programmer as woman is to homemaker? debiasing word embeddings](https://proceedings.neurips.cc/paper/2016/hash/a486cd07e4ac3d270571622f4f316ec5-Abstract.html)", 29th NIPS, 2016 - The paper examines gender stereotypes in occupations in word embeddings which the authors identify through a survey conducted on people's perception on gender stereotype. The paper proposes a technic to mitigate such identified bias in word embeddings.
+2. H. Gonen and Y. Goldberg, "Lipstick on a pig: Debiasing methods cover up systematic gender biases in word embeddings but do not remove them", [arXiv:1903.03862](https://arxiv.org/abs/1903.03862) [cs.CL] - This paper criticizes method presented in the paper mentioned above method that mitigates bias in word embeddings.
+3. M. Nissim et al., "[Fair is better than sensational: Man is to doctor as woman is to doctor](https://www.mitpressjournals.org/doi/full/10.1162/coli_a_00379)", Computational Linguistics (46:2) 487-497, 2020 - This paper criticizes using word analogies for concluding bias in word embeddings.
+4. C. Basta et al., "Evaluating the underlying gender bias in contextualized word embeddings", [arXiv:1904.08783](https://arxiv.org/abs/1904.08783) [cs.CL]
+5. J. Zhao et al., "Learning gender-neutral word embeddings", [arXiv:1809.01496](https://arxiv.org/abs/1809.01496) [cs.CL]
+6. S. Kiritchenko and S. M. Mohammad, "Examining gender and race bias in two hundred sentiment analysis systems", [arXiv:1805.04508](https://arxiv.org/abs/1805.04508) [cs.CL]
 
 **Different cases**
 
-1. Dressel, Julia, and Hany Farid. "[The accuracy, fairness, and limits of predicting recidivism](https://advances.sciencemag.org/content/advances/4/1/eaao5580.full.pdf)." *Science advances* 4.1 (2018): eaao5580.
-
-2. Mukerjee, Amitabha, et al. "[Multi–objective evolutionary algorithms for the risk–return trade–off in bank loan management](https://onlinelibrary.wiley.com/doi/pdf/10.1111/1475-3995.00375?casa_token=LFzwEBUQeVIAAAAA:YKLJSUqrUyshyDCU-VsvT9vvruhyMrbH3EzJtoeP7M92Bdn62jyX1aMLmB7zcfQFlPh4pC1Krz73P7-lFQ)." *International Transactions in operational research* 9.5 (2002): 583-597.
-3. Raji, Inioluwa Deborah, and Joy Buolamwini. "[Actionable auditing: Investigating the impact of publicly naming biased performance results of commercial ai products](https://dl.acm.org/doi/pdf/10.1145/3306618.3314244?casa_token=lkiw-D-BXjYAAAAA:sZ6e1I-z9zW-1Qy7KJC5uWDjPk_ZMEtWV65vmA_eOm9skQ39a450_4CECBDpEGTietWbmtuEDGZLDNE)." *Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society*. 2019.
+1. J. Dressel and Hany Farid, "[The accuracy, fairness, and limits of predicting recidivism](https://advances.sciencemag.org/content/4/1/eaao5580)" Science Advances (4:1) eaao5580, 2018
+2. A. Mukerjee et al., "[Multi–objective evolutionary algorithms for the risk–return trade–off in bank loan management](https://onlinelibrary.wiley.com/doi/abs/10.1111/1475-3995.00375)", International Transactions in operational research (9:5) 583-597, 2002
+3. R. Inioluwa Deborah and J. Buolamwini., "[Actionable auditing: Investigating the impact of publicly naming biased performance results of commercial ai products](https://dl.acm.org/doi/10.1145/3306618.3314244)", AIES'19 429–435, 2019.
 
 ## Books
 
