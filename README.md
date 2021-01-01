@@ -662,12 +662,18 @@ This section includes critics and challenges with existing definitions.
 4. C. Basta et al., "Evaluating the underlying gender bias in contextualized word embeddings", [arXiv:1904.08783](https://arxiv.org/abs/1904.08783) [cs.CL]
 5. J. Zhao et al., "Learning gender-neutral word embeddings", [arXiv:1809.01496](https://arxiv.org/abs/1809.01496) [cs.CL]
 6. S. Kiritchenko and S. M. Mohammad, "Examining gender and race bias in two hundred sentiment analysis systems", [arXiv:1805.04508](https://arxiv.org/abs/1805.04508) [cs.CL]
+7. M. Sap et al., "[The Risk of Racial Bias in Hate Speech Detection](https://www.aclweb.org/anthology/P19-1163/)", ACL (P19-1163) 1668–1678, 2019
 
-**Different cases**
+**Recidivism**
 
 1. J. Dressel and Hany Farid, "[The accuracy, fairness, and limits of predicting recidivism](https://advances.sciencemag.org/content/4/1/eaao5580)" Science Advances (4:1) eaao5580, 2018
+2. A. Chouldechova et al., "[A case study of algorithm-assisted decision making in child maltreatment hotline screening decisions](http://proceedings.mlr.press/v81/chouldechova18a.html)", ICML (81) 134-148, 2018
+3. A. Chouldechova, "[Fair prediction with disparate impact: A study of bias in recidivism prediction instruments](https://www.liebertpub.com/doi/10.1089/big.2016.0047)", Big Data (5:2) 153-163, 2017
+
+**Different cases**
 2. A. Mukerjee et al., "[Multi–objective evolutionary algorithms for the risk–return trade–off in bank loan management](https://onlinelibrary.wiley.com/doi/abs/10.1111/1475-3995.00375)", International Transactions in operational research (9:5) 583-597, 2002
-3. R. Inioluwa Deborah and J. Buolamwini., "[Actionable auditing: Investigating the impact of publicly naming biased performance results of commercial ai products](https://dl.acm.org/doi/10.1145/3306618.3314244)", AIES'19 429–435, 2019.
+3. R. Inioluwa Deborah and J. Buolamwini, "[Actionable auditing: Investigating the impact of publicly naming biased performance results of commercial AI products](https://dl.acm.org/doi/10.1145/3306618.3314244)", AIES'19 429–435, 2019
+4. Z. Obermeyer et al., "[Dissecting racial bias in an algorithm used to manage the health of populations](https://science.sciencemag.org/content/366/6464/447)", Science (366:6464) 447-453, 2019
 
 ## Books
 
