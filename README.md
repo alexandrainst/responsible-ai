@@ -670,6 +670,10 @@ This section includes critics and challenges with existing definitions.
 2. A. Chouldechova et al., "[A case study of algorithm-assisted decision making in child maltreatment hotline screening decisions](http://proceedings.mlr.press/v81/chouldechova18a.html)", ICML (81) 134-148, 2018
 3. A. Chouldechova, "[Fair prediction with disparate impact: A study of bias in recidivism prediction instruments](https://www.liebertpub.com/doi/10.1089/big.2016.0047)", Big Data (5:2) 153-163, 2017
 
+**Recommender systems**
+1. A. Beutel et al., "[Fairness in Recommendation Ranking through Pairwise Comparisons](https://dl.acm.org/doi/10.1145/3292500.3330745)", KDD'19 2212–2220, 2019
+2. S. C. Geyik et al., "[Fairness-Aware Ranking in Search & Recommendation Systems with Application to LinkedIn Talent Search](https://dl.acm.org/doi/10.1145/3292500.3330691)", KDD'19 2221–2231, 2019
+
 **Different cases**
 2. A. Mukerjee et al., "[Multi–objective evolutionary algorithms for the risk–return trade–off in bank loan management](https://onlinelibrary.wiley.com/doi/abs/10.1111/1475-3995.00375)", International Transactions in operational research (9:5) 583-597, 2002
 3. R. Inioluwa Deborah and J. Buolamwini, "[Actionable auditing: Investigating the impact of publicly naming biased performance results of commercial AI products](https://dl.acm.org/doi/10.1145/3306618.3314244)", AIES'19 429–435, 2019
