@@ -679,6 +679,12 @@ This section includes critics and challenges with existing definitions.
 3. R. Inioluwa Deborah and J. Buolamwini, "[Actionable auditing: Investigating the impact of publicly naming biased performance results of commercial AI products](https://dl.acm.org/doi/10.1145/3306618.3314244)", AIES'19 429–435, 2019
 4. Z. Obermeyer et al., "[Dissecting racial bias in an algorithm used to manage the health of populations](https://science.sciencemag.org/content/366/6464/447)", Science (366:6464) 447-453, 2019
 
+### Fairness from the social science angle
+1. A. D. Selbst et al., "[Fairness and Abstraction in Sociotechnical Systems](https://dl.acm.org/doi/10.1145/3287560.3287598)", FAT*'19 59–68, 2019
+2. M. Veale et al., "[Fairness and Accountability Design Needs for Algorithmic Support in High-Stakes Public Sector Decision-Making](https://dl.acm.org/doi/10.1145/3173574.3174014)", CHI'18 (440) 1–14, 2018
+3. C. Barabas et al., "[Studying Up: Reorienting the study of algorithmic fairness around issues of power](https://dl.acm.org/doi/abs/10.1145/3351095.3372859)", FAT*'20 167–176, 2020
+4. S. Milli et al., "[The Social Cost of Strategic Classification](https://dl.acm.org/doi/10.1145/3287560.3287576)", FAT*'19 230–239, 2019
+
 ## Books
 
 1. Weapons of math destruction: How big data increases inequality and threatens democracy
