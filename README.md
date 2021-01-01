@@ -611,7 +611,7 @@ This section includes critics and challenges with existing definitions.
 7. E. Black et al., "[FlipTest: Fairness Testing via Optimal Transport](https://dl.acm.org/doi/abs/10.1145/3351095.3372845)", FAT*'20 111–121, 2020
 8. R. Binns, "[On the Apparent Conflict Between Individual and Group Fairness](https://dl.acm.org/doi/abs/10.1145/3351095.3372864)", FAT*'20 514–524, 2020 - Discussing the difference between individual and group fairness and why there does not have to be a trade-off.
 
-**Causal Reasoning based fairness**
+**Causal reasoning based fairness**
 
 1. M. J. Kusner et al., "[Counterfactual fairness](https://papers.nips.cc/paper/2017/hash/a486cd07e4ac3d270571622f4f316ec5-Abstract.html)", 30th NIPS, 2017 - Definition of counterfactual fairness. The idea is that fairness is achieved if an individual will receive the same outcome both in the actual world and in the counterfactual. The code to the paper can be found on [github](https://github.com/fiorenza2/CFFair_Emulate).
 2. S. Chiappa, "[Path-specific counterfactual fairness](https://ojs.aaai.org//index.php/AAAI/article/view/4777)", Proceedings of the AAAI Conference on Artificial Intelligence (33:01) 7801-7808, 2019 - Formulates a counterfactual fairness that follows different paths of sensitive attributes within a causal model.
@@ -622,8 +622,8 @@ This section includes critics and challenges with existing definitions.
 
 **Fairness trough explanations**
 
-1. Cesaro, Juliana, and Fabio Gagliardi Cozman. "[Measuring Unfairness Through Game-Theoretic Interpretability](https://arxiv.org/pdf/1910.05591.pdf)." *Joint European Conference on Machine Learning and Knowledge Discovery in Databases*. Springer, Cham, 2019. -- Present the idea that fairness can be assessed by looking a the "global" feature attribution on a test set for different protected group using e.g the SHAP framework  
-2. Hickey, James M., Pietro G. Di Stefano, and Vlasios Vasileiou. "[Fairness by Explicability and Adversarial SHAP Learning](https://arxiv.org/pdf/2003.05330.pdf)." *arXiv preprint arXiv:2003.05330* (2020).  -- Asses fairness trough explanations (SHAP) and compare to other statistic measures and propose in-process algorithm for mitigating bias.
+1. J. Cesaro and F. G. Cozman, "[Measuring Unfairness Through Game-Theoretic Interpretability](https://link.springer.com/chapter/10.1007/978-3-030-43823-4_22)", ECML PKDD (1167) 253-264, 2019 - Presents the idea that fairness can be assessed by looking at the "global" feature attribution on a test set for different protected group using, e.g the SHAP framework.  
+2. J. M. Hickey et al., "Fairness by Explicability and Adversarial SHAP Learning", [arXiv:2003.05330](https://arxiv.org/abs/2003.05330) [cs.LG] - The authors assess fairness trough explanations (SHAP) and compare to other statistic measures, as well as, propose an in-process algorithm for mitigating bias.
 
 #### Mitigating algorithm
 
