@@ -627,13 +627,16 @@ This section includes critics and challenges with existing definitions.
 
 #### Mitigating algorithm
 
-1. Kamiran, Faisal, and Toon Calders. "[Data preprocessing techniques for classification without discrimination](https://link.springer.com/article/10.1007/s10115-011-0463-8)." *Knowledge and Information Systems* 33.1 (2012): 1-33.
-2. Zemel, Rich, et al. "[Learning fair representations](http://proceedings.mlr.press/v28/zemel13.pdf)." *International Conference on Machine Learning*. 2013.
-3. Calmon, Flavio, et al. "[Optimized pre-processing for discrimination prevention](https://papers.nips.cc/paper/2017/file/9a49a25d845a483fae4be7e341368e36-Paper.pdf)." *Advances in Neural Information Processing Systems* 30 (2017): 3992-4001.
-4. Feldman, Michael, et al. "[Certifying and removing disparate impact](https://dl.acm.org/doi/pdf/10.1145/2783258.2783311?casa_token=mSeGWlsvE1wAAAAA:U_v45paImwWGerBh_JQO_6eEM30-DDRUblBW83iuTX14dCoAZ7GC8URbcYewA1D5YEzVjUn9D2EHJl8)." *proceedings of the 21th ACM SIGKDD international conference on knowledge discovery and data mining*. 2015.
-5. Zhang, Brian Hu, Blake Lemoine, and Margaret Mitchell. "[Mitigating unwanted biases with adversarial learning](https://dl.acm.org/doi/pdf/10.1145/3278721.3278779?casa_token=6P7Ba2BKRQsAAAAA:4VXAig2OO5-GtQU4fiYs06HnYyLftC_QLga9-cd5dknu703521R7JZjzylSLHWdsSv799wN-qgSBrG0)." *Proceedings of the 2018 AAAI/ACM Conference on AI, Ethics, and Society*. 2018.
-6. Kamishima, Toshihiro, et al. "[Fairness-aware classifier with prejudice remover regularizer](https://link.springer.com/chapter/10.1007/978-3-642-33486-3_3)." *Joint European Conference on Machine Learning and Knowledge Discovery in Databases*. Springer, Berlin, Heidelberg, 2012.
-7. Pleiss, Geoff, et al. "[On fairness and calibration](https://papers.nips.cc/paper/2017/file/b8b9c74ac526fffbeb2d39ab038d1cd7-Paper.pdf)." *Advances in Neural Information Processing Systems*. 2017.
+1. F. Kamiran and T. Calders, "[Data preprocessing techniques for classification without discrimination](https://link.springer.com/article/10.1007/s10115-011-0463-8)", Knowledge and Information Systems (33:1) 1-33, 2012
+2. R. Zemel et al. "[Learning fair representations](http://proceedings.mlr.press/v28/zemel13.html)", ICML (28:3) 325-333, 2013
+3. F. Calmon et al., "[Optimized pre-processing for discrimination prevention](https://papers.nips.cc/paper/2017/hash/9a49a25d845a483fae4be7e341368e36-Abstract.html)", 30th NIPS, 2017
+4. M. Feldman et al., "[Certifying and removing disparate impact](https://dl.acm.org/doi/pdf/10.1145/2783258.2783311)", KDD'15 259–268 . 2015.
+5. B. H. Zhang et al., "[Mitigating unwanted biases with adversarial learning](https://dl.acm.org/doi/10.1145/3278721.3278779)", AIES'18 335–340, 2018
+6. T. Kamishima et al., "[Fairness-aware classifier with prejudice remover regularizer](https://link.springer.com/chapter/10.1007/978-3-642-33486-3_3)", ECML PKDD 35-50, 2012
+7. G. Pleiss et al., "[On fairness and calibration](https://proceedings.neurips.cc/paper/2017/hash/b8b9c74ac526fffbeb2d39ab038d1cd7-Abstract.html)", 30th NIPS, 2017.
+8. V. Perrone et al., "Fair Bayesian Optimization", [arXiv:2006.05109](https://arxiv.org/abs/2006.05109) [stat.ML]
+9. P. Lahoti et al., "[Fairness without Demographics through Adversarially Reweighted Learning](https://proceedings.neurips.cc/paper/2020/hash/07fc15c9d169ee48573edd749d25945d-Abstract.html)", 33rd NeurIPS, 2020
+10. I. Y. Chen et al., "[Why Is My Classifier Discriminatory?](https://papers.nips.cc/paper/2018/hash/1f1baa5b8edac74eb4eaa329f14a0361-Abstract.html)", 31st NeurIPS, 2018  
 
 ### Perceived algorithmic fairness
 
