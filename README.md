@@ -641,7 +641,9 @@ This section includes critics and challenges with existing definitions.
 7. G. Pleiss et al., "[On fairness and calibration](https://proceedings.neurips.cc/paper/2017/hash/b8b9c74ac526fffbeb2d39ab038d1cd7-Abstract.html)", 30th NIPS, 2017.
 8. V. Perrone et al., "Fair Bayesian Optimization", [arXiv:2006.05109](https://arxiv.org/abs/2006.05109) [stat.ML]
 9. P. Lahoti et al., "[Fairness without Demographics through Adversarially Reweighted Learning](https://proceedings.neurips.cc/paper/2020/hash/07fc15c9d169ee48573edd749d25945d-Abstract.html)", 33rd NeurIPS, 2020
-10. I. Y. Chen et al., "[Why Is My Classifier Discriminatory?](https://papers.nips.cc/paper/2018/hash/1f1baa5b8edac74eb4eaa329f14a0361-Abstract.html)", 31st NeurIPS, 2018  
+10. I. Y. Chen et al., "[Why Is My Classifier Discriminatory?](https://papers.nips.cc/paper/2018/hash/1f1baa5b8edac74eb4eaa329f14a0361-Abstract.html)", 31st NeurIPS, 2018
+11. L. Dixon et al., "[Measuring and Mitigating Unintended Bias in Text Classification](https://dl.acm.org/doi/10.1145/3278721.3278729)", AIES'18 67–73, 2018
+12. A. Amini et al., "[Uncovering and Mitigating Algorithmic Bias through Learned Latent Structure](https://dl.acm.org/doi/10.1145/3306618.3314243)", AIES'19 289–295, 2019  
 
 ### Perceived algorithmic fairness
 
@@ -663,6 +665,8 @@ This section includes critics and challenges with existing definitions.
 5. J. Zhao et al., "Learning gender-neutral word embeddings", [arXiv:1809.01496](https://arxiv.org/abs/1809.01496) [cs.CL]
 6. S. Kiritchenko and S. M. Mohammad, "Examining gender and race bias in two hundred sentiment analysis systems", [arXiv:1805.04508](https://arxiv.org/abs/1805.04508) [cs.CL]
 7. M. Sap et al., "[The Risk of Racial Bias in Hate Speech Detection](https://www.aclweb.org/anthology/P19-1163/)", ACL (P19-1163) 1668–1678, 2019
+8. J. Zhao et al., "[Men Also Like Shopping: Reducing Gender Bias Amplification using Corpus-level Constraints](https://www.aclweb.org/anthology/D17-1323/)", EMNLP (D17-1323) 2979–2989, 2017
+9. M.-E. Brunet et al., "[Understanding the Origins of Bias in Word Embeddings](http://proceedings.mlr.press/v97/brunet19a.html)", ICML (97) 803-811, 2019
 
 **Recidivism**
 
