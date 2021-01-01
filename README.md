@@ -620,6 +620,11 @@ This section includes critics and challenges with existing definitions.
 5. N. Kilbertus et al., "[Avoiding Discrimination through Causal Reasoning](https://papers.nips.cc/paper/2017/hash/f5f8590cd58a54e94377e6ae2eded4d9-Abstract.html)", 30th NIPS, 2017
 6. J. R. Loftus et al., "Causal Reasoning for Algorithmic Fairness", [arXiv:1805.05859](https://arxiv.org/abs/1805.05859) [cs.AI]
 
+**Procedural fairness**
+
+1. N. Grgić-Hlača et al., "[Beyond Distributive Fairness in Algorithmic Decision Making: Feature Selection for Procedurally Fair Learning](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16523)", AAAI (18), 2018 - Proposes to shift the focus for outcome fairness to procedurally fairness where there instead should be a focus of how the outcome is concluded instead of what it actually is. The paper includes a survey to examine people's perception of using different input features in different settings.
+2. N. Grgić-Hlača et al., "[The Case for Process Fairness in Learning: Feature Selection for Fair Decision Making](http://www.mlandthelaw.org/papers/grgic.pdf)", Symposium on Machine Learning and the Law at the 29th NIPS, 2016
+
 **Fairness trough explanations**
 
 1. J. Cesaro and F. G. Cozman, "[Measuring Unfairness Through Game-Theoretic Interpretability](https://link.springer.com/chapter/10.1007/978-3-030-43823-4_22)", ECML PKDD (1167) 253-264, 2019 - Presents the idea that fairness can be assessed by looking at the "global" feature attribution on a test set for different protected group using, e.g the SHAP framework.  
@@ -640,7 +645,6 @@ This section includes critics and challenges with existing definitions.
 
 ### Perceived algorithmic fairness
 
-1. N. Grgić-Hlača et al., "[Beyond Distributive Fairness in Algorithmic Decision Making: Feature Selection for Procedurally Fair Learning](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16523)", AAAI (18), 2018 - Proposes to shift the focus for outcome fairness to procedurally fairness where there instead should be a focus of how the outcome is concluded instead of what it actually is. The paper includes a survey to examine people's perception of using different input features in different settings.
 2. M. Srivastava et al., "[Mathematical notions vs. human perception of fairness: A descriptive approach to fairness for machine learning](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16523)", KDD'19 2459–2468, 2019 - Attempt to measure peoples perception of different statistical fairness metrics trough an Amazon Turk survey.
 3.  G. Harrison et al., "[An empirical study on the perceived fairness of realistic, imperfect machine learning models](https://dl.acm.org/doi/10.1145/3351095.3372831)", FAT*'20 392–402, 2020 - Examines peoples perception of trade-offs between models which satisfies different statistical fairness measure or accuracy trough an Amazon Turk survey.
 4. D. Saha et al., "[Measuring non-expert comprehension of machine learning fairness metrics](http://proceedings.mlr.press/v119/saha20c.html)", ICML (119) 8377-8387, 2020 - Examines people's comprehension of statistical fairness metrics and shows that comprehension can be measured trough a multiple-choice survey. Furthermore, the authors find that comprehension is correlated with education and that higher comprehension is correlated with a more negative perception of the metrics.  
