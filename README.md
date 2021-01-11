@@ -173,6 +173,12 @@ Also includes question that are relevant to the context in which the XAI methods
 8. E. S. Jo and T. Gebru,
 "[Lessons from archives: strategies for collecting sociocultural data in machine learning](https://dl.acm.org/doi/abs/10.1145/3351095.3372829)",
 FAT*'20 306-316, 2020 - Use archives as inspiration of how to collect, curate and annotate data.
+9. J. Adebayo et al., "Sanity Checks for Saliency Maps", [arXiv:1810.03292](https://arxiv.org/abs/1810.03292) [cs.CV] - Comparing different saliency map XAI methods for their sensitivity to the input image and weights of the network.
+10. H. Kaur et al.,
+"[Interpreting Interpretability: Understanding Data Scientists’ Use of Interpretability Tools for Machine Learning](https://dl.acm.org/doi/fullHtml/10.1145/3313831.3376219)",
+CHI'20 1-14, 2020
+11. P. Hase and M. Bansal, "Evaluating Explainable AI: Which Algorithmic Explanations Help Users Predict Model Behavior?", [arXiv:2005.01831](https://arxiv.org/abs/2005.01831) [cs.CL]
+
 
 ### Method to explain data
 This section contains articles that explain datasets, for example by finding representative examples.
