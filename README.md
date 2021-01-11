@@ -445,7 +445,13 @@ DNNs or methods to build DNNs that can explain themselves.
 27. D. Bau et al.,
     "[Understanding the role of individual units in a deep neural network](https://www.pnas.org/content/117/48/30071)",
     PNAS (117:48) 30071-30078, 2020 - All links and material regarding the article is summarized by the authors on their
-    [website](https://dissect.csail.mit.edu).  
+    [website](https://dissect.csail.mit.edu).
+28. Matthew D. Zeiler and Rob Fergus,
+    "[Visualizing and Understanding Convolutional Networks](http://arxiv.org/abs/1311.2901)", ECCV, 2014.
+29. M. Sundararajan et al.,
+    "[Axiomatic attribution for deep networks](http://arxiv.org/abs/1703.01365)", ICML, 2017.
+30. A. Krizhevsky et al.,
+    "[ImageNet classification with deep convolutional neural networks](https://doi.org/10.1145/3065386)", NIPS, 2012.
 
 ### XAI for natural language processing
 This section contains papers in which XAI methods are used or developed for NLP tasks and models.
