@@ -594,6 +594,7 @@ More general book about explainability in machine learning, but also with a focu
 8. B. Lepri et al.,
 "[Fair, transparent and accountable algorithmic decision-making processes](https://link.springer.com/article/10.1007/s13347-017-0279-x)", Philos. Technol. (31) 611–627, 2018
 9. A. L. Hoffmann, "[Where fairness fails: data, algorithms, and the limits of antidiscrimination discourse](https://doi.org/10.1080/1369118X.2019.1573912)", Communication & Society (22:7) 900-915, 2019
+10. Friedler, Sorelle A., et al. "A comparative study of fairness-enhancing interventions in machine learning." Proceedings of the conference on fairness, accountability, and transparency. 2019.
 
 ### Definitions of fairness
 This section includes critics and challenges with existing definitions.
