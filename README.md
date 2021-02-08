@@ -663,12 +663,12 @@ This section includes critics and challenges with existing definitions.
 
 ### Perceived algorithmic fairness
 
-2. M. Srivastava et al., "[Mathematical notions vs. human perception of fairness: A descriptive approach to fairness for machine learning](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16523)", KDD'19 2459–2468, 2019 - Attempt to measure peoples perception of different statistical fairness metrics trough an Amazon Turk survey.
-3.  G. Harrison et al., "[An empirical study on the perceived fairness of realistic, imperfect machine learning models](https://dl.acm.org/doi/10.1145/3351095.3372831)", FAT*'20 392–402, 2020 - Examines peoples perception of trade-offs between models which satisfies different statistical fairness measure or accuracy trough an Amazon Turk survey.
-4. D. Saha et al., "[Measuring non-expert comprehension of machine learning fairness metrics](http://proceedings.mlr.press/v119/saha20c.html)", ICML (119) 8377-8387, 2020 - Examines people's comprehension of statistical fairness metrics and shows that comprehension can be measured trough a multiple-choice survey. Furthermore, the authors find that comprehension is correlated with education and that higher comprehension is correlated with a more negative perception of the metrics.  
-5. J. Dodge et al., "[Explaining models: an empirical study of how explanations impact fairness judgment](https://dl.acm.org/doi/10.1145/3301275.3302310)", IUI'19 275–285, 2019
-6. N. Grgić-Hlača et al., "[Human Perceptions of Fairness in Algorithmic Decision Making: A Case Study of Criminal Risk Prediction](https://dl.acm.org/doi/10.1145/3178876.3186138)", WWW'18 903–912, 2018
-7. R. Binns et al., "[‘It’s Reducing a Human Being to a Percentage’; Perceptions of Justice in Algorithmic Decisions](https://dl.acm.org/doi/10.1145/3173574.3173951)", CHI'18 (377) 1–14, 2018
+1. M. Srivastava et al., "[Mathematical notions vs. human perception of fairness: A descriptive approach to fairness for machine learning](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16523)", KDD'19 2459–2468, 2019 - Attempt to measure peoples perception of different statistical fairness metrics trough an Amazon Turk survey.
+2.  G. Harrison et al., "[An empirical study on the perceived fairness of realistic, imperfect machine learning models](https://dl.acm.org/doi/10.1145/3351095.3372831)", FAT*'20 392–402, 2020 - Examines peoples perception of trade-offs between models which satisfies different statistical fairness measure or accuracy trough an Amazon Turk survey.
+3. D. Saha et al., "[Measuring non-expert comprehension of machine learning fairness metrics](http://proceedings.mlr.press/v119/saha20c.html)", ICML (119) 8377-8387, 2020 - Examines people's comprehension of statistical fairness metrics and shows that comprehension can be measured trough a multiple-choice survey. Furthermore, the authors find that comprehension is correlated with education and that higher comprehension is correlated with a more negative perception of the metrics.  
+4. J. Dodge et al., "[Explaining models: an empirical study of how explanations impact fairness judgment](https://dl.acm.org/doi/10.1145/3301275.3302310)", IUI'19 275–285, 2019
+5. N. Grgić-Hlača et al., "[Human Perceptions of Fairness in Algorithmic Decision Making: A Case Study of Criminal Risk Prediction](https://dl.acm.org/doi/10.1145/3178876.3186138)", WWW'18 903–912, 2018
+6. R. Binns et al., "[‘It’s Reducing a Human Being to a Percentage’; Perceptions of Justice in Algorithmic Decisions](https://dl.acm.org/doi/10.1145/3173574.3173951)", CHI'18 (377) 1–14, 2018
 
 ### Fairness issues in real cases or areas
 
@@ -695,9 +695,9 @@ This section includes critics and challenges with existing definitions.
 2. S. C. Geyik et al., "[Fairness-Aware Ranking in Search & Recommendation Systems with Application to LinkedIn Talent Search](https://dl.acm.org/doi/10.1145/3292500.3330691)", KDD'19 2221–2231, 2019
 
 **Different cases**
-2. A. Mukerjee et al., "[Multi–objective evolutionary algorithms for the risk–return trade–off in bank loan management](https://onlinelibrary.wiley.com/doi/abs/10.1111/1475-3995.00375)", International Transactions in operational research (9:5) 583-597, 2002
-3. R. Inioluwa Deborah and J. Buolamwini, "[Actionable auditing: Investigating the impact of publicly naming biased performance results of commercial AI products](https://dl.acm.org/doi/10.1145/3306618.3314244)", AIES'19 429–435, 2019
-4. Z. Obermeyer et al., "[Dissecting racial bias in an algorithm used to manage the health of populations](https://science.sciencemag.org/content/366/6464/447)", Science (366:6464) 447-453, 2019
+1. A. Mukerjee et al., "[Multi–objective evolutionary algorithms for the risk–return trade–off in bank loan management](https://onlinelibrary.wiley.com/doi/abs/10.1111/1475-3995.00375)", International Transactions in operational research (9:5) 583-597, 2002
+2. R. Inioluwa Deborah and J. Buolamwini, "[Actionable auditing: Investigating the impact of publicly naming biased performance results of commercial AI products](https://dl.acm.org/doi/10.1145/3306618.3314244)", AIES'19 429–435, 2019
+3. Z. Obermeyer et al., "[Dissecting racial bias in an algorithm used to manage the health of populations](https://science.sciencemag.org/content/366/6464/447)", Science (366:6464) 447-453, 2019
 
 ### Fairness from the social science angle
 1. A. D. Selbst et al., "[Fairness and Abstraction in Sociotechnical Systems](https://dl.acm.org/doi/10.1145/3287560.3287598)", FAT*'19 59–68, 2019
@@ -776,7 +776,6 @@ known from other industries, like aerospace or finance, and adjust them to AI/ML
 6. S. Wachter et al.,
    "[Why a Right to Explanation of Automated Decision-Making Does Not Exist in the General Data Protection Regulation](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2903469)",
    International Data Privacy Law, 2017
-7.
 
 <a name="ux"></a>
 # User Experience
