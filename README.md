@@ -178,7 +178,10 @@ FAT*'20 306-316, 2020 - Use archives as inspiration of how to collect, curate an
 "[Interpreting Interpretability: Understanding Data Scientists’ Use of Interpretability Tools for Machine Learning](https://dl.acm.org/doi/fullHtml/10.1145/3313831.3376219)",
 CHI'20 1-14, 2020
 11. P. Hase and M. Bansal, "Evaluating Explainable AI: Which Algorithmic Explanations Help Users Predict Model Behavior?", [arXiv:2005.01831](https://arxiv.org/abs/2005.01831) [cs.CL]
-
+12. J. V. Jeyakumar et al.,
+    "[How Can I Explain This to You? An Empirical Study of Deep Neural Network Explanation Methods](https://proceedings.neurips.cc/paper/2020/hash/2c29d89cc56cdb191c60db2f0bae796b-Abstract.html)",
+    33rd NeurIPS, 2020 - The authors evaluate different methods for explaining deep neural networks for end-user preference. Code can be found on [github](https://github.com/nesl/Explainability-Study),
+    as well as, their [implementation of an example based explainer](https://github.com/nesl/ExMatchina).
 
 ### Method to explain data
 This section contains articles that explain datasets, for example by finding representative examples.
@@ -656,7 +659,7 @@ This section includes critics and challenges with existing definitions.
 9. P. Lahoti et al., "[Fairness without Demographics through Adversarially Reweighted Learning](https://proceedings.neurips.cc/paper/2020/hash/07fc15c9d169ee48573edd749d25945d-Abstract.html)", 33rd NeurIPS, 2020
 10. I. Y. Chen et al., "[Why Is My Classifier Discriminatory?](https://papers.nips.cc/paper/2018/hash/1f1baa5b8edac74eb4eaa329f14a0361-Abstract.html)", 31st NeurIPS, 2018
 11. L. Dixon et al., "[Measuring and Mitigating Unintended Bias in Text Classification](https://dl.acm.org/doi/10.1145/3278721.3278729)", AIES'18 67–73, 2018
-12. A. Amini et al., "[Uncovering and Mitigating Algorithmic Bias through Learned Latent Structure](https://dl.acm.org/doi/10.1145/3306618.3314243)", AIES'19 289–295, 2019  
+12. A. Amini et al., "[Uncovering and Mitigating Algorithmic Bias through Learned Latent Structure](https://dl.acm.org/doi/10.1145/3306618.3314243)", AIES'19 289–295, 2019
 
 ### Perceived algorithmic fairness
 
