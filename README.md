@@ -598,6 +598,8 @@ More general book about explainability in machine learning, but also with a focu
 "[Fair, transparent and accountable algorithmic decision-making processes](https://link.springer.com/article/10.1007/s13347-017-0279-x)", Philos. Technol. (31) 611–627, 2018
 9. A. L. Hoffmann, "[Where fairness fails: data, algorithms, and the limits of antidiscrimination discourse](https://doi.org/10.1080/1369118X.2019.1573912)", Communication & Society (22:7) 900-915, 2019
 10. Friedler, Sorelle A., et al. "A comparative study of fairness-enhancing interventions in machine learning." Proceedings of the conference on fairness, accountability, and transparency. 2019.
+11. Zuiderveen Borgesius, Frederik J. "[Strengthening legal protection against discrimination by algorithms and artificial intelligence](https://www.tandfonline.com/doi/pdf/10.1080/13642987.2020.1743976)." The International Journal of Human Rights 24.10 (2020): 1572-1593.
+
 
 ### Definitions of fairness
 This section includes critics and challenges with existing definitions.
@@ -636,17 +638,12 @@ This section includes critics and challenges with existing definitions.
 5. N. Kilbertus et al., "[Avoiding Discrimination through Causal Reasoning](https://papers.nips.cc/paper/2017/hash/f5f8590cd58a54e94377e6ae2eded4d9-Abstract.html)", 30th NIPS, 2017
 6. J. R. Loftus et al., "Causal Reasoning for Algorithmic Fairness", [arXiv:1805.05859](https://arxiv.org/abs/1805.05859) [cs.AI]
 
-**Procedural fairness**
-
-1. N. Grgić-Hlača et al., "[Beyond Distributive Fairness in Algorithmic Decision Making: Feature Selection for Procedurally Fair Learning](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16523)", AAAI (18), 2018 - Proposes to shift the focus for outcome fairness to procedurally fairness where there instead should be a focus of how the outcome is concluded instead of what it actually is. The paper includes a survey to examine people's perception of using different input features in different settings.
-2. N. Grgić-Hlača et al., "[The Case for Process Fairness in Learning: Feature Selection for Fair Decision Making](http://www.mlandthelaw.org/papers/grgic.pdf)", Symposium on Machine Learning and the Law at the 29th NIPS, 2016
-
 **Fairness trough explanations**
 
 1. J. Cesaro and F. G. Cozman, "[Measuring Unfairness Through Game-Theoretic Interpretability](https://link.springer.com/chapter/10.1007/978-3-030-43823-4_22)", ECML PKDD (1167) 253-264, 2019 - Presents the idea that fairness can be assessed by looking at the "global" feature attribution on a test set for different protected group using, e.g the SHAP framework.  
 2. J. M. Hickey et al., "Fairness by Explicability and Adversarial SHAP Learning", [arXiv:2003.05330](https://arxiv.org/abs/2003.05330) [cs.LG] - The authors assess fairness trough explanations (SHAP) and compare to other statistic measures, as well as, propose an in-process algorithm for mitigating bias.
 
-#### Mitigating algorithm
+### Mitigating algorithm
 
 1. F. Kamiran and T. Calders, "[Data preprocessing techniques for classification without discrimination](https://link.springer.com/article/10.1007/s10115-011-0463-8)", Knowledge and Information Systems (33:1) 1-33, 2012
 2. R. Zemel et al. "[Learning fair representations](http://proceedings.mlr.press/v28/zemel13.html)", ICML (28:3) 325-333, 2013
@@ -669,6 +666,11 @@ This section includes critics and challenges with existing definitions.
 4. J. Dodge et al., "[Explaining models: an empirical study of how explanations impact fairness judgment](https://dl.acm.org/doi/10.1145/3301275.3302310)", IUI'19 275–285, 2019
 5. N. Grgić-Hlača et al., "[Human Perceptions of Fairness in Algorithmic Decision Making: A Case Study of Criminal Risk Prediction](https://dl.acm.org/doi/10.1145/3178876.3186138)", WWW'18 903–912, 2018
 6. R. Binns et al., "[‘It’s Reducing a Human Being to a Percentage’; Perceptions of Justice in Algorithmic Decisions](https://dl.acm.org/doi/10.1145/3173574.3173951)", CHI'18 (377) 1–14, 2018
+
+**Procedural fairness**
+
+1. N. Grgić-Hlača et al., "[Beyond Distributive Fairness in Algorithmic Decision Making: Feature Selection for Procedurally Fair Learning](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16523)", AAAI (18), 2018 - Proposes to shift the focus for outcome fairness to procedurally fairness where there instead should be a focus of how the outcome is concluded instead of what it actually is. The paper includes a survey to examine people's perception of using different input features in different settings.
+2. N. Grgić-Hlača et al., "[The Case for Process Fairness in Learning: Feature Selection for Fair Decision Making](http://www.mlandthelaw.org/papers/grgic.pdf)", Symposium on Machine Learning and the Law at the 29th NIPS, 2016
 
 ### Fairness issues in real cases or areas
 
@@ -698,12 +700,16 @@ This section includes critics and challenges with existing definitions.
 1. A. Mukerjee et al., "[Multi–objective evolutionary algorithms for the risk–return trade–off in bank loan management](https://onlinelibrary.wiley.com/doi/abs/10.1111/1475-3995.00375)", International Transactions in operational research (9:5) 583-597, 2002
 2. R. Inioluwa Deborah and J. Buolamwini, "[Actionable auditing: Investigating the impact of publicly naming biased performance results of commercial AI products](https://dl.acm.org/doi/10.1145/3306618.3314244)", AIES'19 429–435, 2019
 3. Z. Obermeyer et al., "[Dissecting racial bias in an algorithm used to manage the health of populations](https://science.sciencemag.org/content/366/6464/447)", Science (366:6464) 447-453, 2019
+4. Raghavan, Manish, et al. "[Mitigating bias in algorithmic hiring: Evaluating claims and practices](https://dl.acm.org/doi/pdf/10.1145/3351095.3372828?casa_token=KTV0FFuBMisAAAAA:xiztNmTmW4n1cekHEla_mzRbrvTexe4BSqWk8nYHAfAxKnkUDBirlL24VLjlwIwJMxGInGKYzWxWYsk)." Proceedings of the 2020 conference on fairness, accountability, and transparency. 2020.
+
 
 ### Fairness from the social science angle
 1. A. D. Selbst et al., "[Fairness and Abstraction in Sociotechnical Systems](https://dl.acm.org/doi/10.1145/3287560.3287598)", FAT*'19 59–68, 2019
 2. M. Veale et al., "[Fairness and Accountability Design Needs for Algorithmic Support in High-Stakes Public Sector Decision-Making](https://dl.acm.org/doi/10.1145/3173574.3174014)", CHI'18 (440) 1–14, 2018
 3. C. Barabas et al., "[Studying Up: Reorienting the study of algorithmic fairness around issues of power](https://dl.acm.org/doi/abs/10.1145/3351095.3372859)", FAT*'20 167–176, 2020
 4. S. Milli et al., "[The Social Cost of Strategic Classification](https://dl.acm.org/doi/10.1145/3287560.3287576)", FAT*'19 230–239, 2019
+5. Ferrer, Xavier, et al. "[Bias and Discrimination in AI: a cross-disciplinary perspective](https://arxiv.org/pdf/2008.07309.pdf)" arXiv preprint arXiv:2008.07309 (2020).
+
 
 ## Books
 
