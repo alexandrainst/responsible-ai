@@ -63,6 +63,8 @@ for language processing developed by the Allen Institute for AI.
 16. [SkopeRules](https://github.com/scikit-learn-contrib/skope-rules) - Open source python package for fitting a rule based model.
 17. [ELI5](https://eli5.readthedocs.io/en/latest/index.html) - Open source python package that implements LIME local explanations
     and permutation explanations.
+18. [tf-explain](https://github.com/sicara/tf-explain) - Open source framework that implements interpretability methods as Tensorflow 2.x callbacks. Includes
+several known XAI algorithms for deep neural networks.
 
 ## Reading material
 1. [Ansvarlig AI](https://medium.com/ansvarlig-ai) - Cross-disciplinary medium blog about XAI,
