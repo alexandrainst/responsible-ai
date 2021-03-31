@@ -463,6 +463,8 @@ DNNs or methods to build DNNs that can explain themselves.
     "[Axiomatic attribution for deep networks](http://arxiv.org/abs/1703.01365)", ICML, 2017.
 30. A. Krizhevsky et al.,
     "[ImageNet classification with deep convolutional neural networks](https://doi.org/10.1145/3065386)", NIPS, 2012.
+31. S. Sattarzadeh et al., "Explaining Convolutional Neural Networks through Attribution-Based Input Sampling and Block-Wise Feature Aggregation",
+    [arXiv:2010.00672](https://arxiv.org/abs/2010.00672) [cs.CV] - Combining ideas from RISE and Grad-CAM / CAM-like methods.
 
 ### XAI for natural language processing
 This section contains papers in which XAI methods are used or developed for NLP tasks and models.
