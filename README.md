@@ -184,6 +184,8 @@ CHI'20 1-14, 2020
     "[How Can I Explain This to You? An Empirical Study of Deep Neural Network Explanation Methods](https://proceedings.neurips.cc/paper/2020/hash/2c29d89cc56cdb191c60db2f0bae796b-Abstract.html)",
     33rd NeurIPS, 2020 - The authors evaluate different methods for explaining deep neural networks for end-user preference. Code can be found on [github](https://github.com/nesl/Explainability-Study),
     as well as, their [implementation of an example based explainer](https://github.com/nesl/ExMatchina).
+13. S. Jesus et al.,
+    "How can I choose an explainer? An Application-grounded Evaluation of Post-hoc Explanations", [arXiv:2101.08758](https://arxiv.org/abs/2101.08758) [cs.AI] - Evaluating XAI methods based on an application-grounded approach measuring decision time and accuracy of end-users.
 
 ### Method to explain data
 This section contains articles that explain datasets, for example by finding representative examples.
