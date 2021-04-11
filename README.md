@@ -150,6 +150,8 @@ Intell Sys Acc Fin Mgmt (25) 63-72, 2018
 12. B. Mittelstadt et al.,
     "[Explaining Explanations in AI](https://dl.acm.org/doi/10.1145/3287560.3287574)",
     FAT*'19 279–288, 2019
+13. T. Rojat et al., "Explainable Artificial Intelligence (XAI) on TimeSeries Data: A Survey",
+    [arXiv:2104.00950](https://arxiv.org/abs/2104.00950) [cs.LG] - Survey paper about XAI methods for models predicting on time series data. 
 
 ### Evaluation of XAI
 This section contains articles that describe ways to evaluate explanations and explainable models.
