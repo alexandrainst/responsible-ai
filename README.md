@@ -65,6 +65,7 @@ for language processing developed by the Allen Institute for AI.
     and permutation explanations.
 18. [tf-explain](https://github.com/sicara/tf-explain) - Open source framework that implements interpretability methods as Tensorflow 2.x callbacks. Includes
 several known XAI algorithms for deep neural networks.
+19. [PAIR - Saliency methods](https://github.com/PAIR-code/saliency) - Framework that collects different gradient based, saliency methods for deep learning model for Tensorflow created by the Google People+AI Research (PAIR) Initiative.
 
 ## Reading material
 1. [Ansvarlig AI](https://medium.com/ansvarlig-ai) - Cross-disciplinary medium blog about XAI,
