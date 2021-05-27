@@ -585,6 +585,7 @@ More general book about explainability in machine learning, but also with a focu
 4. [Fairness Metrics Won’t Save You from Stereotyping](https://towardsdatascience.com/fairness-metrics-wont-save-you-from-stereotyping-27127e220cac), Valerie Carey, 2020, Medium, Towards Data Science - Blogpost pointing out that different models with different "bias" can have the same performance on fairness metrics.
 5. [A Tutorial on Fairness in Machine Learning](https://towardsdatascience.com/a-tutorial-on-fairness-in-machine-learning-3ff8ba1040cb), Ziyuan Zhong, 2018, Medium, Towards Data Science
 6. [Racial Bias in BERT](https://towardsdatascience.com/racial-bias-in-bert-c1c77da6b25a), Gergely D. Németh, 2020, Medium, Towards Data Science
+7. [Measuring “Fairness” When Ages Differ](https://towardsdatascience.com/measuring-fairness-when-ages-differ-177d9597dd3b), Valerie Carey, 2021, Medium, Towards Data Science - Blogpost describing how differences in sub-populations investigated for bias effect the fairness analysis, e.g. there could be a difference of age distribution between different ethnic groups.
 
 ## Videos and presentations
 1. [The Trouble with Bias](https://www.youtube.com/watch?v=fMym_BKWQzk), Kate Crawford, NIPS 2017 Keynote
