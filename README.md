@@ -96,6 +96,7 @@ Google's whitepaper about Explainable AI.
 13. [Robust-and-Explainable-machine-learning](https://github.com/dongyp13/Robust-and-Explainable-Machine-Learning) -
     Collection of links and articles with respect to robust and explainable machine learning,
     containing mostly deep learning related resources.
+14. [Explaining the decisions of XGBoost models using counterfactual examples](https://towardsdatascience.com/explaining-the-decisions-of-xgboost-models-using-counterfactual-examples-fd9c57c83062) - Blog post describing an algorithm of how to compute counterfactual explanations for decision tree ensemble models.
 
 ## Videos and presentations
 1. [ICML 2019 session - Robust statistics and interpretability](https://slideslive.com/38917641/robust-statistics-and-interpretability)
