@@ -96,6 +96,8 @@ Google's whitepaper about Explainable AI.
 13. [Robust-and-Explainable-machine-learning](https://github.com/dongyp13/Robust-and-Explainable-Machine-Learning) -
     Collection of links and articles with respect to robust and explainable machine learning,
     containing mostly deep learning related resources.
+14. [Explaining the decisions of XGBoost models using counterfactual examples](https://towardsdatascience.com/explaining-the-decisions-of-xgboost-models-using-counterfactual-examples-fd9c57c83062) - Blog post describing an algorithm of how to compute counterfactual explanations for decision tree ensemble models.
+15. [Interpretable K-Means: Clusters Feature Importances](https://towardsdatascience.com/interpretable-k-means-clusters-feature-importances-7e516eeb8d3c) - Blog post describing methods to compute feature importance for K-means clustering, i.e. which feature mostly contributes for a datapoint belonging to a cluster.
 
 ## Videos and presentations
 1. [ICML 2019 session - Robust statistics and interpretability](https://slideslive.com/38917641/robust-statistics-and-interpretability)
@@ -677,11 +679,16 @@ This section includes critics and challenges with existing definitions.
 4. J. Dodge et al., "[Explaining models: an empirical study of how explanations impact fairness judgment](https://dl.acm.org/doi/10.1145/3301275.3302310)", IUI'19 275–285, 2019
 5. N. Grgić-Hlača et al., "[Human Perceptions of Fairness in Algorithmic Decision Making: A Case Study of Criminal Risk Prediction](https://dl.acm.org/doi/10.1145/3178876.3186138)", WWW'18 903–912, 2018
 6. R. Binns et al., "[‘It’s Reducing a Human Being to a Percentage’; Perceptions of Justice in Algorithmic Decisions](https://dl.acm.org/doi/10.1145/3173574.3173951)", CHI'18 (377) 1–14, 2018
+7. Grgić-Hlača, Nina, Adrian Weller, and Elissa M. Redmiles. "[Dimensions of Diversity in Human Perceptions of Algorithmic Fairness]( https://arxiv.org/abs/2005.00808)." arXiv preprint arXiv:2005.00808 (2020).
+8. Saxena, Nripsuta Ani, et al. "[How do fairness definitions fare? Examining public attitudes towards algorithmic definitions of fairness](https://dl.acm.org/doi/abs/10.1145/3306618.3314248?casa_token=ClCeW13FHsIAAAAA:twX69BniPEdsbbj04Ug9m41XOtKCa6Bc93WI3PRethUO6jeeL6FJjJfarATDp7uly5mDRENDKC1e)." Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society. 2019.
+9. Wang, Ruotong, F. Maxwell Harper, and Haiyi Zhu. "[Factors influencing perceived fairness in algorithmic decision-making: Algorithm outcomes, development procedures, and individual differences]( https://dl.acm.org/doi/abs/10.1145/3313831.3376813?casa_token=tEW8Qn8OIfAAAAAA:W5rlNQcFGm-rw2rMltKmRRLXYlyL5bMh89gKOHM4mugJK-xdiqw0kUMKJgNb2ctdGNvTYMdTy-Ee)." Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 2020.
+
 
 **Procedural fairness**
 
 1. N. Grgić-Hlača et al., "[Beyond Distributive Fairness in Algorithmic Decision Making: Feature Selection for Procedurally Fair Learning](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16523)", AAAI (18), 2018 - Proposes to shift the focus for outcome fairness to procedurally fairness where there instead should be a focus of how the outcome is concluded instead of what it actually is. The paper includes a survey to examine people's perception of using different input features in different settings.
 2. N. Grgić-Hlača et al., "[The Case for Process Fairness in Learning: Feature Selection for Fair Decision Making](http://www.mlandthelaw.org/papers/grgic.pdf)", Symposium on Machine Learning and the Law at the 29th NIPS, 2016
+3. Lee, Min Kyung, et al. "[Procedural justice in algorithmic fairness: Leveraging transparency and outcome control for fair algorithmic mediation]( https://dl.acm.org/doi/abs/10.1145/3359284)." Proceedings of the ACM on Human-Computer Interaction 3.CSCW (2019): 1-26.
 
 ### Fairness issues in real cases or areas
 
