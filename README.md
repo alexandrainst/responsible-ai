@@ -421,7 +421,7 @@ DNNs or methods to build DNNs that can explain themselves.
 12. A. Nguyen, "Multifaceted Feature Visualization: Uncovering the Different Types of Features Learned By Each Neuron in Deep Neural Networks",
     [arXiv:1602.03616](https://arxiv.org/abs/1602.03616) [cs.CV]
 13. S. O. Arik and T. Pfister, "ProtoAttend: Attention-Based Prototypical Learning",
-    [arXiv:1902.06292](https://arxiv.org/abs/1902.06292) [cs.CV]
+    [arXiv:1902.06292](https://arxiv.org/abs/1902.06292) [cs.CV] - Code is available on [GitHub](https://github.com/google-research/google-research/tree/master/protoattend)
 14. A. Ghorbani et al.,
     "[Towards Automatic Concept-based Explanations](https://papers.nips.cc/paper/2019/hash/77d2afcb31f6493e350fca61764efb9a-Abstract.html)",
     NeurIPS, 2019
