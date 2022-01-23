@@ -192,6 +192,8 @@ CHI'20 1-14, 2020
     as well as, their [implementation of an example based explainer](https://github.com/nesl/ExMatchina).
 13. S. Jesus et al.,
     "How can I choose an explainer? An Application-grounded Evaluation of Post-hoc Explanations", [arXiv:2101.08758](https://arxiv.org/abs/2101.08758) [cs.AI] - Evaluating XAI methods based on an application-grounded approach measuring decision time and accuracy of end-users.
+14. M. Nauta et al.,
+    "From Anecdotal Evidence to Quantitative Evaluation Methods: A Systematic Review on Evaluating Explainable AI", [arXiv:2201.08164](https://arxiv.org/abs/2201.08164) [cs.AI] - Lietrature survey of XAI methods and how they where evaluated in the presented paper.
 
 ### Method to explain data
 This section contains articles that explain datasets, for example by finding representative examples.
