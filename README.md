@@ -98,6 +98,7 @@ Google's whitepaper about Explainable AI.
     containing mostly deep learning related resources.
 14. [Explaining the decisions of XGBoost models using counterfactual examples](https://towardsdatascience.com/explaining-the-decisions-of-xgboost-models-using-counterfactual-examples-fd9c57c83062) - Blog post describing an algorithm of how to compute counterfactual explanations for decision tree ensemble models.
 15. [Interpretable K-Means: Clusters Feature Importances](https://towardsdatascience.com/interpretable-k-means-clusters-feature-importances-7e516eeb8d3c) - Blog post describing methods to compute feature importance for K-means clustering, i.e. which feature mostly contributes for a datapoint belonging to a cluster.
+16. [Explainable Graph Neural Networks](https://towardsdatascience.com/explainable-graph-neural-networks-cb009c2bc8ea) - Blog post that provides a brief overview of XAI methods for graph neural networks (GNNs).
 
 ## Videos and presentations
 1. [ICML 2019 session - Robust statistics and interpretability](https://slideslive.com/38917641/robust-statistics-and-interpretability)
