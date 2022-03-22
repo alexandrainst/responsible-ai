@@ -513,6 +513,10 @@ This section contains papers in which XAI methods are used or developed for NLP 
       [arXiv:1506.02078](https://arxiv.org/abs/1506.02078) [cs.LG]
 14. L. Arras et al., "What is Relevant in a Text Document?": An Interpretable Machine Learning Approach,
     [arXiv:1612.07843](https://arxiv.org/abs/1612.07843) [cs.CL]
+15. Wu, Tongshuang, et al. "[Polyjuice: Generating counterfactuals for explaining, evaluating, and improving models.][https://aclanthology.org/2021.acl-long.523.pdf]", ACL 2021, Open-source code at https://github.com/tongshuangwu/polyjuice
+16. Wiegreffe, Sarah, and Ana Marasović. "[Teach me to explain: A review of datasets for explainable nlp][https://arxiv.org/abs/2102.12060]." *arXiv preprint  arXiv:2102.12060* (2021).
+17. Danilevsky et al. [A Survey of the State of Explainable AI for Natural Language Processing](https://aclanthology.org/2020.aacl-main.46.pdf), ACL 2020
+
 
 ### XAI for recommender systems
 This section contains papers describing explainability with respect to recommender systems.
@@ -525,6 +529,7 @@ This section contains papers describing explainability with respect to recommend
 3. D. Mcsherry,
    "[Explanation in Recommender Systems](https://link.springer.com/article/10.1007/s10462-005-4612-x)",
     Artif. Intell. Rev. 24 179–197, 2005
+    
 
 ### XAI with and for reinforcement learning
 This section contains papers describing explainability with respect to reinforcement learning.
