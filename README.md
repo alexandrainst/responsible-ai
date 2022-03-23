@@ -514,7 +514,7 @@ This section contains papers in which XAI methods are used or developed for NLP 
 14. L. Arras et al., "What is Relevant in a Text Document?": An Interpretable Machine Learning Approach,
     [arXiv:1612.07843](https://arxiv.org/abs/1612.07843) [cs.CL]
 15. Wu, Tongshuang, et al. "[Polyjuice: Generating counterfactuals for explaining, evaluating, and improving models.][https://aclanthology.org/2021.acl-long.523.pdf]", ACL 2021, Open-source code at https://github.com/tongshuangwu/polyjuice
-16. Wiegreffe, Sarah, and Ana Marasović. "[Teach me to explain: A review of datasets for explainable nlp][https://arxiv.org/abs/2102.12060]." *arXiv preprint  arXiv:2102.12060* (2021).
+16. Wiegreffe, Sarah, and Ana Marasović. "[Teach me to explain: A review of datasets for explainable nlp](https://arxiv.org/abs/2102.12060)." *arXiv preprint  arXiv:2102.12060* (2021).
 17. Danilevsky et al. [A Survey of the State of Explainable AI for Natural Language Processing](https://aclanthology.org/2020.aacl-main.46.pdf), ACL 2020
 
 
@@ -568,13 +568,13 @@ This section contains papers in which XAI models or methods were used on medical
    NIPS, 2016
 
 ### XAI for combating misinformation
-1. Shu, Kai, et al. "[defend: Explainable fake news detection][https://dl.acm.org/doi/pdf/10.1145/3292500.3330935]." *Proceedings of the 25th ACM SIGKDD international conference on knowledge discovery & data mining*. 2019. -- Paper utilize social media comment from user to explain fake news content.
-2. Yang, Fan, et al. "[Xfake: Explainable fake news detector with visualizations.][https://dl.acm.org/doi/abs/10.1145/3308558.3314119]" *The World Wide Web Conference*. 2019. -- Demo paper. Utilizes statmenet and attributes like "speaker" for explainations.
-3. Reis, Julio CS, et al. "[Explainable machine learning for fake news detection][https://dl.acm.org/doi/abs/10.1145/3292522.3326027]." *Proceedings of the 10th ACM conference on web science*. 2019.
-4. Lu, Yi-Ju, and Cheng-Te Li. "[GCAN: Graph-aware co-attention networks for explainable fake news detection on social media.][https://arxiv.org/abs/2004.11648]" *arXiv preprint arXiv:2004.11648* (2020). -- Case on Tweets.
-5. Mohseni, Sina, et al. "[Machine learning explanations to prevent overtrust in fake news detection][https://arxiv.org/abs/2007.12358]." *arXiv preprint arXiv:2007.12358* (2020).
-6. Ayoub, Jackie, X. Jessie Yang, and Feng Zhou. "[Combat COVID-19 infodemic using explainable natural language processing models.][https://www.sciencedirect.com/science/article/pii/S0306457321000704]" *Information Processing & Management* 58.4 (2021): 102569. -- Uses SHAP for explaination and DistillBERT for detecting. 
-7. Wu, Kun, Xu Yuan, and Yue Ning. "[Incorporating Relational Knowledge in Explainable Fake News Detection][https://link.springer.com/chapter/10.1007/978-3-030-75768-7_32]." *Pacific-Asia Conference on Knowledge Discovery and Data Mining*. Springer, Cham, 2021. -- Uses a knowledgegraph.
+1. Shu, Kai, et al. "[defend: Explainable fake news detection](https://dl.acm.org/doi/pdf/10.1145/3292500.3330935)." *Proceedings of the 25th ACM SIGKDD international conference on knowledge discovery & data mining*. 2019. -- Paper utilize social media comment from user to explain fake news content.
+2. Yang, Fan, et al. "[Xfake: Explainable fake news detector with visualizations.](https://dl.acm.org/doi/abs/10.1145/3308558.3314119)" *The World Wide Web Conference*. 2019. -- Demo paper. Utilizes statmenet and attributes like "speaker" for explainations.
+3. Reis, Julio CS, et al. "[Explainable machine learning for fake news detection](https://dl.acm.org/doi/abs/10.1145/3292522.3326027)." *Proceedings of the 10th ACM conference on web science*. 2019.
+4. Lu, Yi-Ju, and Cheng-Te Li. "[GCAN: Graph-aware co-attention networks for explainable fake news detection on social media.](https://arxiv.org/abs/2004.11648)" *arXiv preprint arXiv:2004.11648* (2020). -- Case on Tweets.
+5. Mohseni, Sina, et al. "[Machine learning explanations to prevent overtrust in fake news detection](https://arxiv.org/abs/2007.12358)." *arXiv preprint arXiv:2007.12358* (2020).
+6. Ayoub, Jackie, X. Jessie Yang, and Feng Zhou. "[Combat COVID-19 infodemic using explainable natural language processing models.](https://www.sciencedirect.com/science/article/pii/S0306457321000704)" *Information Processing & Management* 58.4 (2021): 102569. -- Uses SHAP for explaination and DistillBERT for detecting. 
+7. Wu, Kun, Xu Yuan, and Yue Ning. "[Incorporating Relational Knowledge in Explainable Fake News Detection](https://link.springer.com/chapter/10.1007/978-3-030-75768-7_32)." *Pacific-Asia Conference on Knowledge Discovery and Data Mining*. Springer, Cham, 2021. -- Uses a knowledgegraph.
 
 
 ## Books
