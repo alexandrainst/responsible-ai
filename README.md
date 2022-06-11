@@ -677,6 +677,7 @@ This section includes critics and challenges with existing definitions.
 
 1. J. Cesaro and F. G. Cozman, "[Measuring Unfairness Through Game-Theoretic Interpretability](https://link.springer.com/chapter/10.1007/978-3-030-43823-4_22)", ECML PKDD (1167) 253-264, 2019 - Presents the idea that fairness can be assessed by looking at the "global" feature attribution on a test set for different protected group using, e.g the SHAP framework.  
 2. J. M. Hickey et al., "Fairness by Explicability and Adversarial SHAP Learning", [arXiv:2003.05330](https://arxiv.org/abs/2003.05330) [cs.LG] - The authors assess fairness trough explanations (SHAP) and compare to other statistic measures, as well as, propose an in-process algorithm for mitigating bias.
+3. A. Ghosh et al., "FairCanary: Rapid Continuous Explainable Fairness", [arXiv:2106.07057](https://arxiv.org/abs/2106.07057) [cs.LG]
 
 ### Mitigating algorithm
 
