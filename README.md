@@ -476,6 +476,9 @@ DNNs or methods to build DNNs that can explain themselves.
     "[ImageNet classification with deep convolutional neural networks](https://doi.org/10.1145/3065386)", NIPS, 2012.
 31. S. Sattarzadeh et al., "Explaining Convolutional Neural Networks through Attribution-Based Input Sampling and Block-Wise Feature Aggregation",
     [arXiv:2010.00672](https://arxiv.org/abs/2010.00672) [cs.CV] - Combining ideas from RISE and Grad-CAM / CAM-like methods.
+32. S. Lapuschkin et al.,
+    "From 'Where' to 'What': Towards Human-Understandable Explanations through Concept Relevance Propagation",
+    [arXiv:2206.03208](https://arxiv.org/abs/2206.03208) [cs.LG] - Local and global explanation model that is based on Layer-wise relevance propagation (LRP) and the       ideas of the TCAV method. Code can be found on GitHub: https://github.com/rachtibat/zennit-crp
 
 ### XAI for natural language processing
 This section contains papers in which XAI methods are used or developed for NLP tasks and models.
