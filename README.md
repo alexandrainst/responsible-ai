@@ -111,6 +111,12 @@ Kaggle course about the basics of XAI with example notebooks and exercises.
 ## Research articles
 In this section we list research articles related to interpretable ML and explainable AI.
 
+### Responsible AI and ethics papers (2022)
+1. [Mikalef, P., Conboy, K., Lundström, J.E. and Popovič, A., 2022. Thinking responsibly about responsible AI and ‘the dark side’of AI. European Journal of Information Systems, 31(3), pp.257-268.](https://www.tandfonline.com/doi/full/10.1080/0960085X.2022.2026621)
+2. [Zhu, L., Xu, X., Lu, Q., Governatori, G. and Whittle, J., 2022. AI and Ethics—Operationalizing Responsible AI. In Humanity Driven AI (pp. 15-33). Springer, Cham.](https://link.springer.com/chapter/10.1007/978-3-030-72188-6_2)
+3. [Mezgár, I. and Váncza, J., 2022. From ethics to standards–A path via responsible AI to cyber-physical production systems. Annual Reviews in Control.](https://www.sciencedirect.com/science/article/pii/S1367578822000177)
+4. [Lu, Q., Zhu, L., Xu, X., Whittle, J., Douglas, D. and Sanderson, C., 2022, May. Software engineering for responsible AI: An empirical study and operationalised patterns. In 2022 IEEE/ACM 44th International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP) (pp. 241-242). IEEE.](https://doi.org/10.1109/ICSE-SEIP55303.2022.9793864)
+
 ### Definitions of interpretability
 1. A. Weller, "Transparency: Motivations and Challenges", [arXiv:1708.01870](https://arxiv.org/abs/1708.01870)
 [cs.CY]
