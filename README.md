@@ -66,6 +66,7 @@ for language processing developed by the Allen Institute for AI.
 18. [tf-explain](https://github.com/sicara/tf-explain) - Open source framework that implements interpretability methods as Tensorflow 2.x callbacks. Includes
 several known XAI algorithms for deep neural networks.
 19. [PAIR - Saliency methods](https://github.com/PAIR-code/saliency) - Framework that collects different gradient based, saliency methods for deep learning model for Tensorflow created by the Google People+AI Research (PAIR) Initiative.
+20. [Quantus](https://github.com/understandable-machine-intelligence-lab/quantus) - Toolkit to evaluate XAI methods for neural networks.
 
 ## Reading material
 1. [Ansvarlig AI](https://medium.com/ansvarlig-ai) - Cross-disciplinary medium blog about XAI,
@@ -98,6 +99,7 @@ Google's whitepaper about Explainable AI.
     containing mostly deep learning related resources.
 14. [Explaining the decisions of XGBoost models using counterfactual examples](https://towardsdatascience.com/explaining-the-decisions-of-xgboost-models-using-counterfactual-examples-fd9c57c83062) - Blog post describing an algorithm of how to compute counterfactual explanations for decision tree ensemble models.
 15. [Interpretable K-Means: Clusters Feature Importances](https://towardsdatascience.com/interpretable-k-means-clusters-feature-importances-7e516eeb8d3c) - Blog post describing methods to compute feature importance for K-means clustering, i.e. which feature mostly contributes for a datapoint belonging to a cluster.
+16. [Explainable Graph Neural Networks](https://towardsdatascience.com/explainable-graph-neural-networks-cb009c2bc8ea) - Blog post that provides a brief overview of XAI methods for graph neural networks (GNNs).
 
 ## Videos and presentations
 1. [ICML 2019 session - Robust statistics and interpretability](https://slideslive.com/38917641/robust-statistics-and-interpretability)
@@ -191,6 +193,8 @@ CHI'20 1-14, 2020
     as well as, their [implementation of an example based explainer](https://github.com/nesl/ExMatchina).
 13. S. Jesus et al.,
     "How can I choose an explainer? An Application-grounded Evaluation of Post-hoc Explanations", [arXiv:2101.08758](https://arxiv.org/abs/2101.08758) [cs.AI] - Evaluating XAI methods based on an application-grounded approach measuring decision time and accuracy of end-users.
+14. M. Nauta et al.,
+    "From Anecdotal Evidence to Quantitative Evaluation Methods: A Systematic Review on Evaluating Explainable AI", [arXiv:2201.08164](https://arxiv.org/abs/2201.08164) [cs.AI] - Lietrature survey of XAI methods and how they where evaluated in the presented paper.
 
 ### Method to explain data
 This section contains articles that explain datasets, for example by finding representative examples.
@@ -421,7 +425,7 @@ DNNs or methods to build DNNs that can explain themselves.
 12. A. Nguyen, "Multifaceted Feature Visualization: Uncovering the Different Types of Features Learned By Each Neuron in Deep Neural Networks",
     [arXiv:1602.03616](https://arxiv.org/abs/1602.03616) [cs.CV]
 13. S. O. Arik and T. Pfister, "ProtoAttend: Attention-Based Prototypical Learning",
-    [arXiv:1902.06292](https://arxiv.org/abs/1902.06292) [cs.CV]
+    [arXiv:1902.06292](https://arxiv.org/abs/1902.06292) [cs.CV] - Code is available on [GitHub](https://github.com/google-research/google-research/tree/master/protoattend)
 14. A. Ghorbani et al.,
     "[Towards Automatic Concept-based Explanations](https://papers.nips.cc/paper/2019/hash/77d2afcb31f6493e350fca61764efb9a-Abstract.html)",
     NeurIPS, 2019
@@ -472,6 +476,9 @@ DNNs or methods to build DNNs that can explain themselves.
     "[ImageNet classification with deep convolutional neural networks](https://doi.org/10.1145/3065386)", NIPS, 2012.
 31. S. Sattarzadeh et al., "Explaining Convolutional Neural Networks through Attribution-Based Input Sampling and Block-Wise Feature Aggregation",
     [arXiv:2010.00672](https://arxiv.org/abs/2010.00672) [cs.CV] - Combining ideas from RISE and Grad-CAM / CAM-like methods.
+32. S. Lapuschkin et al.,
+    "From 'Where' to 'What': Towards Human-Understandable Explanations through Concept Relevance Propagation",
+    [arXiv:2206.03208](https://arxiv.org/abs/2206.03208) [cs.LG] - Local and global explanation model that is based on Layer-wise relevance propagation (LRP) and the       ideas of the TCAV method. Code can be found on GitHub: https://github.com/rachtibat/zennit-crp
 
 ### XAI for natural language processing
 This section contains papers in which XAI methods are used or developed for NLP tasks and models.
@@ -510,6 +517,10 @@ This section contains papers in which XAI methods are used or developed for NLP 
       [arXiv:1506.02078](https://arxiv.org/abs/1506.02078) [cs.LG]
 14. L. Arras et al., "What is Relevant in a Text Document?": An Interpretable Machine Learning Approach,
     [arXiv:1612.07843](https://arxiv.org/abs/1612.07843) [cs.CL]
+15. Wu, Tongshuang, et al. "[Polyjuice: Generating counterfactuals for explaining, evaluating, and improving models.][https://aclanthology.org/2021.acl-long.523.pdf]", ACL 2021, Open-source code at https://github.com/tongshuangwu/polyjuice
+16. Wiegreffe, Sarah, and Ana Marasović. "[Teach me to explain: A review of datasets for explainable nlp](https://arxiv.org/abs/2102.12060)." *arXiv preprint  arXiv:2102.12060* (2021).
+17. Danilevsky et al. [A Survey of the State of Explainable AI for Natural Language Processing](https://aclanthology.org/2020.aacl-main.46.pdf), ACL 2020
+
 
 ### XAI for recommender systems
 This section contains papers describing explainability with respect to recommender systems.
@@ -522,6 +533,7 @@ This section contains papers describing explainability with respect to recommend
 3. D. Mcsherry,
    "[Explanation in Recommender Systems](https://link.springer.com/article/10.1007/s10462-005-4612-x)",
     Artif. Intell. Rev. 24 179–197, 2005
+    
 
 ### XAI with and for reinforcement learning
 This section contains papers describing explainability with respect to reinforcement learning.
@@ -558,6 +570,16 @@ This section contains papers in which XAI models or methods were used on medical
 8. E. Choi et al.,
    "[RETAIN: An Interpretable Predictive Model for Healthcare using Reverse Time Attention Mechanism](https://papers.nips.cc/paper/2016/hash/231141b34c82aa95e48810a9d1b33a79-Abstract.html)",
    NIPS, 2016
+
+### XAI for combating misinformation
+1. Shu, Kai, et al. "[defend: Explainable fake news detection](https://dl.acm.org/doi/pdf/10.1145/3292500.3330935)." *Proceedings of the 25th ACM SIGKDD international conference on knowledge discovery & data mining*. 2019. -- Paper utilize social media comment from user to explain fake news content.
+2. Yang, Fan, et al. "[Xfake: Explainable fake news detector with visualizations.](https://dl.acm.org/doi/abs/10.1145/3308558.3314119)" *The World Wide Web Conference*. 2019. -- Demo paper. Utilizes statmenet and attributes like "speaker" for explainations.
+3. Reis, Julio CS, et al. "[Explainable machine learning for fake news detection](https://dl.acm.org/doi/abs/10.1145/3292522.3326027)." *Proceedings of the 10th ACM conference on web science*. 2019.
+4. Lu, Yi-Ju, and Cheng-Te Li. "[GCAN: Graph-aware co-attention networks for explainable fake news detection on social media.](https://arxiv.org/abs/2004.11648)" *arXiv preprint arXiv:2004.11648* (2020). -- Case on Tweets.
+5. Mohseni, Sina, et al. "[Machine learning explanations to prevent overtrust in fake news detection](https://arxiv.org/abs/2007.12358)." *arXiv preprint arXiv:2007.12358* (2020).
+6. Ayoub, Jackie, X. Jessie Yang, and Feng Zhou. "[Combat COVID-19 infodemic using explainable natural language processing models.](https://www.sciencedirect.com/science/article/pii/S0306457321000704)" *Information Processing & Management* 58.4 (2021): 102569. -- Uses SHAP for explaination and DistillBERT for detecting. 
+7. Wu, Kun, Xu Yuan, and Yue Ning. "[Incorporating Relational Knowledge in Explainable Fake News Detection](https://link.springer.com/chapter/10.1007/978-3-030-75768-7_32)." *Pacific-Asia Conference on Knowledge Discovery and Data Mining*. Springer, Cham, 2021. -- Uses a knowledgegraph.
+
 
 ## Books
 1. [Explainable AI: Interpreting, Explaining and Visualizing Deep Learning](https://doi.org/10.1007/978-3-030-28954-6) -
@@ -610,7 +632,7 @@ More general book about explainability in machine learning, but also with a focu
 8. B. Lepri et al.,
 "[Fair, transparent and accountable algorithmic decision-making processes](https://link.springer.com/article/10.1007/s13347-017-0279-x)", Philos. Technol. (31) 611–627, 2018
 9. A. L. Hoffmann, "[Where fairness fails: data, algorithms, and the limits of antidiscrimination discourse](https://doi.org/10.1080/1369118X.2019.1573912)", Communication & Society (22:7) 900-915, 2019
-10. Friedler, Sorelle A., et al. "A comparative study of fairness-enhancing interventions in machine learning." Proceedings of the conference on fairness, accountability, and transparency. 2019.
+10. Friedler, Sorelle A., et al. "[A comparative study of fairness-enhancing interventions in machine learning.](https://dl.acm.org/doi/10.1145/3287560.3287589)" Proceedings of the conference on fairness, accountability, and transparency. 2019.
 11. Zuiderveen Borgesius, Frederik J. "[Strengthening legal protection against discrimination by algorithms and artificial intelligence](https://www.tandfonline.com/doi/pdf/10.1080/13642987.2020.1743976)." The International Journal of Human Rights 24.10 (2020): 1572-1593.
 
 
@@ -655,6 +677,7 @@ This section includes critics and challenges with existing definitions.
 
 1. J. Cesaro and F. G. Cozman, "[Measuring Unfairness Through Game-Theoretic Interpretability](https://link.springer.com/chapter/10.1007/978-3-030-43823-4_22)", ECML PKDD (1167) 253-264, 2019 - Presents the idea that fairness can be assessed by looking at the "global" feature attribution on a test set for different protected group using, e.g the SHAP framework.  
 2. J. M. Hickey et al., "Fairness by Explicability and Adversarial SHAP Learning", [arXiv:2003.05330](https://arxiv.org/abs/2003.05330) [cs.LG] - The authors assess fairness trough explanations (SHAP) and compare to other statistic measures, as well as, propose an in-process algorithm for mitigating bias.
+3. A. Ghosh et al., "FairCanary: Rapid Continuous Explainable Fairness", [arXiv:2106.07057](https://arxiv.org/abs/2106.07057) [cs.LG]
 
 ### Mitigating algorithm
 
