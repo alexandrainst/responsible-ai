@@ -773,6 +773,10 @@ This section includes critics and challenges with existing definitions.
 
 # Guidelines & principles
 
+## Published guidelines
+In this section we list principles and guidelines published by organizations or companies
+1. Microsoft's [Responsible AI resources](https://www.microsoft.com/en-us/ai/responsible-ai-resources) - Collection of recources from Microsoft to assess, develop and deploy responsible AI.  
+
 ## Research articles
 In this section we list research articles related to guidelines and principles regarding responsible AI.
 1. A. Jobin et al.,
