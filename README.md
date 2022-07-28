@@ -286,6 +286,8 @@ transparent model that mimics the behaviour of the black-box model.
    Knowledge-Based Systems (131) 170-182, 2017
 6. H. F. Tan et al., "Tree Space Prototypes: Another Look at Making Tree Ensembles Interpretable",
    [arXiv:1611.07115](https://arxiv.org/abs/1611.07115) [stat.ML]
+7. O. Sagi and L. Rokach, 
+   "[Approximating XGBoost with an interpretable decision tree](https://www.sciencedirect.com/science/article/abs/pii/S0020025521005272)", Information Sciences (572) 522-542, 2021 
 
 ### Local XAI methods
 This section contains articles that describe local explanation methods, i.e. methods that generate an explanation
