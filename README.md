@@ -67,6 +67,9 @@ for language processing developed by the Allen Institute for AI.
 several known XAI algorithms for deep neural networks.
 19. [PAIR - Saliency methods](https://github.com/PAIR-code/saliency) - Framework that collects different gradient based, saliency methods for deep learning model for Tensorflow created by the Google People+AI Research (PAIR) Initiative.
 20. [Quantus](https://github.com/understandable-machine-intelligence-lab/quantus) - Toolkit to evaluate XAI methods for neural networks.
+21. [Xplique](https://github.com/deel-ai/xplique) - Python library that gathers state of the art of XAI methods for deep neural networks (currently for Tensorflow).
+22. [PiML](https://github.com/SelfExplainML/PiML-Toolbox) - Python toolbox for developing interpretable models through low-code interfaces and high-code APIs.
+23. [VL-InterpreT](https://github.com/IntelLabs/VL-InterpreT) - Python toolbox for interactive visualizations of the attentions and hidden representations in vision-language transformers (**Note:** currently only link to the paper and live demo available, but no code)
 
 ## Reading material
 1. [Ansvarlig AI](https://medium.com/ansvarlig-ai) - Cross-disciplinary medium blog about XAI,
